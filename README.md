@@ -1,2 +1,2 @@
-# temetvince's mod for x rebirth
-* [Click here to download](https://github.com/temetvince/xr/archive/refs/heads/main.zip)
+# temetvince's mod for x4
+* [Click here to download](https://github.com/temetvince/x4/archive/refs/heads/master.zip)
