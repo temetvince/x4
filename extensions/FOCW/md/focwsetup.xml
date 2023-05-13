@@ -39,7 +39,7 @@
 				<!-- The following instructions are for those who wish to change the options after having activated some or all initially. These can be changed at any time, just keep note that some ships may not be deactivated right away and it may take time to deactivate some of the fleets/ships. It might be better to deactivate everything, let the game run for about an hour and then activate whatever you want at that time to make sure ships are mostly cleared out or not being built anymore.-->
 							
 			<!-- Do you want to activate additional Xenon Miners and Xenon Energy Transport ships? 1 for Yes and 0 for No -->				
-			<set_value name="$activateXenminers" exact="3" />
+			<set_value name="$activateXenminers" exact="1" />
 			<!-- Do you want to activate additional Xenon fighters? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
 			<set_value name="$activateXenfighter" exact="3" />
 			<!-- Do you want to activate additional Xenon Capital ships? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
