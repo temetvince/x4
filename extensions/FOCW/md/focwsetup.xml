@@ -74,62 +74,62 @@
 			<!-- Turn on additional Xenon Carriers for attacking player owned sectors? 0 for No, 1 for Yes -->
 			<set_value name="$activateXendesattackpla" exact="0" />				
 			<!-- Turn on additional Argon Carrier fleet? 0 for No, 1 for Yes -->				
-			<set_value name="$activateargcar" exact="0" />
+			<set_value name="$activateargcar" exact="1" />
 			<!-- Turn on additional Paranid Carrier fleet? 0 for No, 1 for Yes -->
-			<set_value name="$activateparcar" exact="0" />
+			<set_value name="$activateparcar" exact="1" />
 			<!-- Turn on additional Holy Order Defense fleet? 0 for No, 1 for Yes -->		
-			<set_value name="$activateholcar" exact="0" />
+			<set_value name="$activateholcar" exact="1" />
 			<!-- Turn on additional Teladi Carrier fleet? 0 for No, 1 for Yes -->		
-			<set_value name="$activatetelcar" exact="0" />
+			<set_value name="$activatetelcar" exact="1" />
 			<!-- Turn on additional Antigone fleet? 0 for No, 1 for Yes -->		
-			<set_value name="$activateantcap" exact="0" />
+			<set_value name="$activateantcap" exact="1" />
 			<!-- Turn on additional Hatikvah fleets? 0 for No, 1 for Yes -->		
-			<set_value name="$activatehatcap" exact="0" />
+			<set_value name="$activatehatcap" exact="1" />
 			<!-- Turn on additional Argon Carriers for attacking player owned sectors? 0 for No, 1 for Yes -->
-			<set_value name="$activateargcarattackpla" exact="0" />
+			<set_value name="$activateargcarattackpla" exact="1" />
 			<!-- Turn on additional Paranid Carriers for attacking player owned sectors? 0 for No, 1 for Yes -->
-			<set_value name="$activateparcarattackpla" exact="0" />
+			<set_value name="$activateparcarattackpla" exact="1" />
 			<!-- Turn on additional Holy Order Carriers for attacking player owned sectors? 0 for No, 1 for Yes -->
-			<set_value name="$activateholcarattackpla" exact="0" />
+			<set_value name="$activateholcarattackpla" exact="1" />
 			<!-- Turn on additional Teladi Carriers for attacking player owned sectors? 0 for No, 1 for Yes -->
-			<set_value name="$activatetelcarattackpla" exact="0" />
+			<set_value name="$activatetelcarattackpla" exact="1" />
 			<!-- Turn on additional Antigone fleets for attacking player owned sectors? 0 for No, 1 for Yes -->
-			<set_value name="$activateantattackpla" exact="0" />
+			<set_value name="$activateantattackpla" exact="1" />
 			<!-- Turn on additional Hatikvah fleets for attacking player owned sectors? 0 for No, 1 for Yes -->
-			<set_value name="$activatehatattackpla" exact="0" />
+			<set_value name="$activatehatattackpla" exact="1" />
 			
 			<!-- Turn on additional Ministry Defense fleets? 0 for No, 1 for light, 2 for medium, 3 for heavy --> 
-			<set_value name="$activatemincap" exact="0" />
+			<set_value name="$activatemincap" exact="1" />
 			<!-- Turn on additional Ministry Squadrons? These are squadrons led by a frigate, 0 for No, 1 for light, 2 for medium, 3 for heavy --> 
-			<set_value name="$activateminsquad" exact="0" />		
+			<set_value name="$activateminsquad" exact="1" />		
 			
 			<!-- Do you want to activate additional Zyarth fighters? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$activatezyarthfight" exact="0" />
+			<set_value name="$activatezyarthfight" exact="1" />
 			<!-- Do you want to activate additional Zyarth Capital ships? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$zyarthcap" exact="0" />
+			<set_value name="$zyarthcap" exact="1" />
 			<!-- Do you want to activate additional Free Families fighters? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$activatefreefight" exact="0" />
+			<set_value name="$activatefreefight" exact="1" />
 			<!-- Do you want to activate additional Free families Capital ships? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$freecap" exact="0" />
+			<set_value name="$freecap" exact="1" />
 			<!-- Do you want to activate additional Court fighters? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$activatecourtfight" exact="0" />
+			<set_value name="$activatecourtfight" exact="1" />
 			<!-- Do you want to activate additional Court Capital ships? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$courtcap" exact="0" />
+			<set_value name="$courtcap" exact="1" />
 			<!-- Turn on additional Court Carriers? 0 for No, 1 for Yes -->
-			<set_value name="$activatecourtcar" exact="0" />
+			<set_value name="$activatecourtcar" exact="1" />
 			<!-- Turn on additional Court Destroyers? 0 for No, 1 for Yes -->
-			<set_value name="$activatecourtmore" exact="0" />
+			<set_value name="$activatecourtmore" exact="1" />
 			<!-- Turn on additional Zyarth Carriers? 0 for No, 1 for Yes -->
-			<set_value name="$activatezyarthcar" exact="0" />
+			<set_value name="$activatezyarthcar" exact="1" />
 			<!-- Turn on Zyarth Carriers for Attacking player when enemy? 0 for No, 1 for Yes -->
-			<set_value name="$activatezyarthplay" exact="0" />
+			<set_value name="$activatezyarthplay" exact="1" />
 			<!-- Turn on Free Families Destroyers for Attacking player when enemy? 0 for No, 1 for Yes -->
-			<set_value name="$activatefreeplay" exact="0" />
+			<set_value name="$activatefreeplay" exact="1" />
 				
 			<!-- Turn on additional fleets for all factions, these usually include multiple destroyers, frigates and many fighters. These are in addition to all other options and are extra ships for more carnage, 0 off, 1 on -->			
-			<set_value name="$activatemorefleets" exact="0" />			
+			<set_value name="$activatemorefleets" exact="1" />			
 			<!-- Turn on additional Hatikvah squadrons for defense, 0 for no, 1 yes. These squadrons include frigates and fighters -->
-			<set_value name="$activatemorehatsquads" exact="0" />
+			<set_value name="$activatemorehatsquads" exact="1" />
 			<!-- Not enough Xenon? Add more here! Large destroyer fleets with frigate and fighter escorts, 0 for no, 1 for yes-->
 			<set_value name="$activatemoreXenonCaps" exact="0" />
 			<!-- Large Frigate squadrons with many fighter escorts, 0 for no, 1 for yes -->
@@ -139,48 +139,48 @@
 			
 			<!-- Options for BORON SHIPS, only turn on if you have BORON DLC -->
 			<!-- Do you want to activate additional Boron fighter squads? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$activateboronfighters" exact="0" />
+			<set_value name="$activateboronfighters" exact="1" />
 			<!-- Do you want to activate additional boron Destroyer fleets? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$borondestroyers" exact="0" />
+			<set_value name="$borondestroyers" exact="1" />
 			<!-- Do you want to activate additional boron Carrier Fleets? Keep 0 to turn off, Put 1 to turn on. -->
-			<set_value name="$activateboroncarrier" exact="0" />			
+			<set_value name="$activateboroncarrier" exact="1" />			
 			<!-- Do you want to activate even more boron fleets? Put 0 to turn off and 1 to turn on -->
-			<set_value name="$activateborondefensefleets" exact="0" />
+			<set_value name="$activateborondefensefleets" exact="1" />
 			
 			<!-- Options for TERRAN SHIPS, only turn on if you have Terran DLC -->
 			<!-- Do you want to activate additional Terran fighter squads? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$activateterranfighters" exact="0" />
+			<set_value name="$activateterranfighters" exact="1" />
 			<!-- Do you want to activate additional Terran Destroyer fleets? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$terrandestroyers" exact="0" />
+			<set_value name="$terrandestroyers" exact="1" />
 			<!-- Do you want to activate additional Terran Carrier Fleets? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$activateterrancarrier" exact="0" />
+			<set_value name="$activateterrancarrier" exact="1" />
 			<!-- Do you want to activate additional Terran Battleship Fleets? Put 0 to turn off and 1 to turn on -->
-			<set_value name="$activateterranbattleship" exact="0" />
+			<set_value name="$activateterranbattleship" exact="1" />
 			<!-- Do you want to activate even more Terran fleets? Put 0 to turn off and 1 to turn on -->
-			<set_value name="$activateterrandefensefleets" exact="0" />
+			<set_value name="$activateterrandefensefleets" exact="1" />
 			
 			<!-- Options for TRINITY SHIPS -->
 			<!-- Do you want to activate additional Trinity fighter squads? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$activatetrinityfighters" exact="0" />
+			<set_value name="$activatetrinityfighters" exact="1" />
 			<!-- Do you want to activate additional Trinity Destroyer fleets? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$trinitydestroyers" exact="0" />
+			<set_value name="$trinitydestroyers" exact="1" />
 			<!-- Do you want to activate additional Trinity Carrier Fleets? Keep 0 to turn off, Put 1 for on. -->
-			<set_value name="$activatetrinitycarrier" exact="0" />
+			<set_value name="$activatetrinitycarrier" exact="1" />
 			<!-- Do you want to activate even more Trinity fleets? This adds many new Trinity fleets.  Put 0 to turn off and 1 to turn on -->
-			<set_value name="$activatetrinitymore" exact="0" />
+			<set_value name="$activatetrinitymore" exact="1" />
 			<!-- Turn on additional Trinity fleets for attacking player owned sectors? 0 for No, 1 for Yes -->
-			<set_value name="$activatetrinityattackpla" exact="0" />
+			<set_value name="$activatetrinityattackpla" exact="1" />
 			
 			<!-- Options for VIGOR SHIPS -->
 			<!-- Do you want to activate additional Vigor Large fleets? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$activatevigordestroyer" exact="0" />			
+			<set_value name="$activatevigordestroyer" exact="1" />			
 			<!-- Do you want to activate additional Vigor fighter squads? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$activatevigorfighters" exact="0" />
+			<set_value name="$activatevigorfighters" exact="1" />
 			<!-- Do you want to activate even more Vigor fleets? This adds many new Vigor fleets.  Put 0 to turn off and 1 to turn on -->
-			<set_value name="$activatevigormore" exact="0" />
+			<set_value name="$activatevigormore" exact="1" />
 			
 			<!-- Double the amount of Yaki that are built in your game? 0 for No, 1 for Yes -->
-			<set_value name="$activateyakibuild" exact="0" />
+			<set_value name="$activateyakibuild" exact="1" />
 			
 			<!-- Do you want to have Yaki ships that are spawned and not built at a shipyard? 0 for No, 1 for Yes -->
 			<set_value name="$activateyakispawn" exact="0" />
