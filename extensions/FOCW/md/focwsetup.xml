@@ -39,11 +39,11 @@
 				<!-- The following instructions are for those who wish to change the options after having activated some or all initially. These can be changed at any time, just keep note that some ships may not be deactivated right away and it may take time to deactivate some of the fleets/ships. It might be better to deactivate everything, let the game run for about an hour and then activate whatever you want at that time to make sure ships are mostly cleared out or not being built anymore.-->
 							
 			<!-- Do you want to activate additional Xenon Miners and Xenon Energy Transport ships? 1 for Yes and 0 for No -->				
-			<set_value name="$activateXenminers" exact="0" />
+			<set_value name="$activateXenminers" exact="3" />
 			<!-- Do you want to activate additional Xenon fighters? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$activateXenfighter" exact="0" />
+			<set_value name="$activateXenfighter" exact="3" />
 			<!-- Do you want to activate additional Xenon Capital ships? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$activateXencapital" exact="0" />
+			<set_value name="$activateXencapital" exact="3" />
 			<!-- Do you want to activate additional fighters for all factions? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
 			<set_value name="$activateallfactionsfight" exact="3" />
 			<!-- Do you want to activate additional Capital ships for all factions? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
@@ -60,7 +60,7 @@
 			<set_value name="$activateHOPlargefleets" exact="1" />
 			<set_value name="$activateTRINlargefleets" exact="1" />
 			<set_value name="$activateTERRANlargefleets" exact="1" />
-			<set_value name="$activateXENlargefleets" exact="0" />
+			<set_value name="$activateXENlargefleets" exact="1" />
 			<set_value name="$activateHATlargefleets" exact="1" />
 			<set_value name="$activateMINlargefleets" exact="1" />
 			<set_value name="$activateFRFlargefleets" exact="1" />
@@ -68,11 +68,11 @@
 			
 			<!-- The following are additional settings for even more ships. These are in addition to the previous settings. This may impact your performance, so please keep in mind your PC system. Do not turn on if your PC can't handle more ships -->
 			<!-- Turn on additional Xenon Carriers for Defense? 0 for No, 1 for Yes -->
-			<set_value name="$activateXencardefend" exact="0" />
+			<set_value name="$activateXencardefend" exact="1" />
 			<!-- Turn on additional Xenon Carriers for Attack? 0 for No, 1 for Yes -->
-			<set_value name="$activateXencarattack" exact="0" />
+			<set_value name="$activateXencarattack" exact="1" />
 			<!-- Turn on additional Xenon Carriers for attacking player owned sectors? 0 for No, 1 for Yes -->
-			<set_value name="$activateXendesattackpla" exact="0" />				
+			<set_value name="$activateXendesattackpla" exact="1" />				
 			<!-- Turn on additional Argon Carrier fleet? 0 for No, 1 for Yes -->				
 			<set_value name="$activateargcar" exact="1" />
 			<!-- Turn on additional Paranid Carrier fleet? 0 for No, 1 for Yes -->
@@ -131,11 +131,11 @@
 			<!-- Turn on additional Hatikvah squadrons for defense, 0 for no, 1 yes. These squadrons include frigates and fighters -->
 			<set_value name="$activatemorehatsquads" exact="1" />
 			<!-- Not enough Xenon? Add more here! Large destroyer fleets with frigate and fighter escorts, 0 for no, 1 for yes-->
-			<set_value name="$activatemoreXenonCaps" exact="0" />
+			<set_value name="$activatemoreXenonCaps" exact="1" />
 			<!-- Large Frigate squadrons with many fighter escorts, 0 for no, 1 for yes -->
-			<set_value name="$activatemoreXenonfrigates" exact="0" />
+			<set_value name="$activatemoreXenonfrigates" exact="1" />
 			<!-- Activate EVEN MORE XENON for a Xenon Apocalypse, be prepared for a lot of mayhem (maybe, I hope?) 0 for no, 1 for yes-->
-			<set_value name="$activateXenonApocalypse" exact="0" />
+			<set_value name="$activateXenonApocalypse" exact="1" />
 			
 			<!-- Options for BORON SHIPS, only turn on if you have BORON DLC -->
 			<!-- Do you want to activate additional Boron fighter squads? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
