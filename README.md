@@ -8,6 +8,9 @@ X4 Stuff
 * Copy this repository into your X4 game directory
 * Important: These settings require ALL downloadable content (DLC)
 
+## Reshade Preset
+* A ReShade preset called temetvince.ini is included
+
 ## Exe Flags
 * Run game in background:
     * -nosoundthrottle -nocputhrottle
