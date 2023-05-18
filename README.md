@@ -1,5 +1,5 @@
 # x4
-X4 Stuff
+* To download, go to the latest release and click 'Source code (zip)': https://github.com/temetvince/x4/releases/
 
 ## Steam Workshop Modpack
 * https://steamcommunity.com/sharedfiles/filedetails/?id=2974334577
