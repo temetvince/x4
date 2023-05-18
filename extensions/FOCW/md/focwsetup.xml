@@ -45,7 +45,7 @@
 			<!-- Do you want to activate additional Xenon Capital ships? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
 			<set_value name="$activateXencapital" exact="3" />
 			<!-- Do you want to activate additional fighters for all factions? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$activateallfactionsfight" exact="3" />
+			<set_value name="$activateallfactionsfight" exact="1" />
 			<!-- Do you want to activate additional Capital ships for all factions? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
 			<set_value name="$activateallfactionscap" exact="3" />
 			
@@ -104,15 +104,15 @@
 			<set_value name="$activateminsquad" exact="3" />		
 			
 			<!-- Do you want to activate additional Zyarth fighters? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$activatezyarthfight" exact="3" />
+			<set_value name="$activatezyarthfight" exact="1" />
 			<!-- Do you want to activate additional Zyarth Capital ships? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
 			<set_value name="$zyarthcap" exact="3" />
 			<!-- Do you want to activate additional Free Families fighters? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$activatefreefight" exact="3" />
+			<set_value name="$activatefreefight" exact="1" />
 			<!-- Do you want to activate additional Free families Capital ships? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
 			<set_value name="$freecap" exact="3" />
 			<!-- Do you want to activate additional Court fighters? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$activatecourtfight" exact="3" />
+			<set_value name="$activatecourtfight" exact="1" />
 			<!-- Do you want to activate additional Court Capital ships? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
 			<set_value name="$courtcap" exact="3" />
 			<!-- Turn on additional Court Carriers? 0 for No, 1 for Yes -->
@@ -139,7 +139,7 @@
 			
 			<!-- Options for BORON SHIPS, only turn on if you have BORON DLC -->
 			<!-- Do you want to activate additional Boron fighter squads? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$activateboronfighters" exact="3" />
+			<set_value name="$activateboronfighters" exact="1" />
 			<!-- Do you want to activate additional boron Destroyer fleets? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
 			<set_value name="$borondestroyers" exact="3" />
 			<!-- Do you want to activate additional boron Carrier Fleets? Keep 0 to turn off, Put 1 to turn on. -->
@@ -149,7 +149,7 @@
 			
 			<!-- Options for TERRAN SHIPS, only turn on if you have Terran DLC -->
 			<!-- Do you want to activate additional Terran fighter squads? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$activateterranfighters" exact="3" />
+			<set_value name="$activateterranfighters" exact="1" />
 			<!-- Do you want to activate additional Terran Destroyer fleets? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
 			<set_value name="$terrandestroyers" exact="3" />
 			<!-- Do you want to activate additional Terran Carrier Fleets? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
@@ -161,7 +161,7 @@
 			
 			<!-- Options for TRINITY SHIPS -->
 			<!-- Do you want to activate additional Trinity fighter squads? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$activatetrinityfighters" exact="3" />
+			<set_value name="$activatetrinityfighters" exact="1" />
 			<!-- Do you want to activate additional Trinity Destroyer fleets? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
 			<set_value name="$trinitydestroyers" exact="3" />
 			<!-- Do you want to activate additional Trinity Carrier Fleets? Keep 0 to turn off, Put 1 for on. -->
@@ -175,7 +175,7 @@
 			<!-- Do you want to activate additional Vigor Large fleets? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
 			<set_value name="$activatevigordestroyer" exact="3" />			
 			<!-- Do you want to activate additional Vigor fighter squads? You can also choose from the following settings. Keep 0 to turn off, Put 1 for light, Put 2 for medium, Put 3 for heavy. This setting may impact performance depending on what setting you choose. -->
-			<set_value name="$activatevigorfighters" exact="3" />
+			<set_value name="$activatevigorfighters" exact="1" />
 			<!-- Do you want to activate even more Vigor fleets? This adds many new Vigor fleets.  Put 0 to turn off and 1 to turn on -->
 			<set_value name="$activatevigormore" exact="1" />
 			
