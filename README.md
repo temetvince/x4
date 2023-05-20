@@ -4,12 +4,8 @@
 ## Steam Workshop Modpack
 * https://steamcommunity.com/sharedfiles/filedetails/?id=2974334577
 
-## Foundation of Conquest and War Settings
-* Copy this repository into your X4 game directory
-* Important: These settings require ALL downloadable content (DLC)
-
 ## Reshade Preset
-* A ReShade preset called temetvince.ini is included
+* The ReShade preset in this repository is called *temetvince.ini*
 
 ## Exe Flags
 * Run game in background:
