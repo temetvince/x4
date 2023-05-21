@@ -4,7 +4,7 @@
 * https://steamcommunity.com/sharedfiles/filedetails/?id=2974334577
 
 ## Reshade Preset
-* The ReShade preset in this repository is called *temetvince.ini*
+* The ReShade preset in this repository is called *X4ReshadePreset.ini*
 
 ## Exe Flags
 * Run game in background:
