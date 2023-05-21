@@ -12,5 +12,7 @@
     * -nosoundthrottle -nocputhrottle
 * Skip intro:
     * -skipintro
-* Debug:
+* Debug All:
     * -debug all -logfile debuglog.txt
+* Debug Scripts:
+    * -debug scripts -logfile debuglog.txt
