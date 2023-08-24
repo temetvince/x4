@@ -1,7 +1,8 @@
 # Click [here](https://github.com/temetvince/x4/archive/refs/heads/main.zip "The equivalent of clicking the Code button then Download ZIP") to download this repository
 
-## Steam Workshop Modpack
+## Steam Workshop Modpacks
 * https://steamcommunity.com/sharedfiles/filedetails/?id=2974334577
+* https://steamcommunity.com/sharedfiles/filedetails/?id=3024829392
 
 ## Reshade Preset
 * The ReShade preset in this repository is called *X4ReshadePreset.ini*
