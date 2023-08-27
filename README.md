@@ -3,6 +3,8 @@
 ## Steam Workshop Modpacks
 * X4: Nova Edition - https://steamcommunity.com/sharedfiles/filedetails/?id=2974334577
 * X4: Nova Edition VRO - https://steamcommunity.com/sharedfiles/filedetails/?id=3024829392
+* X4: Xenon Edition - https://steamcommunity.com/sharedfiles/filedetails/?id=3026200853
+* X4: Xenon Eidtion VRO - https://steamcommunity.com/sharedfiles/filedetails/?id=3026216563
 
 ## Reshade Preset
 * The ReShade preset in this repository is called *X4ReshadePreset.ini*
