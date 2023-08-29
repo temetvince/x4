@@ -50,7 +50,7 @@
     * Plasma - best burst and sustain DPS for L/XL killing, completely useless vs S.
     * Paranid Blast Mortar (S) - Plasma+ -> more DPS, better heat management, better velocity
     * Split Thermal Disintegrators - weird mix of bolt and pulse. Low velocity/high fire ok vs fighters, shield bleed effect kills capital shields while the shields are still up. Like Burst Rays but capable of dealing actual damage once surface modules are dealt with.
-    * Snipers - 10km range (realistically vs capitals only at range), wait 30 seconds between shots. Awful heat management, mediocre damage output. No hardpoint gimbal. Feel awful to use. Can sometime shit M ships, but by the time you're ready to fire again they'll have recharged half the damage you did
+    * Snipers - 10km range (realistically vs capitals only at range), wait 30 seconds between shots. Awful heat management, mediocre damage output. No hardpoint gimbal. Feel awful to use. Can sometime shoot M ships, but by the time you're ready to fire again they'll have recharged half the damage you did
 * Terran
     * Proton Barrage - faster than bolt, higher heat/slower than TER pulse 
     * TER Pulse - commonwealth pulse but better against fighters. Still struggles vs heavier stuff.
