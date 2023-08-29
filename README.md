@@ -7,7 +7,7 @@
 * X4: Xenon Eidtion VRO - https://steamcommunity.com/sharedfiles/filedetails/?id=3026216563
 
 ## Reshade Preset
-* The ReShade preset in this repository is called *X4ReshadePreset.ini*
+* The recommended ReShade preset in this repository is called *X4ReshadePreset.ini*. There are other presets as well, depending on your preferences.
 
 ## Exe Flags
 * Run game in background:
