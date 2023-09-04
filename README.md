@@ -52,6 +52,15 @@ Witness the apotheosis of the Alaankwa Celestial—an empire destined for cosmic
     * Phase turrets - like phase guns/phase cannons, no exciting effects but still your best option if you need hull damage out of a Boron turret.
 
 ### Hardpoints
+* Terran
+    * Proton Barrage - faster than bolt, higher heat/slower than TER pulse 
+    * TER Pulse - commonwealth pulse but better against fighters. Still struggles vs heavier stuff.
+* Boron
+    * Ion Atomiser (M) - Disrupts the maneuvering thrusters of S and M ships, reducing their turn rate.
+    * Ion Pulse Railgun (M) - Very accurate, effective against both hull and shields, but heat caps quite quickly in sustained fighting.
+    * Arc Gun (S) - Small equivalent of Ion Pulse Railgun
+    * Ion Gatling (S) - The Ion Gatling disrupts the engines of S and M ships, reducing their speed.
+    * Phase Cannon/Gun - not exciting but vital in an effective Boron loadout, the only efficient way to deal hull damage. Deadly accurate like most Boron weapons but no special effects.
 * Generic
     * Commonwealth Pulse - generic anti fighter gun. Does the job but lacks DPS - beams are better vs fighters, bolts or shotguns are better vs M and bigger.
     * Beam - ultimate anti small gun, great for drones and particularly fast fighters where even pulse struggles to hit.
@@ -62,12 +71,3 @@ Witness the apotheosis of the Alaankwa Celestial—an empire destined for cosmic
     * Paranid Blast Mortar (S) - Plasma+ -> more DPS, better heat management, better velocity
     * Split Thermal Disintegrators - weird mix of bolt and pulse. Low velocity/high fire ok vs fighters, shield bleed effect kills capital shields while the shields are still up. Like Burst Rays but capable of dealing actual damage once surface modules are dealt with.
     * Snipers - 10km range (realistically vs capitals only at range), wait 30 seconds between shots. Awful heat management, mediocre damage output. No hardpoint gimbal. Feel awful to use. Can sometime shoot M ships, but by the time you're ready to fire again they'll have recharged half the damage you did
-* Terran
-    * Proton Barrage - faster than bolt, higher heat/slower than TER pulse 
-    * TER Pulse - commonwealth pulse but better against fighters. Still struggles vs heavier stuff.
-* Boron
-    * Ion Atomiser (M) - Disrupts the maneuvering thrusters of S and M ships, reducing their turn rate.
-    * Ion Pulse Railgun (M) - Very accurate, effective against both hull and shields, but heat caps quite quickly in sustained fighting.
-    * Arc Gun (S) - Small equivalent of Ion Pulse Railgun
-    * Ion Gatling (S) - The Ion Gatling disrupts the engines of S and M ships, reducing their speed.
-    * Phase Cannon/Gun - not exciting but vital in an effective Boron loadout, the only efficient way to deal hull damage. Deadly accurate like most Boron weapons but no special effects.
