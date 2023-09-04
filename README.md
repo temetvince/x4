@@ -18,6 +18,19 @@
 ## Advanced Behaviors
 * Set a hotkey for the chat window. Pull up the chat window and enter /thereshallbewings. This enables the Advanced Behavior command menu for ships
 
+## Scenario: Rise of the Alaankwa Celestial
+### Introduction:
+Enter the immersive universe of X4 Foundations and shape your own legacy as you navigate the cosmos. Follow the captivating journey of the Alaankwa Celestial's rise—a tale of ambition and power.
+
+### Phase 1: Birth of the Alaankwa Corsairs
+Found the Alaankwa Corsairs, a daring pirate gang with a distinct vision. Rally a diverse crew and allies, modifying ships and arms, and executing raids and smuggling operations. Forge unease cooperation with your allies by fighting against common foes, notably the Xenon threat.
+
+### Phase 2: Evolution into the Alaankwa Corporation
+Transition from piracy to legitimacy, remolding the Alaankwa Corsairs into the Alaankwa Corporation. Undergo a comprehensive transformation encompassing rebranding, alliances, and the establishment of economic foundations. Engage in trade negotiations, station construction, technological advancement, and the strategic nurturing of your assets. Shape your crew into a dedicated workforce aligned with your vision.
+
+### Phase 3: The Celestial Ascent
+Witness the apotheosis of the Alaankwa Celestial—an empire destined for cosmic influence. Embark on calculated galactic conquests while nurturing economic growth and military prowess. Forge strategic alliances amidst an array of adversaries, exemplifying your visionary leadership. Shape history and etch your empire's legacy across the fabric of the universe.
+
 ## Weapons Characteristics (Unmodified)
 ### Missiles
 * Tracking
@@ -58,16 +71,3 @@
     * Arc Gun (S) - Small equivalent of Ion Pulse Railgun
     * Ion Gatling (S) - The Ion Gatling disrupts the engines of S and M ships, reducing their speed.
     * Phase Cannon/Gun - not exciting but vital in an effective Boron loadout, the only efficient way to deal hull damage. Deadly accurate like most Boron weapons but no special effects.
-
-## Scenario: Rise of the Alaankwa Celestial
-### Introduction:
-Enter the immersive universe of X4 Foundations and shape your own legacy as you navigate the cosmos. Follow the captivating journey of the Alaankwa Celestial's rise—a tale of ambition and power.
-
-### Phase 1: Birth of the Alaankwa Corsairs
-Found the Alaankwa Corsairs, a daring pirate gang with a distinct vision. Rally a diverse crew and allies, modifying ships and arms, and executing raids and smuggling operations. Forge unease cooperation with your allies by fighting against common foes, notably the Xenon threat.
-
-### Phase 2: Evolution into the Alaankwa Corporation
-Transition from piracy to legitimacy, remolding the Alaankwa Corsairs into the Alaankwa Corporation. Undergo a comprehensive transformation encompassing rebranding, alliances, and the establishment of economic foundations. Engage in trade negotiations, station construction, technological advancement, and the strategic nurturing of your assets. Shape your crew into a dedicated workforce aligned with your vision.
-
-### Phase 3: The Celestial Ascent
-Witness the apotheosis of the Alaankwa Celestial—an empire destined for cosmic influence. Embark on calculated galactic conquests while nurturing economic growth and military prowess. Forge strategic alliances amidst an array of adversaries, exemplifying your visionary leadership. Shape history and etch your empire's legacy across the fabric of the universe.
