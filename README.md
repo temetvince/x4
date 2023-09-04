@@ -16,7 +16,7 @@
     * -debug all -logfile debuglog.txt
 
 ## Advanced Behaviors
-* Set a hotkey for the chat window. Pull up the chat window and enter /thereshallbewings. This enables the Advanced Behavior command menu for ships
+* Set a hotkey for the chat window. Pull up the chat window and enter /thereshallbewings. This enables the Advanced Behavior command menu for ships.
 
 ## Scenario: Rise of the Alaankwa Celestial
 ### Introduction:
