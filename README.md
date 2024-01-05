@@ -4,6 +4,9 @@
 * X4: Nova Edition - https://steamcommunity.com/sharedfiles/filedetails/?id=2974334577
 * X4: Nova Edition VRO - https://steamcommunity.com/sharedfiles/filedetails/?id=3024829392
 
+## X4 Mod Template
+* https://github.com/temetvince/template-x4-mod
+
 ## Reshade Presets
 The recommended ReShade preset in this repository is called *X4ReshadePreset.ini*. There are other presets as well, depending on your preferences.
 
