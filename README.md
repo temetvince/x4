@@ -4,7 +4,7 @@
 * X4: Nova Edition - https://steamcommunity.com/sharedfiles/filedetails/?id=2974334577
 * X4: Nova Edition VRO - https://steamcommunity.com/sharedfiles/filedetails/?id=3024829392
 
-## X4 Mod Template
+## Mod Template
 * https://github.com/temetvince/template-x4-mod
 
 ## Reshade Presets
