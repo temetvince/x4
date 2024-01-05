@@ -8,7 +8,7 @@
 * https://github.com/temetvince/template-x4-mod
 
 ## Reshade Presets
-The recommended ReShade preset in this repository is called *ReshadePreset.ini*. There are other presets as well, depending on your preferences.
+The recommended ReShade preset in this repository is called *ReShadePreset.ini*. There are other presets as well, depending on your preferences.
 
 ## Advanced Behaviors
 Set a hotkey for the chat window. Pull up the chat window and enter /thereshallbewings. This enables the Advanced Behavior command menu for ships.
