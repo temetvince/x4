@@ -7,7 +7,7 @@
         <position x="0" z="0"/>
       </player>
     </location>
-    <player macro="character_player_pirate_gamestart2_male_macro" name="John Smith" money="0">
+    <player macro="character_player_pirate_gamestart2_male_macro" name="Shield Master" money="0">
       <inventory>
         <ware ware="weapon_gen_spacesuit_repairlaser_01_mk1"/>
         <ware ware="software_scannerobjectmk3"/>
@@ -285,16 +285,16 @@
     </player>
     <universe>
       <stories>
-        <story ref="story_covert_ops_neutral" state="1"/>
-        <story ref="story_terraforming" state="1"/>
         <story ref="story_hq_dal" state="1"/>
-        <story ref="story_criminal_wildcard" state="1"/>
-        <story ref="story_paranid_uni_3" state="1"/>
-        <story ref="story_twin_northriver" state="1"/>
-        <story ref="story_queendom_returned" state="1"/>
-        <story ref="story_erlking_upgrade" state="1"/>
-        <story ref="story_yaki_complete" state="1"/>
         <story ref="story_split_cabal_complete" state="1"/>
+        <story ref="story_terraforming" state="1"/>
+        <story ref="story_criminal_wildcard" state="1"/>
+        <story ref="story_queendom_returned" state="1"/>
+        <story ref="story_yaki_complete" state="1"/>
+        <story ref="story_twin_northriver" state="1"/>
+        <story ref="story_paranid_esc_3" state="1"/>
+        <story ref="story_covert_ops_neutral" state="1"/>
+        <story ref="story_erlking_upgrade" state="1"/>
       </stories>
     </universe>
   </gamestart>
