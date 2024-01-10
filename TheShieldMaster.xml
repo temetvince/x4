@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gamestarts>
+  <gamestart id="custom_creative" name="The Shield Master">
+    <location galaxy="" sector="cluster_606_sector001_macro">
+      <position x="87717.766" z="166733"/>
+      <player>
+        <position x="0" z="0"/>
+      </player>
+    </location>
+    <player macro="character_player_pirate_gamestart2_male_macro" name="John Smith" money="0">
+      <inventory>
+        <ware ware="weapon_gen_spacesuit_repairlaser_01_mk1"/>
+        <ware ware="software_scannerobjectmk3"/>
+        <ware ware="bomb_player_limpet_mine_01_mk1"/>
+        <ware ware="weapon_gen_spacesuit_laser_01_mk1"/>
+        <ware ware="bomb_player_limpet_emp_01_mk1"/>
+        <ware ware="engine_gen_spacesuit_01_mk2"/>
+        <ware ware="weapon_gen_spacesuit_demolition_01_mk1"/>
+        <ware ware="weapon_gen_spacesuit_laser_02_mk1"/>
+      </inventory>
+      <blueprints>
+        <ware ware="module_arg_dock_m_01_lowtech"/>
+        <ware ware="ishield_ter_s_heavyfighter_01_a"/>
+        <ware ware="ishield_xen_xl_reclaimer"/>
+        <ware ware="ishield_arg_s_miner_solid_01_a"/>
+        <ware ware="ishield_spl_l_panther_a"/>
+        <ware ware="ishield_tel_l_trans_container_01_a"/>
+        <ware ware="ishield_tel_l_trans_container_02_a"/>
+        <ware ware="ishield_ter_l_carrier_01_a"/>
+        <ware ware="ishield_spl_l_miner_liquid_01_a"/>
+        <ware ware="ishield_spl_l_cheetah"/>
+        <ware ware="ishield_xen_m_miner_01_a"/>
+        <ware ware="shield_pir_xl_battleship_01_standard_01_mk1"/>
+        <ware ware="ishield_tel_l_destroyer_01_a"/>
+        <ware ware="ishield_ter_m_miner_solid_01_a"/>
+        <ware ware="ishield_spl_xl_builder_01_a"/>
+        <ware ware="ishield_arg_l_destroyer_01_a"/>
+        <ware ware="engine_pir_xl_battleship_01_allround_01_mk1"/>
+        <ware ware="ishield_par_s_trans_container_01_a"/>
+        <ware ware="turret_pir_m_battleship_01_gatling_02_mk1"/>
+        <ware ware="ishield_ter_s_miner_solid_01_a"/>
+        <ware ware="ishield_otas_l_boreas"/>
+        <ware ware="ishield_spl_s_miner_solid_01_a"/>
+        <ware ware="ishield_spl_l_miner_solid_01_a"/>
+        <ware ware="ishield_arg_l_centaur_a"/>
+        <ware ware="ishield_otas_s_solano"/>
+        <ware ware="ishield_ter_xl_carrier_01_a"/>
+        <ware ware="ishield_atf_l_destroyer_01_a"/>
+        <ware ware="ishield_otas_s_auster"/>
+        <ware ware="ishield_sdp_frigate_triton"/>
+        <ware ware="ishield_ter_s_fighter_02_a"/>
+        <ware ware="ishield_tel_s_scout_02_a"/>
+        <ware ware="ishield_pir_s_fighter_02"/>
+        <ware ware="ishield_ter_s_fighter_03_a"/>
+        <ware ware="ishield_otas_s_notus"/>
+        <ware ware="ishield_tel_m_miner_solid_01_a"/>
+        <ware ware="ishield_otas_s_venti"/>
+        <ware ware="ishield_bor_m_trans_container_01_a"/>
+        <ware ware="ishield_tel_m_trans_container_03_a"/>
+        <ware ware="ishield_tel_m_trans_container_02_a"/>
+        <ware ware="ishield_tel_m_trans_container_01_a"/>
+        <ware ware="ishield_par_l_miner_liquid_01_a"/>
+        <ware ware="ishield_arg_s_heavyfighter_02_a"/>
+        <ware ware="ishield_bor_s_trans_container_01_a"/>
+        <ware ware="ishield_otas_l_aquilo"/>
+        <ware ware="ishield_arg_xl_carrier_01_a"/>
+        <ware ware="ishield_spl_m_miner_liquid_01_a"/>
+        <ware ware="ishield_arg_l_miner_solid_01_a"/>
+        <ware ware="ship_pir_xl_battleship_01_a"/>
+        <ware ware="ishield_arg_l_trans_container_05_a"/>
+        <ware ware="ishield_xen_s_fighter_01_a"/>
+        <ware ware="turret_pir_l_battleship_01_laser_01_mk1"/>
+        <ware ware="ishield_arg_l_trans_container_04_a"/>
+        <ware ware="ishield_par_l_hyperion"/>
+        <ware ware="ishield_arg_m_bomber_01_a"/>
+        <ware ware="ishield_yak_s_fighter_01_a"/>
+        <ware ware="ishield_tel_xl_builder_01_a"/>
+        <ware ware="ishield_arg_m_bomber_02_a"/>
+        <ware ware="ishield_arg_s_trans_container_01_a"/>
+        <ware ware="ishield_otas_xl_andaman"/>
+        <ware ware="ishield_arg_l_trans_container_03_a"/>
+        <ware ware="ishield_arg_s_trans_container_02_a"/>
+        <ware ware="ishield_otas_xl_vesuvius"/>
+        <ware ware="ishield_par_s_miner_solid_01_a"/>
+        <ware ware="ishield_arg_m_frigate_01_a"/>
+        <ware ware="ishield_atf_xl_battleship_01_a"/>
+        <ware ware="ishield_par_xl_resupplier_01_a"/>
+        <ware ware="ishield_par_m_miner_liquid_01_a"/>
+        <ware ware="ishield_arg_xl_builder_01_a"/>
+        <ware ware="ishield_tel_xl_carrier_01_a"/>
+        <ware ware="ishield_otas_xl_tempest"/>
+        <ware ware="ishield_xen_m_fighter_d"/>
+        <ware ware="ishield_tel_xl_battleship_01"/>
+        <ware ware="ishield_pir_xl_battleship_01"/>
+        <ware ware="ishield_xen_m_fighter_y"/>
+        <ware ware="ishield_bor_l_destroyer_01_a"/>
+        <ware ware="ishield_ter_l_miner_liquid_01_a"/>
+        <ware ware="ishield_par_m_frigate_01_a"/>
+        <ware ware="ishield_otas_xl_genthus"/>
+        <ware ware="ishield_tel_s_fighter_02_a"/>
+        <ware ware="ishield_spl_xl_battleship_01_a"/>
+        <ware ware="ishield_tel_s_scout_01_a"/>
+        <ware ware="ishield_spl_m_miner_solid_01_a"/>
+        <ware ware="ishield_ter_s_trans_container_01_a"/>
+        <ware ware="ishield_tel_m_miner_liquid_01_a"/>
+        <ware ware="ishield_otas_m_sirokos"/>
+        <ware ware="ishield_arg_l_trans_container_02_a"/>
+        <ware ware="ishield_spl_l_viper_a"/>
+        <ware ware="ishield_arg_s_fighter_04_a"/>
+        <ware ware="ishield_xen_xl_destroyer_01_a"/>
+        <ware ware="ishield_ter_s_falchion"/>
+        <ware ware="ishield_spl_l_trans_container_01_a"/>
+        <ware ware="ishield_ter_xl_builder_01_a"/>
+        <ware ware="ishield_pir_s_trans_container_01"/>
+        <ware ware="ishield_arg_s_fighter_02_a"/>
+        <ware ware="ishield_ter_l_akita"/>
+        <ware ware="ishield_par_m_trans_container_01_a"/>
+        <ware ware="ishield_pir_l_scavenger_01_a"/>
+        <ware ware="ishield_par_m_trans_container_02_a"/>
+        <ware ware="ishield_arg_m_miner_liquid_01_a"/>
+        <ware ware="ishield_bor_xl_battleship_01_a"/>
+        <ware ware="ishield_arg_l_cyclops"/>
+        <ware ware="ishield_pirate_xl_galleon"/>
+        <ware ware="ishield_arg_xl_resupplier_01_a"/>
+        <ware ware="ishield_ter_s_scout_01_a"/>
+        <ware ware="ishield_par_xl_carrier_01_a"/>
+        <ware ware="ishield_spl_xl_carrier_01_a"/>
+        <ware ware="ishield_bor_xl_resupplier_01_a"/>
+        <ware ware="ishield_ter_xl_sapporo"/>
+        <ware ware="ishield_bor_l_miner_liquid_01_a"/>
+        <ware ware="ishield_otas_l_astraeus"/>
+        <ware ware="ishield_bor_xl_carrier_01_a"/>
+        <ware ware="ishield_tel_m_bomber_01_a"/>
+        <ware ware="ishield_ter_m_gunboat_01_a"/>
+        <ware ware="ishield_tel_xl_resupplier_01_a"/>
+        <ware ware="ishield_gen_s_fightingdrone_01_a"/>
+        <ware ware="ishield_par_xl_battleship_01"/>
+        <ware ware="ishield_ter_s_scout_02_a"/>
+        <ware ware="ishield_par_l_trans_container_02_a"/>
+        <ware ware="ishield_arg_xl_battleship_01"/>
+        <ware ware="ishield_tel_l_shrike_a"/>
+        <ware ware="ishield_par_l_trans_container_01_a"/>
+        <ware ware="ishield_bor_s_miner_solid_01_a"/>
+        <ware ware="ishield_otas_l_mistral"/>
+        <ware ware="ishield_arg_m_miner_solid_01_a"/>
+        <ware ware="ishield_spl_s_scout_01_a"/>
+        <ware ware="ishield_par_xl_builder_01_a"/>
+        <ware ware="ishield_ter_s_fighter_01_a"/>
+        <ware ware="ishield_otas_m_skiron"/>
+        <ware ware="ishield_pirate_l_brigantine"/>
+        <ware ware="ishield_pir_s_fighter_01"/>
+        <ware ware="ishield_par_s_fighter_02_a"/>
+        <ware ware="ishield_ter_l_trans_container_01_a"/>
+        <ware ware="ishield_tel_l_miner_solid_01_a"/>
+        <ware ware="ishield_xen_s_fighter_02_a"/>
+        <ware ware="ishield_tel_s_trans_container_01_a"/>
+        <ware ware="ishield_tel_s_miner_solid_01_a"/>
+        <ware ware="ishield_spl_s_heavyfighter_02_a"/>
+        <ware ware="ishield_bor_s_fighter_01_a"/>
+        <ware ware="ishield_spl_s_fighter_01_a"/>
+        <ware ware="ishield_spl_s_heavyfighter_01_a"/>
+        <ware ware="ishield_spl_s_trans_container_01_a"/>
+        <ware ware="ishield_tel_m_frigate_01_a"/>
+        <ware ware="ishield_bor_m_gunboat_01_a"/>
+        <ware ware="ishield_spl_s_wolf"/>
+        <ware ware="weapon_pir_xl_battleship_01_mk1"/>
+        <ware ware="ishield_arg_xl_titan"/>
+        <ware ware="ishield_yak_m_corvette_01_a"/>
+        <ware ware="ishield_gen_s_fighter_01_a"/>
+        <ware ware="ishield_arg_s_fighter_01_a"/>
+        <ware ware="ishield_par_s_scout_01_a"/>
+        <ware ware="ishield_bor_s_heavyfighter_01_a"/>
+        <ware ware="ishield_par_s_fighter_01_a"/>
+        <ware ware="ishield_spl_m_trans_container_01_a"/>
+        <ware ware="ishield_arg_s_fighter_03_a"/>
+        <ware ware="ishield_spl_m_corvette_01_a"/>
+        <ware ware="ishield_pir_s_heavyfighter_01"/>
+        <ware ware="ishield_arg_s_scout_01_a"/>
+        <ware ware="ishield_spl_m_corvette_01_b"/>
+        <ware ware="ishield_bor_l_carrier_01_a"/>
+        <ware ware="ishield_bor_s_scout_02_a"/>
+        <ware ware="ishield_ter_l_shikoku"/>
+        <ware ware="ishield_gen_m_yacht_01"/>
+        <ware ware="ishield_bor_s_scout_01_a"/>
+        <ware ware="ishield_ter_l_miner_solid_01_a"/>
+        <ware ware="ishield_par_l_miner_solid_01_a"/>
+        <ware ware="ishield_bor_m_corvette_01_a"/>
+        <ware ware="ishield_par_m_miner_solid_01_a"/>
+        <ware ware="ishield_xen_xl_carrier_01_a"/>
+        <ware ware="ishield_pir_l_miner_solid_01_a"/>
+        <ware ware="ishield_bor_l_marlin"/>
+        <ware ware="ishield_par_s_heavyfighter_01_a"/>
+        <ware ware="ishield_bor_m_miner_liquid_01_a"/>
+        <ware ware="ishield_ter_l_destroyer_01_a"/>
+        <ware ware="ishield_arg_m_trans_container_02_a"/>
+        <ware ware="ishield_otas_s_eurus"/>
+        <ware ware="ishield_pir_l_scrapper_01"/>
+        <ware ware="ishield_arg_m_trans_container_01_a"/>
+        <ware ware="ishield_ter_m_trans_container_01_a"/>
+        <ware ware="ishield_spl_xl_resupplier_01_a"/>
+        <ware ware="ishield_sca_l_hound"/>
+        <ware ware="ishield_arg_l_trans_container_03_p"/>
+        <ware ware="ishield_ter_l_makhaira"/>
+        <ware ware="ishield_arg_l_trans_container_01_a"/>
+        <ware ware="ishield_bor_l_trans_container_01_a"/>
+        <ware ware="ishield_ter_xl_resupplier_01_a"/>
+        <ware ware="ishield_tel_s_fighter_01_a"/>
+        <ware ware="ishield_spl_s_fighter_02_a"/>
+        <ware ware="ishield_ter_l_chiba_e"/>
+        <ware ware="ishield_pirate_s_blastclaw"/>
+        <ware ware="ishield_spl_s_fighter_02_b"/>
+        <ware ware="ishield_arg_l_miner_liquid_01_a"/>
+        <ware ware="ishield_spl_m_frigate_01_a"/>
+        <ware ware="ishield_otas_l_zephyrus"/>
+        <ware ware="ishield_tel_l_miner_liquid_01_a"/>
+        <ware ware="ishield_par_l_destroyer_01_a"/>
+        <ware ware="ishield_ter_m_frigate_01_a"/>
+        <ware ware="ishield_xen_m_fighter_01_a"/>
+        <ware ware="ishield_par_m_corvette_01_a"/>
+        <ware ware="ishield_xen_s_scout_01_a"/>
+        <ware ware="ishield_ter_m_miner_liquid_01_a"/>
+        <ware ware="ishield_spl_l_destroyer_01_a"/>
+        <ware ware="ishield_ter_m_corvette_01_a"/>
+        <ware ware="paintmod_0006"/>
+        <ware ware="paintmod_0048"/>
+        <ware ware="paintmod_0049"/>
+        <ware ware="paintmod_0050"/>
+        <ware ware="paintmod_0097"/>
+        <ware ware="paintmod_0098"/>
+        <ware ware="paintmod_0099"/>
+        <ware ware="paintmod_0100"/>
+      </blueprints>
+      <research>
+        <ware ware="research_module_welfare_2"/>
+        <ware ware="research_erlking_core"/>
+        <ware ware="research_mod_ship_mk1"/>
+        <ware ware="research_mod_ship_mk3"/>
+        <ware ware="research_mod_ship_mk2"/>
+        <ware ware="research_module_defence"/>
+        <ware ware="research_module_habitation"/>
+        <ware ware="research_module_production"/>
+        <ware ware="research_module_storage"/>
+        <ware ware="research_mod_weapon_mk2"/>
+        <ware ware="research_mod_weapon_mk1"/>
+        <ware ware="research_teleportation"/>
+        <ware ware="research_teleportation_range_01"/>
+        <ware ware="research_mod_shield_mk1"/>
+        <ware ware="research_mod_shield_mk2"/>
+        <ware ware="research_mod_shield_mk3"/>
+        <ware ware="research_teleportation_range_03"/>
+        <ware ware="research_teleportation_range_02"/>
+        <ware ware="research_module_dock"/>
+        <ware ware="research_warp_hq_02"/>
+        <ware ware="research_warp_hq_01"/>
+        <ware ware="research_mod_weapon_mk3"/>
+        <ware ware="research_mod_engine_mk1"/>
+        <ware ware="research_mod_engine_mk3"/>
+        <ware ware="research_mod_engine_mk2"/>
+        <ware ware="research_module_welfare_1"/>
+      </research>
+      <knownspace>
+        <space sector="cluster_606_sector001_macro"/>
+      </knownspace>
+      <theme paint="painttheme_player_01"/>
+      <ship macro="ship_arg_xs_spacesuit_01_a_macro">
+        <people people="player_argon_regular_freighter_crew" fillpercent="10"/>
+      </ship>
+      <property>
+        <station id="player_HQ_1704652551" macro="station_pla_headquarters_base_01_macro">
+          <location sector="cluster_606_sector001_macro">
+            <position x="107817.258" z="185673.219"/>
+          </location>
+          <construction ref="x4ep1_playerheadquarters_with_dock"/>
+          <manager>
+            <skills>
+              <skill type="boarding"/>
+              <skill type="engineering"/>
+              <skill type="management"/>
+              <skill type="morale"/>
+              <skill type="piloting"/>
+            </skills>
+          </manager>
+        </station>
+      </property>
+    </player>
+    <universe>
+      <stories>
+        <story ref="story_covert_ops_neutral" state="1"/>
+        <story ref="story_terraforming" state="1"/>
+        <story ref="story_hq_dal" state="1"/>
+        <story ref="story_criminal_wildcard" state="1"/>
+        <story ref="story_paranid_uni_3" state="1"/>
+        <story ref="story_twin_northriver" state="1"/>
+        <story ref="story_queendom_returned" state="1"/>
+        <story ref="story_erlking_upgrade" state="1"/>
+        <story ref="story_yaki_complete" state="1"/>
+        <story ref="story_split_cabal_complete" state="1"/>
+      </stories>
+    </universe>
+  </gamestart>
+</gamestarts>
