@@ -4,13 +4,14 @@
 * [X4: Nova Edition](https://steamcommunity.com/sharedfiles/filedetails/?id=2974334577)
 * [X4: Nova Edition (VRO)](https://steamcommunity.com/sharedfiles/filedetails/?id=3024829392)
 * [X4: Cosmic Core](https://steamcommunity.com/sharedfiles/filedetails/?id=3133044362)
-* [X4: Cosmic (VRO/Reemergence)](https://steamcommunity.com/sharedfiles/filedetails/?id=3134126460)
+* [X4: Aurora (VRO/Reemergence)](https://steamcommunity.com/sharedfiles/filedetails/?id=3134126460)
+* [X4:RE Impossible Edition (Reemergence)](https://steamcommunity.com/sharedfiles/filedetails/?id=3240266896)
 
 ## Helpful Links
 * [A Scrappy Guide on Scrap by Pandorian](https://steamcommunity.com/sharedfiles/filedetails/?id=2810269037)
 * [Modder's Template](https://github.com/temetvince/template-x4-mod)
 
-## ReShade Presets
+## ReShade Preset
 This repository includes my personal ReShade preset for X4 (and X3!) called *ReShadePreset.ini*.
 
 ## Advanced Behaviors
@@ -23,6 +24,9 @@ Set a hotkey for the chat window. Pull up the chat window and enter /thereshallb
     * -skipintro
 * Debug:
     * -debug all -logfile debuglog.txt
+
+## Foundation of Conquest and War Setup
+* Overwrite *extensions/focw/md/focwsetup.xml* with the "focwsetup.xml" from this repository.
 
 ## Scenario: The Shield Master
 * To install, put *TheShieldMaster.xml* in ~/Documents/Egosoft/X4/*yourfolderid*/customgamestart/
