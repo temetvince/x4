@@ -26,7 +26,7 @@ Set a hotkey for the chat window. Pull up the chat window and enter /thereshallb
     * -debug all -logfile debuglog.txt
 
 ## Foundation of Conquest and War Setup
-* Overwrite *extensions/focw/md/focwsetup.xml* with the "focwsetup.xml" from this repository.
+* Overwrite *extensions/focw/md/focwsetup.xml* with the *focwsetup.xml* from this repository.
 
 ## Scenario: The Shield Master
 * To install, put *TheShieldMaster.xml* in ~/Documents/Egosoft/X4/*yourfolderid*/customgamestart/
