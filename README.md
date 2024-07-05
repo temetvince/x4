@@ -1,14 +1,13 @@
 # Click [here](https://github.com/temetvince/x4/archive/refs/heads/main.zip "The equivalent of clicking the Code button then Download ZIP") to download this repository
 
 ## Steam Workshop Modpacks
-* [X4: Nova Edition](https://steamcommunity.com/sharedfiles/filedetails/?id=2974334577)
-* [X4: Nova Edition (VRO)](https://steamcommunity.com/sharedfiles/filedetails/?id=3024829392)
+* [X4: Expanded Edition](https://steamcommunity.com/sharedfiles/filedetails/?id=3276278674)
+* [X4:RE Aurora Edition (Reemergence/VRO)](https://steamcommunity.com/sharedfiles/filedetails/?id=3240266896)
 * [X4: Cosmic Core](https://steamcommunity.com/sharedfiles/filedetails/?id=3133044362)
-* [X4: Aurora (VRO/Reemergence)](https://steamcommunity.com/sharedfiles/filedetails/?id=3134126460)
-* [X4:RE Impossible Edition (Reemergence)](https://steamcommunity.com/sharedfiles/filedetails/?id=3240266896)
 
 ## Helpful Links
 * [A Scrappy Guide on Scrap by Pandorian](https://steamcommunity.com/sharedfiles/filedetails/?id=2810269037)
+* [QSNA Resources](https://www.qsna.eu/x4/map)
 * [Modder's Template](https://github.com/temetvince/template-x4-mod)
 
 ## ReShade Preset
