@@ -8,10 +8,11 @@
 ## Helpful Links
 * [A Scrappy Guide on Scrap by Pandorian](https://steamcommunity.com/sharedfiles/filedetails/?id=2810269037)
 * [QSNA Resources](https://www.qsna.eu/x4/map)
+* [Station Calculator](https://x4calc.elite-games.ru/#/station-calculator)
 * [Modder's Template](https://github.com/temetvince/template-x4-mod)
 
 ## ReShade Preset
-This repository includes my personal ReShade preset for X4 (and X3!) called *ReShadePreset.ini*.
+This repository includes my personal ReShade presets for X4 (and X3!) called *temetvince-faithful.ini* & *temetvince-enhanced.ini*.
 
 ## Advanced Behaviors
 Set a hotkey for the chat window. Pull up the chat window and enter /thereshallbewings. This enables the Advanced Behavior command menu for ships.
@@ -26,23 +27,6 @@ Set a hotkey for the chat window. Pull up the chat window and enter /thereshallb
 
 ## Foundation of Conquest and War Setup
 * Overwrite *extensions/focw/md/focwsetup.xml* with the *focwsetup.xml* from this repository.
-
-## Scenario: The Shield Master
-* To install, put *TheShieldMaster.xml* in ~/Documents/Egosoft/X4/*yourfolderid*/customgamestart/
-* Requires [X4:Reemergence (X4:RE)](https://www.nexusmods.com/x4foundations/mods/1166).
-    * To install the "full" experience, join their [Discord](https://discord.gg/yXc4eQaAFK) and go to the #faq channel where they list additional recommended mods.
-* Intended to be used in conjuction with the [X4: Cosmic (VRO/Reemergence)](https://steamcommunity.com/sharedfiles/filedetails/?id=3134126460) modpack.
-    * [Ship Reverse Engineering by Mysterial](https://steamcommunity.com/sharedfiles/filedetails/?id=1687245083) is desirable, in particular.
-
-### Introduction:
-This gamestart features all plots completed. It is the perfect gamestart for exploring a whole new universe post plot.
-
-### Backstory:
-To the public, you are an ordinary John Smith, except for your prestigious role as a Herald of the Queendom of Boron. But you have a hidden past that few know. You were a key player in the galaxy’s politics, manipulating factions to your advantage, using agents to forge alliances and start wars. You stopped the Paranid Civil War, you quelled the Split Rebellions, and you even helped the Yaki gain their freedom. You accomplished all this with the assistance of two contacts, a brilliant boron scientist and a savvy political strategist.
-
-During your adventures, you stumbled upon a deal that changed your life. A mysterious race offered you every shield blueprint for every ship in the universe, in exchange for all your assets. You were only allowed to keep your flagship, the Erlking (and its blueprints), your smuggler ship, the Raven, and your personal headquarters. This strange race's motives remain unknown, but you've long pondered about who built the Gate Network, and you are curious whether your overwhelming success grabbed their attention.
-
-Regardless, here you are, post deal, and on your way to visit the Queen. Rise again and reimpose your will on the x-universe, as you did once before.
 
 ## Scenario: Rise of the Alaankwa Celestial
 ### Introduction:
