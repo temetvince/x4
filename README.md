@@ -9,6 +9,7 @@
 * [A Scrappy Guide on Scrap by Pandorian](https://steamcommunity.com/sharedfiles/filedetails/?id=2810269037)
 * [QSNA Resources](https://www.qsna.eu/x4/map)
 * [Station Calculator](https://x4calc.elite-games.ru/#/station-calculator)
+* [Production Chart](https://x4prodchart.com)
 * [Modder's Template](https://github.com/temetvince/template-x4-mod)
 
 ## ReShade Preset
