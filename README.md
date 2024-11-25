@@ -12,7 +12,11 @@
 * [Modder's Template](https://github.com/temetvince/template-x4-mod)
 
 ## ReShade Preset
-This repository includes my personal ReShade presets for X4 (and X3!) called *temetvince-faithful.ini* & *temetvince-enhanced.ini*.
+This repository includes my personal ReShade presets for X4 (and X3!) called:
+  * *temetvince - faithful.ini* - a faithful representation of the game's original colors. Will look the same as vanilla, but with better contrast and sharpness.
+  * *temetvince - dynamic.ini* - a dynamic representation of the game's colors. Will look more vibrant and colorful than vanilla.
+  * *temetvince - cinema.ini* - a cinematic representation of the game's colors. Will look more cinematic and moody than vanilla.
+  * *temetvince - surreal.ini* - a surreal representation of the game's colors. Will look more surreal and dreamy than vanilla.
 
 ## Advanced Behaviors
 Set a hotkey for the chat window. Pull up the chat window and enter /thereshallbewings. This enables the Advanced Behavior command menu for ships.
