@@ -3,7 +3,7 @@
 ## Steam Workshop Modpacks
 * [X4: Expanded Edition](https://steamcommunity.com/sharedfiles/filedetails/?id=3276278674)
 * [X4:RE Aurora Edition (Reemergence/VRO)](https://steamcommunity.com/sharedfiles/filedetails/?id=3240266896)
-* [X4: Cosmic Core](https://steamcommunity.com/sharedfiles/filedetails/?id=3133044362)
+* [X4: Cosmic Core](https://steamcommunity.com/sharedfiles/filedetails/?id=3239945065)
 
 ## Helpful Links
 * [A Scrappy Guide on Scrap by Pandorian](https://steamcommunity.com/sharedfiles/filedetails/?id=2810269037)
