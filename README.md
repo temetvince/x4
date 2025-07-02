@@ -1,56 +1,146 @@
-# Click [here](https://github.com/temetvince/x4/archive/refs/heads/main.zip "The equivalent of clicking the Code button then Download ZIP") to download this repository
+# Click [HERE](https://github.com/temetvince/x4/archive/refs/heads/main.zip "The equivalent of clicking the Code button then Download ZIP") to download this repository
 
-## Steam Workshop Modpacks
-* [X4: Expanded Edition](https://steamcommunity.com/sharedfiles/filedetails/?id=3276278674)
-* [X4:RE Aurora Edition (Reemergence/VRO)](https://steamcommunity.com/sharedfiles/filedetails/?id=3240266896)
-* [X4: Cosmic Core](https://steamcommunity.com/sharedfiles/filedetails/?id=3239945065)
-
-## Helpful Links
-* [A Scrappy Guide on Scrap by Pandorian](https://steamcommunity.com/sharedfiles/filedetails/?id=2810269037)
-* [QSNA Resources](https://www.qsna.eu/x4/map)
-* [Station Calculator](https://x4calc.elite-games.ru/#/station-calculator)
-* [Production Chart](https://x4prodchart.com)
-* [Modder's Template](https://github.com/temetvince/template-x4-mod)
+## Table of Contents
+- [ReShade Preset](#reshade-preset)
+- [Exe Flags](#exe-flags)
+- [Disable Protected UI Mode (IMPORTANT)](#disable-protected-ui-mode-important)
+- [Enable Tooltips (IMPORTANT)](#enable-tooltips-important)
+- [Tips and Tricks](#tips-and-tricks)
+  - [Advanced Behaviors](#advanced-behaviors)
+  - [Accessibility Game Speed Settings](#accessibility-game-speed-settings)
+  - [Trade Menu Tip](#trade-menu-tip)
+  - [Camera Control Tricks](#camera-control-tricks)
+- [Helpful Links](#helpful-links)
+- [Recommended Mods](#recommended-mods)
+  - [Critical](#critical)
+  - [Optional](#optional)
+  - [Overhaul (Choose One if Any)](#overhaul-choose-one-if-any)
+  - [DeadAir](#deadair)
+- [Weapon Characteristics (Vanilla)](#weapon-characteristics-vanilla)
+  - [Missiles](#missiles)
+  - [Turrets](#turrets)
+  - [Hardpoints](#hardpoints)
 
 ## ReShade Preset
-This repository includes my personal ReShade presets for X4 (and X3!) called:
-* *temetvince - faithful.ini*
-    * a faithful representation of the game's original colors. Will look the same as vanilla, but with better contrast and sharpness.
-* *temetvince - dynamic.ini*
-    * a dynamic representation of the game's colors. Will look more vibrant and colorful than vanilla.
-* *temetvince - cinema.ini*
-    * a cinematic representation of the game's colors. Will look more cinematic and moody than vanilla.
-* *temetvince - surreal.ini*
-    * a surreal representation of the game's colors. Will look more surreal and dreamy than vanilla.
-
-## Advanced Behaviors
-Set a hotkey for the chat window. Pull up the chat window and enter /thereshallbewings. This enables the Advanced Behavior command menu for ships.
+This repository includes my personal [ReShade](https://reshade.me/) preset for X4 called *temetvince.ini*
+* Move *temetvince.ini* to the *X4 Foundations* game directory (where the executable is located)
+* When installing ReShade, the game uses *Vulkan* graphics as the rendering API
+* You can install only the required effects by selecting the *temetvince.ini* preset during installation
 
 ## Exe Flags
+These flags can be added in Steam's launch options for the game or added to a shortcut for the game executable:
 * Run game in background:
     * -nosoundthrottle -nocputhrottle
 * Skip intro:
     * -skipintro
-* Debug:
-    * -debug all -logfile debuglog.txt
 
-## Foundation of Conquest and War Setup
-* Overwrite *extensions/focw/md/focwsetup.xml* with the *focwsetup.xml* from this repository.
+## Disable Protected UI Mode (IMPORTANT)
+1. From your file system, open *Documents/Egosoft/X4/{Your Steam ID}/config.xml*
+2. Go to the end of the file and find the line that says \</root>
+3. Before that line, add the following line and save the file:
+   ```xml
+   <uisafemode>false</uisafemode>
+   ```
 
-## Scenario: Rise of the Alaankwa Celestial
-### Introduction:
-Enter the immersive universe of X4 Foundations and shape your own legacy as you navigate the cosmos. Follow the captivating journey of the Alaankwa Celestial's rise—a tale of ambition and power.
+## Enable Tooltips (IMPORTANT)
+1. Go to *Settings* and then *Game Settings*
+2. Set the *Show Tooltips* option to *On*
 
-### Phase 1: Birth of the Alaankwa Corsairs
-Found the Alaankwa Corsairs, a daring pirate gang with a distinct vision. Rally a diverse crew and allies, modifying ships and arms, and executing raids and smuggling operations. Forge unease cooperation with your allies by fighting against common foes, notably the Xenon threat.
+## Tips and Tricks
+### Advanced Behaviors
+You can enable the Advanced Behavior command menu for ships:
+1. Go to *Settings* and then *Controls* and then *General Controls*
+2. Set a hotkey for the option *Toggle Chat Window*
+3. Pull up the chat window in game and enter "/thereshallbewings" without the quotes
 
-### Phase 2: Evolution into the Alaankwa Corporation
-Transition from piracy to legitimacy, remolding the Alaankwa Corsairs into the Alaankwa Corporation. Undergo a comprehensive transformation encompassing rebranding, alliances, and the establishment of economic foundations. Engage in trade negotiations, station construction, technological advancement, and the strategic nurturing of your assets. Shape your crew into a dedicated workforce aligned with your vision.
+### Accessibility Game Speed Settings
+You can slow the game down at any time by setting a hotkey and adjusting the game speed:
+1. Go to *Settings* and then *Accessibility Settings* and adjust the slider labeled *Reduced Game Speed Mode* to your desired speed
+2. Go to *Settings* and then *Controls* and then *General Controls*
+3. Set a hotkey for the option *Toggle Reduced Game Speed*
+4. Press the hotkey in game to toggle the reduced game speed mode on or off
 
-### Phase 3: The Celestial Ascent
-Witness the apotheosis of the Alaankwa Celestial—an empire destined for cosmic influence. Embark on calculated galactic conquests while nurturing economic growth and military prowess. Forge strategic alliances amidst an array of adversaries, exemplifying your visionary leadership. Shape history and etch your empire's legacy across the fabric of the universe.
+### Trade Menu Tip
+You can hover your mouse over a ware in the trade menu and press the *t* key to display the second best deal instead of the best deal
 
-## Weapons Characteristics (Unmodified)
+### Camera Control Tricks
+* When viewing a ship in third person, you can use *SHIFT* + Click, hold, and drag the *Middle Mouse Button* to get more precise camera movements
+* Utilize the Pause feature and Reduce Game Speed Mode to get better shots
+* Disable the HUD by pressing *SHIFT* + *H*
+* Disable the Cockpit by pressing *CTRL* + *H*
+
+## Helpful Links
+* [QSNA Resources & Map](https://www.qsna.eu/x4/map)
+* [Station Calculator](http://x4-game.com/)
+* [Production Chart](https://x4prodchart.com)
+* [Black Marketeer Finder](https://github.com/foxxbl/shady-search)
+* [A Scrappy Guide on Scrap by Pandorian](https://steamcommunity.com/sharedfiles/filedetails/?id=2810269037)
+* [X4 In-Depth FAQ](https://steamcommunity.com/sharedfiles/filedetails/?id=3120616748)
+* [Official X4 Manual and Wiki](https://wiki.egosoft.com/X4%20Foundations%20Wiki/Manual%20and%20Guides/X4%3A%20Foundations%20Manual/)
+
+## Recommended Mods
+Note: Some mods may default to off. Make sure to enable them by going into *Settings* and then *Extensions* in game.
+### Critical
+* [Mod Support APIs](https://www.nexusmods.com/x4foundations/mods/503) - __REQUIRED__ for many other mods to work properly
+* [UI Extensions](https://www.nexusmods.com/x4foundations/mods/552) - __REQUIRED__ for Mod Support APIs to work properly - you MUST [Disable Protected UI Mode (IMPORTANT)](#disable-protected-ui-mode-important)!
+* [Friendly Fire Tweaks](https://www.nexusmods.com/x4foundations/mods/708) - Prevents overzealous triggering of friendly fire
+* [AI Imitate](https://steamcommunity.com/sharedfiles/filedetails/?id=3514109638) - Player tugs and miners operate similarly to the AI
+* [Custom Tabs](https://www.nexusmods.com/x4foundations/mods/842) - Adds custom tabs for organizing ships/stations to the UI
+* [Equipment Tooltips](https://www.nexusmods.com/x4foundations/mods/838) - Adds tooltips to ship configuration equipment slots with revevant statistics - you MUST [Enable Tooltips (IMPORTANT)](#turn-on-tooltips-important)!
+* [Improved Patrol](https://steamcommunity.com/sharedfiles/filedetails/?id=3488447730) - When settting the *Patrol* Default Behavior, enabling *Defend Sector* will allow responding to threats anywhere in the sector
+
+### Optional
+* [Replenish Missiles](https://steamcommunity.com/sharedfiles/filedetails/?id=3008031892) - Magically replenishes missiles on ships
+* [Sector Satellites](https://www.nexusmods.com/x4foundations/mods/4) - Adds overpowered satellites for quality of life
+* [TaterTrader](https://steamcommunity.com/sharedfiles/filedetails/?id=2082610969) - Deadtater version is a fantastic universal trader
+* [Mules and Warehouses Extended](https://www.nexusmods.com/x4foundations/mods/416) - Makes game economy management more feasible - [Read the Manual!](https://github.com/Misunderstood-Wookiee/Mules-and-Warehouses-Extended/blob/Public/README.md)
+* [Reaction Force](https://steamcommunity.com/sharedfiles/filedetails/?id=2069655173) - Create forces that will automatically respond to threats in your sectors - [Read the Manual!](https://steamcommunity.com/workshop/filedetails/discussion/2069655173/603031052244493364/)
+* [Crystal Rarities (Glow Only)](https://steamcommunity.com/sharedfiles/filedetails/?id=2193267394) - Asteroid crystals glow to help you find them
+* [All Paintmods as Default Paint](https://www.nexusmods.com/x4foundations/mods/982) - All paint jobs are available as default paint for player ships
+
+### Overhaul (Choose One if Any)
+* [Star Wars Interworlds](https://www.nexusmods.com/x4foundations/mods/349) - Star Wars themed overhaul - Check out the [SWI Station Calculator](https://swi.siifr.net/stations/station-calculator)
+* [Classic Mode](https://steamcommunity.com/sharedfiles/filedetails/?id=2804421498) - More challenging gameplay
+* [Variety and Rebalance (VRO)](https://sites.google.com/view/vrowiki/Home) - Focuses on ship and weapon balance
+* [Reemergence](https://www.nexusmods.com/x4foundations/mods/1166) - Adds new features, ships, factions, and map. Requires VRO - Check the *#faq* on their [Discord](https://discord.gg/pEQEKCpKDC)!
+
+### DeadAir
+DeadAir is a brilliant modder who has created some insane mods which significantly enhance the game. Using these mods will transform your game into a much more dynamic experience. They are a staple of the X4:Reemergence overhaul mod, but can be used independently as well.
+
+Get them from DeadAir's GitHub. __READ THE README.md FILES - THEY ARE IMPORTANT!__
+* [DeadAir Scripts](https://github.com/DeadAirRT/deadair_scripts)
+* [DeadAir Eco](https://github.com/DeadAirRT/deadair_eco)
+
+For every new game you start, once in game, open the *Options Menu* by pressing *ESC* and then go to *Extension Options* and then *DA Mod Main Menu* to access DeadAir's scripts. Here are some recommended settings:
+* DA Dynamic War Menu:
+    * Ignore this menu until you have completed the plots!
+    * Open the *DW Ignored Factions* menu and enable the *Queendom of Boron*
+    * Enable the *Enable Dynamic War* option
+* DA Dynamic News Menu:
+    * Enable the *Enable Dynamic News* option
+* DA Evolution Menu:
+    * __Caution:__ Skip DA Evolution altogether unless you are prepared for potentially game-breaking Xenon evolution!
+    * Enable the *Enable Evolution* option
+      * This adds ship mods to each invividual Xenon ship, making them more powerful, including miners
+    * Enable the *Enable Xenon Station Evolution* option
+      * This increases the rate at which Xenon ships can be produced at Xenon stations
+* DA Fill Menu:
+    * Enable the *Enable Fill* option
+* DA Jobs Menu:
+    * Enable the *Enable Expeditions* option
+    * Enable the *Enable Smart Sectror Tags* option
+* DA Gate Menu:
+    * Enable the *Enable DA Gate* option (only if you are playing the vanilla map)
+    * Change each *Inactive* gate to *Active*
+      * Do not enable *Savage Spur I <-> Savage Spur II* until you have completed the Yaki plot!
+* DA God Menu:
+    * Enable the *Enable DA God* option
+    * Enable the *Allow Build in Friendly Owned Sector* option
+    * Click the *Activate DA God for Remaining X Valid Factions* button
+
+Note that the *DA Information Menus* are quite useful and include an in game station calculator.
+
+## Weapon Characteristics (Vanilla)
 ### Missiles
 * Tracking
     * EMP - like a teleporting bomb, drops ships out of travel drive, disables boost
