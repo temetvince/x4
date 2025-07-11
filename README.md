@@ -10,6 +10,7 @@
   - [Accessibility Game Speed Settings](#accessibility-game-speed-settings)
   - [Trade Menu Tip](#trade-menu-tip)
   - [Camera Control Tricks](#camera-control-tricks)
+- [Collector's Edition Yasur Unlock](#collectors-edition-yasur-unlock)
 - [Helpful Links](#helpful-links)
 - [Recommended Mods](#recommended-mods)
   - [Critical](#critical)
@@ -69,6 +70,16 @@ You can hover your mouse over a ware in the trade menu and press the *t* key to 
 * Utilize the Pause feature and Reduce Game Speed Mode to get better shots
 * Disable the HUD by pressing *SHIFT* + *H*
 * Disable the Cockpit by pressing *CTRL* + *H*
+
+## Collector's Edition Yasur Unlock
+1. Create an Egosoft forum account
+2. Register your game in the *Egosoft settings* of your forum account Control Panel
+3. Start the game, go to *Settings* then *Online Features*, log in, and enable Venture Extension downloads
+4. Restart the game (to download the content) and ensure you are still logged in in the *Online Features* menu
+6. Start or load any game and go to the *Player Information* menu
+7. Go to the *Inventory* section (backpack icon) on the left and select the *Venture Inventory* tab at the top
+8. At the bottom of the menu click the button *Enable Venture Extension Access* to enable it for the current game session and all subsequent savegames made from it
+9. Click the download icon next to your Yasur and it'll appear next to you (or docked at your current station)
 
 ## Helpful Links
 * [QSNA Resources & Map](https://www.qsna.eu/x4/map)
