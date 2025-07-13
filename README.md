@@ -108,6 +108,8 @@ Note: Some mods may default to off. Make sure to enable them by going into *Sett
 
 ### Optional (Overpowered) 
 * [Replenish Missiles](https://steamcommunity.com/sharedfiles/filedetails/?id=3008031892) - Magically replenishes missiles on ships
+* [Bail 30s -> 10s](https://steamcommunity.com/sharedfiles/filedetails/?id=3266685436) - Reduces bail check from 30 seconds to 10 seconds
+* [Ship Reverse Enginering](https://steamcommunity.com/sharedfiles/filedetails/?id=1687245083) - Destroy owned ships to receive blueprints - Read the mod page's description for details
 * [Sector Satellites](https://www.nexusmods.com/x4foundations/mods/4) - Adds overpowered satellites for quality of life
 * [TaterTrader](https://steamcommunity.com/sharedfiles/filedetails/?id=2082610969) - Deadtater version is a fantastic universal trader
 * [Mules and Warehouses Extended](https://www.nexusmods.com/x4foundations/mods/416) - Makes game economy management more feasible - [Read the Manual!](https://github.com/Misunderstood-Wookiee/Mules-and-Warehouses-Extended/blob/Public/README.md)
@@ -157,17 +159,19 @@ Note that the *DA Information Menus* are quite useful and include an in game sta
 
 ## Weapon Characteristics (Vanilla)
 ### Missiles
+Dumbfire for speed, Tracking for effectiveness, and Torpedos for power
 * Tracking
     * EMP - like a teleporting bomb, drops ships out of travel drive, disables boost
     * Smart - ignores flares
+    * Heavy Swarm - good for anti-captial, closed loop uses only energy cells, unlike torpedos
 * Dumbfire
-    * Dumbfire - when you want speed
     * Heavy Cluster - when you want power, about 60% the damage of a heavy torpedo, but MUCH cheaper. This is important for carrier cargo space reasons - you can fit more damage per cargo space if you're resupplying heavy cluster missiles than if you're resupplying torpedoes
 * Torpedo
-    * Torpedo - Excellent vs capitals/stations
-    * Great on Boron Threshers due to cargo capacity
+    * Torpedo - excellent vs capitals/stations
+      * Great on Boron Threshers due to cargo capacity
 
 ### Turrets
+Beams are great against fighters, but it takes a LOT of them to be effective
 * Argon
     * Argon Flak - only worthwhile turret outside of Arc, Argon because of best tracking rate
 * Boron
@@ -180,18 +184,20 @@ Note that the *DA Information Menus* are quite useful and include an in game sta
     * Proton Barrage - faster than bolt, higher heat/slower than TER pulse 
     * TER Pulse - commonwealth pulse but better against fighters. Still struggles vs heavier stuff
 * Boron
-    * Ion Atomiser (M) - Disrupts the maneuvering thrusters of S and M ships, reducing their turn rate
-    * Ion Pulse Railgun (M) - Very accurate, effective against both hull and shields, but heat caps quite quickly in sustained fighting
-    * Arc Gun (S) - Small equivalent of Ion Pulse Railgun
-    * Ion Gatling (S) - The Ion Gatling disrupts the engines of S and M ships, reducing their speed
+    * Ion Atomiser (M) - disrupts the maneuvering thrusters of S and M ships, reducing their turn rate
+    * Ion Pulse Railgun (M) - very accurate, effective against both hull and shields, but heat caps quite quickly in sustained fighting
+    * Arc Gun (S) - small equivalent of Ion Pulse Railgun
+    * Ion Gatling (S) - disrupts the engines of S and M ships, reducing their speed
     * Phase Cannon/Gun - not exciting but vital in an effective Boron loadout, the only efficient way to deal hull damage. Deadly accurate like most Boron weapons but no special effects
 * Generic
     * Commonwealth Pulse - generic anti fighter gun. Does the job but lacks DPS - beams are better vs fighters, bolts or shotguns are better vs M and bigger
     * Beam - ultimate anti small gun, great for drones and particularly fast fighters where even pulse struggles to hit
     * Bolt - all-rounder. Struggles to hit fighters but punches harder vs bigger
-    * Shotguns - Lots of overlap with bolt. Even better vs M/L, high velocity means surprisingly good vs S
-    * Proton Barrage - Bolt but better in every meaningful way
+    * Shotguns - lots of overlap with bolt. Even better vs M/L, high velocity means surprisingly good vs S
+    * Proton Barrage - like Bolt but better in every meaningful way
     * Plasma - best burst and sustain DPS for L/XL killing, completely useless vs S
     * Paranid Blast Mortar (S) - Plasma+ -> more DPS, better heat management, better velocity
+    * Muon Charger - Plasma+ -> Charge weapon, great vs L/XL
+    * Burst Ray (S) - Surface Element Damage bonus, good for attacking surface moduules of stations and capital ships, but struggles to deal actual damage
     * Split Thermal Disintegrators - weird mix of bolt and pulse. Low velocity/high fire ok vs fighters, shield bleed effect kills capital shields while the shields are still up. Like Burst Rays but capable of dealing actual damage once surface modules are dealt with
     * Snipers - 10km range (realistically vs capitals only at range), wait 30 seconds between shots. Awful heat management, mediocre damage output. No hardpoint gimbal. Feel awful to use. Can sometime shoot M ships, but by the time you're ready to fire again they'll have recharged half the damage you did
