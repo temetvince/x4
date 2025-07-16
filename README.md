@@ -99,6 +99,7 @@ Note: Some mods may default to off. Make sure to enable them by going into *Sett
 * [AI Imitate](https://steamcommunity.com/sharedfiles/filedetails/?id=3514109638) - Player tugs and miners operate similarly to the AI
 
 ### Recommended
+* [AI Trade](https://steamcommunity.com/sharedfiles/filedetails/?id=3527468589) - Drastically reduces trade idle times for all traders, including AI Faction and Player traders - Guaranteed to hurt performance!
 * [Custom Tabs](https://www.nexusmods.com/x4foundations/mods/842) - Adds custom tabs for organizing ships/stations to the UI
 * [Equipment Tooltips](https://www.nexusmods.com/x4foundations/mods/838) - Adds tooltips to ship configuration equipment slots with revevant statistics - you MUST [Enable Tooltips (IMPORTANT)](#turn-on-tooltips-important)!
 * [Improved Patrol](https://steamcommunity.com/sharedfiles/filedetails/?id=3488447730) - When settting the *Patrol* Default Behavior, enabling *Defend Sector* will allow responding to threats anywhere in the sector
