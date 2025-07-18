@@ -163,13 +163,15 @@ Note that the *DA Information Menus* are quite useful and include an in game sta
 Dumbfire for speed, Tracking for effectiveness, and Torpedos for power
 * Tracking
     * EMP - like a teleporting bomb, drops ships out of travel drive, disables boost
-    * Smart - ignores flares
+    * Smart - ignores flares - Heavy Smart on a fast fighter is actually good against small ships
     * Heavy Swarm - good for anti-captial, closed loop uses only energy cells, unlike torpedos
 * Dumbfire
     * Heavy Cluster - when you want power, about 60% the damage of a heavy torpedo, but MUCH cheaper. This is important for carrier cargo space reasons - you can fit more damage per cargo space if you're resupplying heavy cluster missiles than if you're resupplying torpedoes
 * Torpedo
     * Torpedo - excellent vs capitals/stations
       * Great on Boron Threshers due to cargo capacity
+#### Note about Missiles on S/M Ships
+* When equiping S/M ships with missile launchers, when fighting against other S/M ships, missile lauchers mixed with other weapons will rarely fire missiles. They work fine against L/XL ships and stations or when the loadout has only missile launchers.
 
 ### Turrets
 Beams are great against fighters, but it takes a LOT of them to be effective
