@@ -107,7 +107,8 @@ Note: Some mods may default to off. Make sure to enable them by going into *Sett
 * [Crystal Rarities (Glow Only)](https://steamcommunity.com/sharedfiles/filedetails/?id=2193267394) - Asteroid crystals glow to help you find them
 * [All Paintmods as Default Paint](https://www.nexusmods.com/x4foundations/mods/982) - All paint jobs are available as default paint for player ships
 
-### Optional (Overpowered) 
+### Optional (Overpowered)
+* [All of Known Space](https://steamcommunity.com/sharedfiles/filedetails/?id=3532967661) - If you don't enjoy exploration, this reveals the whole map on game start
 * [Replenish Missiles](https://steamcommunity.com/sharedfiles/filedetails/?id=3008031892) - Magically replenishes missiles on ships
 * [Bail 30s -> 10s](https://steamcommunity.com/sharedfiles/filedetails/?id=3266685436) - Reduces bail check from 30 seconds to 10 seconds
 * [Ship Reverse Enginering](https://steamcommunity.com/sharedfiles/filedetails/?id=1687245083) - Destroy owned ships to receive blueprints - Read the mod page's description for details
