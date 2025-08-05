@@ -97,6 +97,7 @@ Note: Some mods may default to off. Make sure to enable them by going into *Sett
 * [UI Extensions](https://www.nexusmods.com/x4foundations/mods/552) - __REQUIRED__ for Mod Support APIs to work properly - you MUST [Disable Protected UI Mode (IMPORTANT)](#disable-protected-ui-mode-important)!
 * [Friendly Fire Tweaks](https://www.nexusmods.com/x4foundations/mods/708) - Prevents overzealous triggering of friendly fire
 * [AI Imitate](https://steamcommunity.com/sharedfiles/filedetails/?id=3514109638) - Player tugs and miners operate similarly to the AI
+* [AI Xenon Miners](https://steamcommunity.com/sharedfiles/filedetails/?id=3542476864) - Xenon miners will always flee instead of fight
 
 ### Recommended
 * [AI Trade](https://steamcommunity.com/sharedfiles/filedetails/?id=3527468589) - Drastically reduces trade idle times for all traders, including AI Faction and Player traders - Guaranteed to hurt performance!
@@ -108,7 +109,8 @@ Note: Some mods may default to off. Make sure to enable them by going into *Sett
 * [All Paintmods as Default Paint](https://www.nexusmods.com/x4foundations/mods/982) - All paint jobs are available as default paint for player ships
 
 ### Optional (Overpowered)
-* [All of Known Space](https://steamcommunity.com/sharedfiles/filedetails/?id=3532967661) - If you don't enjoy exploration, this reveals the whole map on game start
+* [All of Unknown Space](https://steamcommunity.com/sharedfiles/filedetails/?id=3542473098) - If you don't enjoy exploration, this reveals the whole map on game start
+* [All of Known Space](https://steamcommunity.com/sharedfiles/filedetails/?id=3532967661) - If you don't enjoy exploration, this reveals the whole map on game start & provides satellite coverage
 * [Replenish Missiles](https://steamcommunity.com/sharedfiles/filedetails/?id=3008031892) - Magically replenishes missiles on ships
 * [Bail 30s -> 10s](https://steamcommunity.com/sharedfiles/filedetails/?id=3266685436) - Reduces bail check from 30 seconds to 10 seconds
 * [Ship Reverse Enginering](https://steamcommunity.com/sharedfiles/filedetails/?id=1687245083) - Destroy owned ships to receive blueprints - Read the mod page's description for details
