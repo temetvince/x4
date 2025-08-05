@@ -96,28 +96,27 @@ Note: Some mods may default to off. Make sure to enable them by going into *Sett
 * [Mod Support APIs](https://www.nexusmods.com/x4foundations/mods/503) - __REQUIRED__ for many other mods to work properly
 * [UI Extensions](https://www.nexusmods.com/x4foundations/mods/552) - __REQUIRED__ for Mod Support APIs to work properly - you MUST [Disable Protected UI Mode (IMPORTANT)](#disable-protected-ui-mode-important)!
 * [Friendly Fire Tweaks](https://www.nexusmods.com/x4foundations/mods/708) - Prevents overzealous triggering of friendly fire
-* [AI Imitate](https://steamcommunity.com/sharedfiles/filedetails/?id=3514109638) - Player tugs and miners operate similarly to the AI
-* [AI Xenon Miners](https://steamcommunity.com/sharedfiles/filedetails/?id=3542476864) - Xenon miners will always flee instead of fight
+* [AI Imitate](https://www.nexusmods.com/x4foundations/mods/1768) - Player tugs and miners operate similarly to the AI
+* [AI Xenon Miners](https://www.nexusmods.com/x4foundations/mods/1770) - Xenon miners will always flee instead of fight
 
 ### Recommended
-* [AI Trade](https://steamcommunity.com/sharedfiles/filedetails/?id=3527468589) - Drastically reduces trade idle times for all traders, including AI Faction and Player traders - Guaranteed to hurt performance!
+* [AI Trade](https://www.nexusmods.com/x4foundations/mods/1769) - Drastically reduces trade idle times for all traders, including AI Faction and Player traders - Guaranteed to hurt performance!
 * [Custom Tabs](https://www.nexusmods.com/x4foundations/mods/842) - Adds custom tabs for organizing ships/stations to the UI
 * [Equipment Tooltips](https://www.nexusmods.com/x4foundations/mods/838) - Adds tooltips to ship configuration equipment slots with revevant statistics - you MUST [Enable Tooltips (IMPORTANT)](#turn-on-tooltips-important)!
-* [Improved Patrol](https://steamcommunity.com/sharedfiles/filedetails/?id=3488447730) - When settting the *Patrol* Default Behavior, enabling *Defend Sector* will allow responding to threats anywhere in the sector
+* [Improved Patrol](https://www.nexusmods.com/x4foundations/mods/1712) - When settting the *Patrol* Default Behavior, enabling *Defend Sector* will allow responding to threats anywhere in the sector
 * [OOS Turret Fire Chance Change](https://steamcommunity.com/sharedfiles/filedetails/?id=3249159201) - Makes remote combat results more closely align with combat you can see in person
 * [Crystal Rarities (Glow Only)](https://steamcommunity.com/sharedfiles/filedetails/?id=2193267394) - Asteroid crystals glow to help you find them
 * [All Paintmods as Default Paint](https://www.nexusmods.com/x4foundations/mods/982) - All paint jobs are available as default paint for player ships
 
 ### Optional (Overpowered)
-* [All of Unknown Space](https://steamcommunity.com/sharedfiles/filedetails/?id=3542473098) - If you don't enjoy exploration, this reveals the whole map on game start
-* [All of Known Space](https://steamcommunity.com/sharedfiles/filedetails/?id=3532967661) - If you don't enjoy exploration, this reveals the whole map on game start & provides satellite coverage
-* [Replenish Missiles](https://steamcommunity.com/sharedfiles/filedetails/?id=3008031892) - Magically replenishes missiles on ships
+* [All of Unknown Space](https://www.nexusmods.com/x4foundations/mods/1772) - If you don't enjoy exploration, this reveals the whole map on game start
+* [All of Known Space](https://www.nexusmods.com/x4foundations/mods/1773) - If you don't enjoy exploration, this reveals the whole map on game start & provides satellite coverage
+* [Replenish Missiles](https://www.nexusmods.com/x4foundations/mods/1174) - Magically replenishes missiles on ships
 * [Bail 30s -> 10s](https://steamcommunity.com/sharedfiles/filedetails/?id=3266685436) - Reduces bail check from 30 seconds to 10 seconds
-* [Ship Reverse Enginering](https://steamcommunity.com/sharedfiles/filedetails/?id=1687245083) - Destroy owned ships to receive blueprints - Read the mod page's description for details
 * [Sector Satellites](https://www.nexusmods.com/x4foundations/mods/4) - Adds overpowered satellites for quality of life
 * [TaterTrader](https://steamcommunity.com/sharedfiles/filedetails/?id=2082610969) - Deadtater version is a fantastic universal trader
 * [Mules and Warehouses Extended](https://www.nexusmods.com/x4foundations/mods/416) - Makes game economy management more feasible - [Read the Manual!](https://github.com/Misunderstood-Wookiee/Mules-and-Warehouses-Extended/blob/Public/README.md)
-* [Reaction Force](https://steamcommunity.com/sharedfiles/filedetails/?id=2069655173) - Create forces that will automatically respond to threats in your sectors - [Read the Manual!](https://steamcommunity.com/workshop/filedetails/discussion/2069655173/603031052244493364/)
+* [Reaction Force](https://www.nexusmods.com/x4foundations/mods/453) - Create forces that will automatically respond to threats in your sectors - [Read the Manual!](https://steamcommunity.com/workshop/filedetails/discussion/2069655173/603031052244493364/)
 
 ### Overhaul (Choose One if Any)
 * [Star Wars Interworlds](https://www.nexusmods.com/x4foundations/mods/349) - Star Wars themed overhaul - Check out the [SWI Station Calculator](https://swi.siifr.net/stations/station-calculator)
