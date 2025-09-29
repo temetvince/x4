@@ -105,13 +105,13 @@ Note: Some mods may default to off. Make sure to enable them by going into *Sett
 * [Equipment Tooltips](https://www.nexusmods.com/x4foundations/mods/838) - Adds tooltips to ship configuration equipment slots with revevant statistics - you MUST [Enable Tooltips (IMPORTANT)](#turn-on-tooltips-important)!
 * [Improved Patrol](https://www.nexusmods.com/x4foundations/mods/1712) - When settting the *Patrol* Default Behavior, enabling *Defend Sector* will allow responding to threats anywhere in the sector
 * [OOS Turret Fire Chance Change](https://steamcommunity.com/sharedfiles/filedetails/?id=3249159201) - Makes remote combat results more closely align with combat you can see in person
-* [Skills Matter Less](https://www.nexusmods.com/x4foundations/mods/1576?file_id=11226) - Makes all AI much more competent, but can make combat harder
 * [Crystal Rarities (Glow Only)](https://steamcommunity.com/sharedfiles/filedetails/?id=2193267394) - Asteroid crystals glow to help you find them
 * [All Paintmods as Default Paint](https://www.nexusmods.com/x4foundations/mods/982) - All paint jobs are available as default paint for player ships
 
 ### Optional (Overpowered)
 * [All of Unknown Space](https://www.nexusmods.com/x4foundations/mods/1772) - If you don't enjoy exploration, this reveals the whole map on game start
 * [All of Known Space](https://www.nexusmods.com/x4foundations/mods/1773) - If you don't enjoy exploration, this reveals the whole map on game start & provides satellite coverage
+* [Skills Matter Less](https://www.nexusmods.com/x4foundations/mods/1576?file_id=11226) - Makes all AI much more competent, but can make combat harder
 * [Replenish Missiles](https://www.nexusmods.com/x4foundations/mods/1174) - Magically replenishes missiles on ships
 * [Bail 30s -> 10s](https://steamcommunity.com/sharedfiles/filedetails/?id=3266685436) - Reduces bail check from 30 seconds to 10 seconds
 * [Sector Satellites](https://www.nexusmods.com/x4foundations/mods/4) - Adds overpowered satellites for quality of life
