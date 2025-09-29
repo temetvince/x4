@@ -100,7 +100,8 @@ Note: Some mods may default to off. Make sure to enable them by going into *Sett
 * [AI Xenon Miners](https://www.nexusmods.com/x4foundations/mods/1770) - Xenon miners will always flee instead of fight
 
 ### Recommended
-* [AI Trade](https://www.nexusmods.com/x4foundations/mods/1769) - Drastically reduces trade idle times for all traders, including AI Faction and Player traders
+* ~~[AI Trade](https://www.nexusmods.com/x4foundations/mods/1769) - Drastically reduces trade idle times for all traders, including AI Faction and Player traders~~ (Use Logistics Optimization instead)
+* [Logistics Optimization](https://www.nexusmods.com/x4foundations/mods/1719) - Improves the logistics system to make it more efficient and less prone to issues
 * [Custom Tabs](https://www.nexusmods.com/x4foundations/mods/842) - Adds custom tabs for organizing ships/stations to the UI
 * [Equipment Tooltips](https://www.nexusmods.com/x4foundations/mods/838) - Adds tooltips to ship configuration equipment slots with revevant statistics - you MUST [Enable Tooltips (IMPORTANT)](#turn-on-tooltips-important)!
 * [Improved Patrol](https://www.nexusmods.com/x4foundations/mods/1712) - When settting the *Patrol* Default Behavior, enabling *Defend Sector* will allow responding to threats anywhere in the sector
