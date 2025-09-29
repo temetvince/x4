@@ -100,11 +100,12 @@ Note: Some mods may default to off. Make sure to enable them by going into *Sett
 * [AI Xenon Miners](https://www.nexusmods.com/x4foundations/mods/1770) - Xenon miners will always flee instead of fight
 
 ### Recommended
-* [AI Trade](https://www.nexusmods.com/x4foundations/mods/1769) - Drastically reduces trade idle times for all traders, including AI Faction and Player traders - Guaranteed to hurt performance!
+* [AI Trade](https://www.nexusmods.com/x4foundations/mods/1769) - Drastically reduces trade idle times for all traders, including AI Faction and Player traders
 * [Custom Tabs](https://www.nexusmods.com/x4foundations/mods/842) - Adds custom tabs for organizing ships/stations to the UI
 * [Equipment Tooltips](https://www.nexusmods.com/x4foundations/mods/838) - Adds tooltips to ship configuration equipment slots with revevant statistics - you MUST [Enable Tooltips (IMPORTANT)](#turn-on-tooltips-important)!
 * [Improved Patrol](https://www.nexusmods.com/x4foundations/mods/1712) - When settting the *Patrol* Default Behavior, enabling *Defend Sector* will allow responding to threats anywhere in the sector
 * [OOS Turret Fire Chance Change](https://steamcommunity.com/sharedfiles/filedetails/?id=3249159201) - Makes remote combat results more closely align with combat you can see in person
+* [Skills Matter Less](https://www.nexusmods.com/x4foundations/mods/1576?file_id=11226) - Makes all AI much more competent, but can make combat harder
 * [Crystal Rarities (Glow Only)](https://steamcommunity.com/sharedfiles/filedetails/?id=2193267394) - Asteroid crystals glow to help you find them
 * [All Paintmods as Default Paint](https://www.nexusmods.com/x4foundations/mods/982) - All paint jobs are available as default paint for player ships
 
