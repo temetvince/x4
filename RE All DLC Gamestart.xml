@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gamestarts>
-  <gamestart id="custom_creative" name="Reemergence All DLC Gamestart">
+  <gamestart id="custom_creative" name="RE All DLC Gamestart">
     <location galaxy="" sector="cluster_01_sector001_macro">
       <position x="115244.602" z="182725.578"/>
       <player>
