@@ -136,6 +136,8 @@ Get them from DeadAir's GitHub. __READ THE README.md FILES - THEY ARE IMPORTANT!
 * [DeadAir Scripts](https://github.com/DeadAirRT/deadair_scripts)
 * [DeadAir Eco](https://github.com/DeadAirRT/deadair_eco)
 
+NOTE: You MUST rename the folders after downloading them. For example, the DeadAir Scripts folder must be renamed from *deadair_scripts-master* to *deadair_scripts*. The same goes for DeadAir Eco, from *deadair_eco-master* to *deadair_eco*.
+
 For every new game you start, once in game, open the *Options Menu* by pressing *ESC* and then go to *Extension Options* and then *DA Mod Main Menu* to access DeadAir's scripts. Here are some recommended settings:
 * DA Dynamic War Menu:
     * Ignore this menu until you have completed the plots!
