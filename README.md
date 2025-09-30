@@ -127,6 +127,7 @@ Note: Some mods may default to off. Make sure to enable them by going into *Sett
 * [Classic Mode](https://steamcommunity.com/sharedfiles/filedetails/?id=2804421498) - More challenging gameplay
 * [Variety and Rebalance (VRO)](https://sites.google.com/view/vrowiki/Home) - Focuses on ship and weapon balance
 * [Reemergence (RE)](https://www.nexusmods.com/x4foundations/mods/1166) - Adds new features, ships, factions, and map. Requires VRO - Check the *#faq* on their [Discord](https://discord.gg/pEQEKCpKDC)!
+  * Note: I have an advanced [custom gamestart](https://github.com/temetvince/x4/blob/main/RE%20All%20DLC%20Gamestart.xml) for Reemergence that requires all DLC. Install to your *Egosoft/X4/{Your Steam ID}/customgamestart* folder and import it as a Custom Creative Gamestart in game
 
 ### DeadAir
 DeadAir is a brilliant modder who has created some insane mods which significantly enhance the game. Using these mods will transform your game into a much more dynamic experience. They are a staple of the X4:Reemergence overhaul mod, but can be used independently as well.
