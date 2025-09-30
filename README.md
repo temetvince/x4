@@ -120,7 +120,7 @@ Note: Some mods may default to off. Make sure to enable them by going into *Sett
 * [Bail 30s -> 10s](https://steamcommunity.com/sharedfiles/filedetails/?id=3266685436) - Reduces bail check from 30 seconds to 10 seconds
 * [Sector Satellites](https://www.nexusmods.com/x4foundations/mods/4) - Adds overpowered satellites for quality of life
 * [TaterTrader](https://steamcommunity.com/sharedfiles/filedetails/?id=2082610969) - Deadtater version is a fantastic universal trader
-* [Equipment Modifications Reworked](https://www.nexusmods.com/x4foundations/mods/1247) - Removes RNG and slightly rebalances equipment modifications
+* [Equipment Modifications Reworked](https://www.nexusmods.com/x4foundations/mods/1247) - Removes RNG and slightly rebalances equipment modifications. Do NOT use with SWI!
 
 ### Overhaul (Choose One if Any)
 * [Star Wars Interworlds (SWI)](https://www.nexusmods.com/x4foundations/mods/349) - Star Wars themed overhaul - Check out the [SWI Station Calculator](https://swi.siifr.net/stations/station-calculator)
