@@ -116,6 +116,7 @@ Note: Some mods may default to off. Make sure to enable them by going into _Sett
 - [Mod Support APIs](https://www.nexusmods.com/x4foundations/mods/503) - **REQUIRED** for many other mods to work properly
 - [UI Extensions](https://www.nexusmods.com/x4foundations/mods/552) - **REQUIRED** for Mod Support APIs to work properly - you MUST [Disable Protected UI Mode (IMPORTANT)](#disable-protected-ui-mode-important)!
 - [Friendly Fire Tweaks](https://www.nexusmods.com/x4foundations/mods/708) - Prevents overzealous triggering of friendly fire
+- [No Split MK4](https://www.nexusmods.com/x4foundations/mods/1862) - Prevents AI Factions from wasting resources equipping SPL Mk4 engines
 
 ### Recommended
 
