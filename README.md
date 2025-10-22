@@ -131,7 +131,7 @@ Note: Some mods may default to off. Make sure to enable them by going into _Sett
 ### Optional
 
 - [Skills Matter Less](https://www.nexusmods.com/x4foundations/mods/1576?file_id=11226) - Makes all AI much more competent, but can make combat harder
-- [Warehouse Fleets](https://www.nexusmods.com/x4foundations/mods/939) - Manages Warehouses with fleets of ships - [Read the Manual!](https://github.com/mbleichner/x4-warehouse-fleets/blob/master/readme.md)
+- [UI Trade Analytics](https://www.nexusmods.com/x4foundations/mods/764) - Handy for Station Behavior Profiles
 - [Reaction Force](https://www.nexusmods.com/x4foundations/mods/453) - Create forces that will automatically respond to threats in your sectors - [Read the Manual!](https://steamcommunity.com/workshop/filedetails/discussion/2069655173/603031052244493364/)
 - [Ship Reverse Engineering](https://steamcommunity.com/sharedfiles/filedetails/?id=1687245083) - Allows you to reverse engineer ships to learn how to build them (Alternative to vanilla Diplomacy)
 
@@ -143,6 +143,7 @@ Note: Some mods may default to off. Make sure to enable them by going into _Sett
 - [Bail 30s -> 10s](https://steamcommunity.com/sharedfiles/filedetails/?id=3266685436) - Reduces bail check from 30 seconds to 10 seconds
 - [Sector Satellites](https://www.nexusmods.com/x4foundations/mods/4) - Adds overpowered satellites for quality of life
 - [TaterTrader](https://steamcommunity.com/sharedfiles/filedetails/?id=2082610969) - Deadtater version is a fantastic universal trader
+- [Warehouse Fleets](https://www.nexusmods.com/x4foundations/mods/939) - Replaces many vanilla logistic mechanics - [Read the Manual!](https://github.com/mbleichner/x4-warehouse-fleets/blob/master/readme.md)
 - [Equipment Modifications Reworked](https://www.nexusmods.com/x4foundations/mods/1247) - Removes RNG and slightly rebalances equipment modifications. Do NOT use with SWI!
 
 ### Overhaul (Choose One if Any)
