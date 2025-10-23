@@ -116,12 +116,13 @@ Note: Some mods may default to off. Make sure to enable them by going into _Sett
 - [Mod Support APIs](https://www.nexusmods.com/x4foundations/mods/503) - **REQUIRED** for many other mods to work properly
 - [UI Extensions](https://www.nexusmods.com/x4foundations/mods/552) - **REQUIRED** for Mod Support APIs to work properly - you MUST [Disable Protected UI Mode (IMPORTANT)](#disable-protected-ui-mode-important)!
 - [Friendly Fire Tweaks](https://www.nexusmods.com/x4foundations/mods/708) - Prevents overzealous triggering of friendly fire
-- [No Split MK4](https://www.nexusmods.com/x4foundations/mods/1862) - Prevents AI Factions from wasting resources equipping SPL Mk4 engines
+- [No Split MK4](https://www.nexusmods.com/x4foundations/mods/1862) - Prevents AI Factions from wasting resources equipping SPL Mk4 engines. Do NOT use with SWI or Reemergence!
 
 ### Recommended
 
 - [AI Imitate](https://www.nexusmods.com/x4foundations/mods/1768) - Player tugs and miners operate similarly to the AI
 - [AI Xenon Miners](https://www.nexusmods.com/x4foundations/mods/1770) - Xenon miners will always flee instead of fight
+- [No spacesuits](https://www.nexusmods.com/x4foundations/mods/1606) - Allows the Lost Ship Replacement feature to fully crew newly built ships by stopping crew from bailing on destroyed ships
 - [Logistics Optimization](https://www.nexusmods.com/x4foundations/mods/1719) - Improves the logistics system to make it more efficient and less prone to issues
 - [Custom Tabs](https://www.nexusmods.com/x4foundations/mods/842) - Adds custom tabs for organizing ships/stations to the UI
 - [Equipment Tooltips](https://www.nexusmods.com/x4foundations/mods/838) - Adds tooltips to ship configuration equipment slots with revevant statistics - you MUST [Enable Tooltips (IMPORTANT)](#turn-on-tooltips-important)!
