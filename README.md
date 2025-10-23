@@ -1,7 +1,10 @@
 # Click [HERE](https://github.com/temetvince/x4/archive/refs/heads/main.zip "The equivalent of clicking the Code button then Download ZIP") to download this repository
 
+*Note: This README is lengthy! Simply use the Table of Contents below to navigate what interests you most.*
+
 ## Table of Contents
 
+- [Helpful Links](#helpful-links)
 - [ReShade Preset](#reshade-preset)
 - [Exe Flags](#exe-flags)
 - [Disable Protected UI Mode (IMPORTANT)](#disable-protected-ui-mode-important)
@@ -12,18 +15,33 @@
   - [Trade Menu Tip](#trade-menu-tip)
   - [Camera Control Tricks](#camera-control-tricks)
 - [Collector's Edition Yasur Unlock](#collectors-edition-yasur-unlock)
-- [Helpful Links](#helpful-links)
 - [Mods](#mods)
-  - [Critical](#critical)
-  - [Recommended](#recommended)
-  - [Optional](#optional)
-  - [Overpowered](#overpowered)
-  - [Overhaul (Choose One if Any)](#overhaul-choose-one-if-any)
-  - [DeadAir](#deadair)
+  - [Hand-picked (a subset of Reference)](#hand-picked-a-subset-of-reference)
+    - [Graphics, UI, and Dependencies](#graphics-ui-and-dependencies)
+    - [10 Recommended Mods](#10-recommended-mods)
+  - [Reference (Choose Your Own Adventure)](#reference-choose-your-own-adventure)
+    - [Critical](#critical)
+    - [Recommended](#recommended)
+    - [Optional](#optional)
+    - [Overpowered](#overpowered)
+    - [Overhaul (Choose One if Any)](#overhaul-choose-one-if-any)
+    - [Textures](#textures)
+    - [DeadAir](#deadair)
 - [Weapon Characteristics (Vanilla)](#weapon-characteristics-vanilla)
   - [Missiles](#missiles)
   - [Turrets](#turrets)
   - [Hardpoints](#hardpoints)
+
+## Helpful Links
+
+- [QSNA Resources & Map](https://www.qsna.eu/x4/map)
+- [Station Calculator](http://x4-game.com/)
+- [Station Calculator with Storage](https://mickdekkers.github.io/x4-station-calculator/#/station-calculator)
+- [Production Chart](https://x4prodchart.com)
+- [Black Marketeer Finder](https://github.com/foxxbl/shady-search)
+- [A Scrappy Guide on Scrap by Pandorian](https://steamcommunity.com/sharedfiles/filedetails/?id=2810269037)
+- [X4 In-Depth FAQ](https://steamcommunity.com/sharedfiles/filedetails/?id=3120616748)
+- [Official X4 Manual and Wiki](https://wiki.egosoft.com/X4%20Foundations%20Wiki/Manual%20and%20Guides/X4%3A%20Foundations%20Manual/)
 
 ## ReShade Preset
 
@@ -97,46 +115,74 @@ You can hover your mouse over a ware in the trade menu and press the _t_ key to 
 7. At the bottom of the menu click the button _Enable Venture Extension Access_ to enable it for the current game session and all subsequent savegames made from it
 8. Click the download icon next to your Yasur and it'll appear next to you (or docked at your current station)
 
-## Helpful Links
-
-- [QSNA Resources & Map](https://www.qsna.eu/x4/map)
-- [Station Calculator](http://x4-game.com/)
-- [Production Chart](https://x4prodchart.com)
-- [Black Marketeer Finder](https://github.com/foxxbl/shady-search)
-- [A Scrappy Guide on Scrap by Pandorian](https://steamcommunity.com/sharedfiles/filedetails/?id=2810269037)
-- [X4 In-Depth FAQ](https://steamcommunity.com/sharedfiles/filedetails/?id=3120616748)
-- [Official X4 Manual and Wiki](https://wiki.egosoft.com/X4%20Foundations%20Wiki/Manual%20and%20Guides/X4%3A%20Foundations%20Manual/)
-
 ## Mods
 
-Note: Some mods may default to off. Make sure to enable them by going into _Settings_ and then _Extensions_ in game.
+There are two mod sections: **Hand-picked (a subset of Reference)** and **Reference (Choose Your Own Adventure)**.
 
-### Critical
+If you just want a core set of vanilla friendly mods to play with, go with the **Hand-picked** section. If you want to customize your experience more, including overhauls, go with the **Reference** section.
+
+*Note: Some mods may default to off. Make sure to enable them by going into **Settings** and then **Extensions** in game.*
+
+### Hand-picked (a subset of Reference)
+
+#### Graphics, UI, and Dependencies
+
+##### Required
+
+- [Mod Support APIs](https://www.nexusmods.com/x4foundations/mods/503) - **REQUIRED** for many other mods to work properly
+- [UI Extensions](https://www.nexusmods.com/x4foundations/mods/552) - **REQUIRED** for Mod Support APIs to work properly - you MUST [Disable Protected UI Mode (IMPORTANT)](#disable-protected-ui-mode-important)!
+
+##### Recommended
+
+- [UI Trade Analytics](https://www.nexusmods.com/x4foundations/mods/764) - Handy for Station Behavior Profiles
+- [Custom Tabs](https://www.nexusmods.com/x4foundations/mods/842) - Adds custom tabs for organizing ships/stations to the UI
+- [Equipment Tooltips](https://www.nexusmods.com/x4foundations/mods/838) - Adds tooltips to ship configuration equipment slots with relevant statistics - you MUST [Enable Tooltips (IMPORTANT)](#enable-tooltips-important)!
+
+##### Optional
+
+- [xTex](https://www.nexusmods.com/x4foundations/mods/1229)  - 2x upscaled textures for X4: Foundations
+
+#### 10 Recommended Mods
+
+1. [AI Imitate](https://www.nexusmods.com/x4foundations/mods/1768) - Player tugs and miners operate similarly to the AI
+1. [AI Xenon Miners](https://www.nexusmods.com/x4foundations/mods/1770) - Xenon miners will always flee instead of fight
+1. [Friendly Fire Tweaks](https://www.nexusmods.com/x4foundations/mods/708) - Prevents overzealous triggering of friendly fire
+1. [Improved Patrol](https://www.nexusmods.com/x4foundations/mods/1712) - When setting the _Patrol_ Default Behavior, enabling _Defend Sector_ will allow responding to threats anywhere in the sector
+1. [Logistics Optimization](https://www.nexusmods.com/x4foundations/mods/1719) - Improves the logistics system to make it more efficient and less prone to issues
+1. [No spacesuits](https://www.nexusmods.com/x4foundations/mods/1606) - Allows the Lost Ship Replacement feature to fully crew newly built ships by stopping crew from bailing on destroyed ships
+1. [No Split MK4](https://www.nexusmods.com/x4foundations/mods/1862) - Prevents AI Factions from wasting resources equipping SPL Mk4 engines. Do NOT use with SWI or Reemergence!
+1. [OOS Turret Fire Chance Change](https://steamcommunity.com/sharedfiles/filedetails/?id=3249159201) - Makes remote combat results more closely align with combat you can see in person. Do NOT use with SWI or Reemergence!
+1. [Reaction Force](https://www.nexusmods.com/x4foundations/mods/453) - Create forces that will automatically respond to threats in your sectors - [Read the Manual!](https://steamcommunity.com/workshop/filedetails/discussion/2069655173/603031052244493364/)
+1. [Skills Matter Less](https://www.nexusmods.com/x4foundations/mods/1576?file_id=11226) - Makes all AI much more competent, but can make combat harder
+
+### Reference (Choose Your Own Adventure)
+
+#### Critical
 
 - [Mod Support APIs](https://www.nexusmods.com/x4foundations/mods/503) - **REQUIRED** for many other mods to work properly
 - [UI Extensions](https://www.nexusmods.com/x4foundations/mods/552) - **REQUIRED** for Mod Support APIs to work properly - you MUST [Disable Protected UI Mode (IMPORTANT)](#disable-protected-ui-mode-important)!
 - [Friendly Fire Tweaks](https://www.nexusmods.com/x4foundations/mods/708) - Prevents overzealous triggering of friendly fire
 - [No Split MK4](https://www.nexusmods.com/x4foundations/mods/1862) - Prevents AI Factions from wasting resources equipping SPL Mk4 engines. Do NOT use with SWI or Reemergence!
 
-### Recommended
+#### Recommended
 
 - [AI Imitate](https://www.nexusmods.com/x4foundations/mods/1768) - Player tugs and miners operate similarly to the AI
 - [AI Xenon Miners](https://www.nexusmods.com/x4foundations/mods/1770) - Xenon miners will always flee instead of fight
 - [No spacesuits](https://www.nexusmods.com/x4foundations/mods/1606) - Allows the Lost Ship Replacement feature to fully crew newly built ships by stopping crew from bailing on destroyed ships
 - [Logistics Optimization](https://www.nexusmods.com/x4foundations/mods/1719) - Improves the logistics system to make it more efficient and less prone to issues
 - [Custom Tabs](https://www.nexusmods.com/x4foundations/mods/842) - Adds custom tabs for organizing ships/stations to the UI
-- [Equipment Tooltips](https://www.nexusmods.com/x4foundations/mods/838) - Adds tooltips to ship configuration equipment slots with revevant statistics - you MUST [Enable Tooltips (IMPORTANT)](#turn-on-tooltips-important)!
-- [Improved Patrol](https://www.nexusmods.com/x4foundations/mods/1712) - When settting the _Patrol_ Default Behavior, enabling _Defend Sector_ will allow responding to threats anywhere in the sector
+- [Equipment Tooltips](https://www.nexusmods.com/x4foundations/mods/838) - Adds tooltips to ship configuration equipment slots with relevant statistics - you MUST [Enable Tooltips (IMPORTANT)](#turn-on-tooltips-important)!
+- [Improved Patrol](https://www.nexusmods.com/x4foundations/mods/1712) - When setting the _Patrol_ Default Behavior, enabling _Defend Sector_ will allow responding to threats anywhere in the sector
 - [OOS Turret Fire Chance Change](https://steamcommunity.com/sharedfiles/filedetails/?id=3249159201) - Makes remote combat results more closely align with combat you can see in person. Do NOT use with SWI or Reemergence!
 
-### Optional
+#### Optional
 
 - [Skills Matter Less](https://www.nexusmods.com/x4foundations/mods/1576?file_id=11226) - Makes all AI much more competent, but can make combat harder
 - [UI Trade Analytics](https://www.nexusmods.com/x4foundations/mods/764) - Handy for Station Behavior Profiles
 - [Reaction Force](https://www.nexusmods.com/x4foundations/mods/453) - Create forces that will automatically respond to threats in your sectors - [Read the Manual!](https://steamcommunity.com/workshop/filedetails/discussion/2069655173/603031052244493364/)
 - [Ship Reverse Engineering](https://steamcommunity.com/sharedfiles/filedetails/?id=1687245083) - Allows you to reverse engineer ships to learn how to build them (Alternative to vanilla Diplomacy)
 
-### Overpowered
+#### Overpowered
 
 - [All of Unknown Space](https://www.nexusmods.com/x4foundations/mods/1772) - If you don't enjoy exploration, this reveals the whole map on game start
 - [All of Known Space](https://www.nexusmods.com/x4foundations/mods/1773) - If you don't enjoy exploration, this reveals the whole map on game start & provides satellite coverage
@@ -147,15 +193,19 @@ Note: Some mods may default to off. Make sure to enable them by going into _Sett
 - [Warehouse Fleets](https://www.nexusmods.com/x4foundations/mods/939) - Replaces many vanilla logistic mechanics - [Read the Manual!](https://github.com/mbleichner/x4-warehouse-fleets/blob/master/readme.md)
 - [Equipment Modifications Reworked](https://www.nexusmods.com/x4foundations/mods/1247) - Removes RNG and slightly rebalances equipment modifications. Do NOT use with SWI!
 
-### Overhaul (Choose One if Any)
+#### Overhaul (Choose One if Any)
 
 - [Star Wars Interworlds (SWI)](https://www.nexusmods.com/x4foundations/mods/349) - Star Wars themed overhaul - Check out the [SWI Station Calculator](https://swi.siifr.net/stations/station-calculator)
 - [Classic Mode](https://steamcommunity.com/sharedfiles/filedetails/?id=2804421498) - More challenging gameplay
 - [Variety and Rebalance (VRO)](https://sites.google.com/view/vrowiki/Home) - Focuses on ship and weapon balance
 - [Reemergence (RE)](https://www.nexusmods.com/x4foundations/mods/1166) - Adds new features, ships, factions, and map. Requires VRO - Check the _#faq_ on their [Discord](https://discord.gg/pEQEKCpKDC)!
-  - Note: I have an advanced [custom gamestart](https://github.com/temetvince/x4/blob/main/RE%20All%20DLC%20Gamestart.xml) for Reemergence that requires all DLC. Install to your _Egosoft/X4/{Your Steam ID}/customgamestart_ folder and import it as a Custom Creative Gamestart in game
+  - *Note: I have an advanced [custom gamestart](https://github.com/temetvince/x4/blob/main/RE%20All%20DLC%20Gamestart.xml) for Reemergence that requires all DLC. Install to your **Egosoft/X4/{Your Steam ID}/customgamestart** folder and import it as a Custom Creative Gamestart in game*
 
-### DeadAir
+#### Textures
+
+- [xTex](https://www.nexusmods.com/x4foundations/mods/1229) - 2x upscaled textures for X4: Foundations
+
+#### DeadAir
 
 DeadAir is a brilliant modder who has created some insane mods which significantly enhance the game. Using these mods will transform your game into a much more dynamic experience. They are a staple of the X4:Reemergence overhaul mod, but can be used independently as well.
 
@@ -164,7 +214,7 @@ Get them from DeadAir's GitHub. **READ THE README.md FILES - THEY ARE IMPORTANT!
 - [DeadAir Scripts](https://github.com/DeadAirRT/deadair_scripts)
 - [DeadAir Eco](https://github.com/DeadAirRT/deadair_eco)
 
-NOTE: You MUST rename the folders after downloading them. For example, the DeadAir Scripts folder must be renamed from _deadair_scripts-master_ to _deadair_scripts_. The same goes for DeadAir Eco, from _deadair_eco-master_ to _deadair_eco_.
+*NOTE: You MUST rename the folders after downloading them. For example, the DeadAir Scripts folder must be renamed from **deadair_scripts-master** to **deadair_scripts**. The same goes for DeadAir Eco, from **deadair_eco-master** to **deadair_eco**.*
 
 For every new game you start, once in game, open the _Options Menu_ by pressing _ESC_ and then go to _Extension Options_ and then _DA Mod Main Menu_ to access DeadAir's scripts. Here are some recommended settings:
 
@@ -194,7 +244,7 @@ For every new game you start, once in game, open the _Options Menu_ by pressing 
   - Enable the _Allow Build in Friendly Owned Sector_ option
   - Click the _Activate DA God for Remaining X Valid Factions_ button
 
-Note that the _DA Information Menus_ are quite useful and include an in game station calculator.
+*Note: The **DA Information Menus** are quite useful and include an in game station calculator.*
 
 ## Weapon Characteristics (Vanilla)
 
@@ -212,9 +262,7 @@ Dumbfire for speed, Tracking for effectiveness, and Torpedos for power
   - Torpedo - excellent vs capitals/stations
     - Great on Boron Threshers due to cargo capacity
 
-#### Note about Missiles on S/M Ships
-
-- When equiping S/M ships with missile launchers, when fighting against other S/M ships, missile lauchers mixed with other weapons will rarely fire missiles. They work fine against L/XL ships and stations or when the loadout has only missile launchers.
+*Note: When equiping S/M ships with missile launchers, when fighting against other S/M ships, missile lauchers mixed with other weapons will rarely fire missiles. They work fine against L/XL ships and stations or when the loadout has only missile launchers.*
 
 ### Turrets
 
