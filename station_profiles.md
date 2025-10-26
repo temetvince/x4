@@ -2,7 +2,7 @@
 
 ## Ware Price Ranges and Specifications
 
-This manual provides detailed information on various wares, including their price ranges, types, volumes, and average prices. Prices are listed as a percentage progression from 0% to 100%, with corresponding credit values (cr) and additional details.
+The following table lists the wares available in X4 along with their price ranges at different percentages, group classifications, types, volumes, and minimum, maximum, and average prices. Reference this table when setting up station profiles.
 
 ### Ware Listings
 
@@ -67,13 +67,13 @@ This manual provides detailed information on various wares, including their pric
 | Weapon Components     | 171  | 194  | 217  | 239  | 262  | 285  | 308  | 331  | 353  | 376  | 399  | shiptech       | container | 20          | 171      | 399      | 285          |
 | Wheat                 | 19   | 22   | 24   | 27   | 29   | 32   | 34   | 37   | 39   | 42   | 44   | agricultural   | container | 4           | 19       | 44       | 31           |
 
-## Trade Profiles
+## Station Profiles
 
-### Using Trade Profiles in X4: Foundations
+### Using Station Profiles in X4: Foundations
 
-In X4, you can manually set buy and sell prices for a station's resources, intermediates, products, and trade wares by utilizing the buy and sell percentages associated with each trade profile.
+In X4, you can manually set buy and sell prices for a station's resources, intermediates, products, and trade wares by utilizing the buy and sell percentages associated with each station profile.
 
-1. **Select the Trade Profile**: Choose the appropriate trade profile for your station (e.g., Factory, Depot, etc.) based on its role and priorities.
+1. **Select the Station Profile**: Choose the appropriate station profile for your station (e.g., Factory, Depot, etc.) based on its role and priorities.
 
 1. **Determine the Buy/Sell Percentage**: Refer to the profile's buy or sell percentage (e.g., Factory buys at 90% and sells at 20%).
 
@@ -81,276 +81,321 @@ In X4, you can manually set buy and sell prices for a station's resources, inter
 
 1. **Enter in Game**: In the station's trade settings, manually input the calculated buy and sell prices for each ware category (resources, intermediates, products, trade wares), and ensure you also set either restricted (your own faction) or unrestricted (all factions) trading as per the station profile.
 
-This method allows you to set precise price points based on the profile's intended behavior, ensuring your station operates within the defined trade strategy while leveraging the ware table's data for accuracy.
+This method allows you to coalesce percentage based ware pricing into defined profiles which perform certain roles.
 
-### Profile and Description
+### Station Profile Details
 
-#### Factory
-
-- **Description**: Produces goods from resources and intermediate wares. Buys from all and sells to all except Depots. Internal trade only.
-
-#### Depot
-
-- **Description**: Intended for remote mining operations/refineries. Buys resources at lowest price. Sells to all except Depots. Internal trade only.
-
-#### Dock
-
-- **Description**: End users of wares (Docks/Wharves/Shipyards). Buys from all except Docks and sells to Factories. Internal trade only.
-
-#### Warehouse
-
-- **Description**: Distribution hub for stations. Buys from all except Docks, sells to all except Depots. Do not locate within 5 sectors of another Warehouse. Internal trade only.
-
-#### Exports
-
-- **Description**: Exports wares out of the player's empire. Buys from all except Imports and Docks, sells to all. Buys internally, sells unrestricted on auto pricing (storage based).
-
-#### Imports
-
-- **Description**: Imports wares into the player's empire. Buys from all and sells to all except Exports and Depots. Buys unrestricted on auto pricing (storage based), sells internally.
-
-#### Trading
-
-- **Description**: Buys and sells to all. Unrestricted buying and selling on auto pricing (storage based).
-
-#### Empty
-
-- **Description**: Prioritize emptying the storage of this station. Sells to all. Buys from none. Internal trade only.
-
-#### Fill
-
-- **Description**: Prioritize filling the storage of this station. Buys from all. Sells to none. Internal trade only.
+| Profile Name | Buy Restriction | Buy Percentage | Sell Restriction | Sell Percentage | Description                                           |
+| ------------ | --------------- | -------------- | ---------------- | --------------- | ----------------------------------------------------- |
+| Factory      | Restricted      | 90%            | Restricted       | 20%             | Produces goods from resources and intermediate wares. |
+| Depot        | Restricted      | 0%             | Restricted       | 10%             | Intended for remote mining operations/refineries.     |
+| Dock         | Restricted      | 70%            | Restricted       | 80%             | End users of wares (Docks/Wharves/Shipyards).         |
+| Warehouse    | Restricted      | 60%            | Restricted       | 10%             | Distribution hub for stations.                        |
+| Exports      | Restricted      | 40%            | Unrestricted     | Auto            | Exports wares out of the player's empire.             |
+| Imports      | Unrestricted    | Auto           | Restricted       | 50%             | Imports wares into the player's empire.               |
+| Trading      | Unrestricted    | Auto           | Unrestricted     | Auto            | Buys and sells to all.                                |
+| Empty        | Disabled        | Disabled       | Restricted       | 0%              | Prioritize emptying the storage of this station.      |
+| Fill         | Restricted      | 100%           | Disabled         | Disabled        | Prioritize filling the storage of this station.       |
 
 ### Profile Priorities
 
 #### As Buyers
 
-1. Construction - Highest
-2. Fill - Highest
-3. Imports - Variable
-4. Trading - Variable
-5. Factory - Very High
-6. Dock - High
-7. Warehouse - Medium
-8. Exports - Low
-9. Depot - Lowest
+| Rank | Profile      | Priority  |
+| ---- | ------------ | --------- |
+| 1    | Construction | Highest   |
+| 2    | Fill         | Highest   |
+| 3    | Imports      | Variable  |
+| 4    | Trading      | Variable  |
+| 5    | Factory      | Very High |
+| 6    | Dock         | High      |
+| 7    | Warehouse    | Medium    |
+| 8    | Exports      | Low       |
+| 9    | Depot        | Lowest    |
 
 #### As Sellers
 
-1. Empty - Highest
-2. Exports - Variable
-3. Trading - Variable
-4. Warehouse - High
-5. Depot - High
-6. Factory - Medium
-7. Imports - Low
-8. Dock - Lowest
+| Rank | Profile   | Priority |
+| ---- | --------- | -------- |
+| 1    | Empty     | Highest  |
+| 2    | Exports   | Variable |
+| 3    | Trading   | Variable |
+| 4    | Warehouse | High     |
+| 5    | Depot     | High     |
+| 6    | Factory   | Medium   |
+| 7    | Imports   | Low      |
+| 8    | Dock      | Lowest   |
 
-### Profile and Margins
+### Profiles (Description + Priority Margins)
 
 #### Factory
 
-- **Buy Restricted (90%)**:
-  - Empty: 90% margin
-  - Exports: 90% margin max
-  - Trading: 90% margin max
-  - Warehouse: 80% margin
-  - Depot: 80% margin
-  - Factory: 70% margin
-  - Imports: 40% margin
-  - Dock: 10% margin
-  - Fill: disabled
-- **Sell Restricted (20%)**:
-  - Fill: 80% margin
-  - Imports: 80% margin max
-  - Trading: 80% margin max
-  - Factory: 70% margin
-  - Dock: 50% margin
-  - Warehouse: 40% margin
-  - Exports: 20% margin
-  - Depot: -20% margin
-  - Empty: disabled
+Produces goods from resources and intermediate wares. Buys from all and sells to all except Depots. Internal trade only.
+
+**Buy Restricted (90%)**
+
+| Profile   | Margins  |
+| --------- | -------- |
+| Empty     | 90%      |
+| Exports   | 90% max  |
+| Trading   | 90% max  |
+| Warehouse | 80%      |
+| Depot     | 80%      |
+| Factory   | 70%      |
+| Imports   | 40%      |
+| Dock      | 10%      |
+| Fill      | disabled |
+
+**Sell Restricted (20%)**
+
+| Profile   | Margins  |
+| --------- | -------- |
+| Fill      | 80%      |
+| Imports   | 80% max  |
+| Trading   | 80% max  |
+| Factory   | 70%      |
+| Dock      | 50%      |
+| Warehouse | 40%      |
+| Exports   | 20%      |
+| Depot     | -20%     |
+| Empty     | disabled |
 
 #### Depot
 
-- **Buy Restricted (0%)**:
-  - Empty: 0% margin
-  - Exports: 0% margin max
-  - Trading: 0% margin max
-  - Warehouse: -10% margin
-  - Depot: -10% margin
-  - Factory: -20% margin
-  - Imports: -50% margin
-  - Dock: -80% margin
-  - Fill: disabled
-- **Sell Restricted (10%)**:
-  - Fill: 90% margin
-  - Imports: 90% margin max
-  - Trading: 90% margin max
-  - Factory: 80% margin
-  - Dock: 60% margin
-  - Warehouse: 50% margin
-  - Exports: 30% margin
-  - Depot: -10% margin
-  - Empty: disabled
+Intended for remote mining operations/refineries. Buys resources at lowest price. Sells to all except Depots. Internal trade only.
+
+**Buy Restricted (0%)**
+
+| Profile   | Margins  |
+| --------- | -------- |
+| Empty     | 0%       |
+| Exports   | 0% max   |
+| Trading   | 0% max   |
+| Warehouse | -10%     |
+| Depot     | -10%     |
+| Factory   | -20%     |
+| Imports   | -50%     |
+| Dock      | -80%     |
+| Fill      | disabled |
+
+**Sell Restricted (10%)**
+
+| Profile   | Margins  |
+| --------- | -------- |
+| Fill      | 90%      |
+| Imports   | 90% max  |
+| Trading   | 90% max  |
+| Factory   | 80%      |
+| Dock      | 60%      |
+| Warehouse | 50%      |
+| Exports   | 30%      |
+| Depot     | -10%     |
+| Empty     | disabled |
 
 #### Dock
 
-- **Buy Restricted (70%)**:
-  - Empty: 70% margin
-  - Exports: 70% margin max
-  - Trading: 70% margin max
-  - Warehouse: 60% margin
-  - Depot: 60% margin
-  - Factory: 50% margin
-  - Imports: 20% margin
-  - Dock: -10% margin
-  - Fill: disabled
-- **Sell Restricted (80%)**:
-  - Fill: 20% margin
-  - Imports: 20% margin max
-  - Trading: 20% margin max
-  - Factory: 10% margin
-  - Dock: -10% margin
-  - Warehouse: -20% margin
-  - Exports: -40% margin
-  - Depot: -80% margin
-  - Empty: disabled
+End users of wares (Docks/Wharves/Shipyards). Buys from all except Docks and sells to Factories. Internal trade only.
+
+**Buy Restricted (70%)**
+
+| Profile   | Margins  |
+| --------- | -------- |
+| Empty     | 70%      |
+| Exports   | 70% max  |
+| Trading   | 70% max  |
+| Warehouse | 60%      |
+| Depot     | 60%      |
+| Factory   | 50%      |
+| Imports   | 20%      |
+| Dock      | -10%     |
+| Fill      | disabled |
+
+**Sell Restricted (80%)**
+
+| Profile   | Margins  |
+| --------- | -------- |
+| Fill      | 20%      |
+| Imports   | 20% max  |
+| Trading   | 20% max  |
+| Factory   | 10%      |
+| Dock      | -10%     |
+| Warehouse | -20%     |
+| Exports   | -40%     |
+| Depot     | -80%     |
+| Empty     | disabled |
 
 #### Warehouse
 
-- **Buy Restricted (60%)**:
-  - Empty: 60% margin
-  - Exports: 60% margin max
-  - Trading: 60% margin max
-  - Warehouse: 50% margin
-  - Depot: 50% margin
-  - Factory: 40% margin
-  - Imports: 10% margin
-  - Dock: -20% margin
-  - Fill: disabled
-- **Sell Restricted (10%)**:
-  - Fill: 90% margin
-  - Imports: 90% margin max
-  - Trading: 90% margin max
-  - Factory: 80% margin
-  - Dock: 60% margin
-  - Warehouse: 50% margin
-  - Exports: 30% margin
-  - Depot: -10% margin
-  - Empty: disabled
+Distribution hub for stations. Buys from all except Docks, sells to all except Depots. Do not locate within 5 sectors of another Warehouse. Internal trade only.
+
+**Buy Restricted (60%)**
+
+| Profile   | Margins  |
+| --------- | -------- |
+| Empty     | 60%      |
+| Exports   | 60% max  |
+| Trading   | 60% max  |
+| Warehouse | 50%      |
+| Depot     | 50%      |
+| Factory   | 40%      |
+| Imports   | 10%      |
+| Dock      | -20%     |
+| Fill      | disabled |
+
+**Sell Restricted (10%)**
+
+| Profile   | Margins  |
+| --------- | -------- |
+| Fill      | 90%      |
+| Imports   | 90% max  |
+| Trading   | 90% max  |
+| Factory   | 80%      |
+| Dock      | 60%      |
+| Warehouse | 50%      |
+| Exports   | 30%      |
+| Depot     | -10%     |
+| Empty     | disabled |
 
 #### Exports
 
-- **Buy Restricted (40%)**:
-  - Empty: 40% margin
-  - Exports: 40% margin max
-  - Trading: 40% margin max
-  - Warehouse: 30% margin
-  - Depot: 30% margin
-  - Factory: 20% margin
-  - Imports: -10% margin
-  - Dock: -40% margin
-  - Fill: disabled
-- **Sell Unrestricted (auto)**:
-  - Fill: 100% margin
-  - Imports: 100% margin max
-  - Trading: 100% margin max
-  - Factory: 90% margin
-  - Dock: 70% margin
-  - Warehouse: 60% margin
-  - Exports: 40% margin
-  - Depot: 0% margin
-  - Empty: disabled
+Exports wares out of the player's empire. Buys from all except Imports and Docks, sells to all. Buys internally, sells unrestricted on auto pricing (storage based).
+
+**Buy Restricted (40%)**
+
+| Profile   | Margins  |
+| --------- | -------- |
+| Empty     | 40%      |
+| Exports   | 40% max  |
+| Trading   | 40% max  |
+| Warehouse | 30%      |
+| Depot     | 30%      |
+| Factory   | 20%      |
+| Imports   | -10%     |
+| Dock      | -40%     |
+| Fill      | disabled |
+
+**Sell Unrestricted (auto)**
+
+| Profile   | Margins  |
+| --------- | -------- |
+| Fill      | 100%     |
+| Imports   | 100% max |
+| Trading   | 100% max |
+| Factory   | 90%      |
+| Dock      | 70%      |
+| Warehouse | 60%      |
+| Exports   | 40%      |
+| Depot     | 0%       |
+| Empty     | disabled |
 
 #### Imports
 
-- **Buy Unrestricted (auto)**:
-  - Empty: 100% margin
-  - Exports: 100% margin max
-  - Trading: 100% margin max
-  - Warehouse: 90% margin
-  - Depot: 90% margin
-  - Factory: 80% margin
-  - Imports: 50% margin
-  - Dock: 20% margin
-  - Fill: disabled
-- **Sell Restricted (50%)**:
-  - Fill: 50% margin
-  - Imports: 50% margin max
-  - Trading: 50% margin max
-  - Factory: 40% margin
-  - Dock: 20% margin
-  - Warehouse: 10% margin
-  - Exports: -10% margin
-  - Depot: -50% margin
-  - Empty: disabled
+Imports wares into the player's empire. Buys from all and sells to all except Exports and Depots. Buys unrestricted on auto pricing (storage based), sells internally.
+
+**Buy Unrestricted (auto)**
+
+| Profile   | Percentage |
+| --------- | ---------- |
+| Empty     | 100%       |
+| Exports   | 100% max   |
+| Trading   | 100% max   |
+| Warehouse | 90%        |
+| Depot     | 90%        |
+| Factory   | 80%        |
+| Imports   | 50%        |
+| Dock      | 20%        |
+| Fill      | disabled   |
+
+**Sell Restricted (50%)**
+
+| Profile   | Percentage |
+| --------- | ---------- |
+| Fill      | 50%        |
+| Imports   | 50% max    |
+| Trading   | 50% max    |
+| Factory   | 40%        |
+| Dock      | 20%        |
+| Warehouse | 10%        |
+| Exports   | -10%       |
+| Depot     | -50%       |
+| Empty     | disabled   |
 
 #### Trading
 
-- **Buy Unrestricted (auto)**:
-  - Empty: 100% margin
-  - Exports: 100% margin max
-  - Trading: 100% margin max
-  - Warehouse: 90% margin
-  - Depot: 90% margin
-  - Factory: 80% margin
-  - Imports: 50% margin
-  - Dock: 20% margin
-  - Fill: disabled
-- **Sell Unrestricted (auto)**:
-  - Fill: 100% margin
-  - Imports: 100% margin max
-  - Trading: 100% margin max
-  - Factory: 90% margin
-  - Dock: 70% margin
-  - Warehouse: 60% margin
-  - Exports: 40% margin
-  - Depot: 0% margin
-  - Empty: disabled
+Buys and sells to all. Unrestricted buying and selling on auto pricing (storage based).
+
+**Buy Unrestricted (auto)**
+
+| Profile   | Percentage |
+| --------- | ---------- |
+| Empty     | 100%       |
+| Exports   | 100% max   |
+| Trading   | 100% max   |
+| Warehouse | 90%        |
+| Depot     | 90%        |
+| Factory   | 80%        |
+| Imports   | 50%        |
+| Dock      | 20%        |
+| Fill      | disabled   |
+
+**Sell Unrestricted (auto)**
+
+| Profile   | Percentage |
+| --------- | ---------- |
+| Fill      | 100%       |
+| Imports   | 100% max   |
+| Trading   | 100% max   |
+| Factory   | 90%        |
+| Dock      | 70%        |
+| Warehouse | 60%        |
+| Exports   | 40%        |
+| Depot     | 0%         |
+| Empty     | disabled   |
 
 #### Empty
 
-- **Buy Restricted (disabled)**:
-  - Empty: disabled
-  - Exports: disabled
-  - Trading: disabled
-  - Warehouse: disabled
-  - Depot: disabled
-  - Factory: disabled
-  - Imports: disabled
-  - Dock: disabled
-  - Fill: disabled
-- **Sell Restricted (0%)**:
-  - Fill: 100% margin
-  - Imports: 100% margin max
-  - Trading: 100% margin max
-  - Factory: 90% margin
-  - Dock: 70% margin
-  - Warehouse: 60% margin
-  - Exports: 40% margin
-  - Depot: 0% margin
-  - Empty: disabled
+Prioritize emptying the storage of this station. Sells to all. Buys from none. Internal trade only.
+
+**Buy Restricted (disabled)**
+
+| Profile  | Percentage |
+| -------- | ---------- |
+| All buys | disabled   |
+
+**Sell Restricted (0%)**
+
+| Profile   | Percentage |
+| --------- | ---------- |
+| Fill      | 100%       |
+| Imports   | 100% max   |
+| Trading   | 100% max   |
+| Factory   | 90%        |
+| Dock      | 70%        |
+| Warehouse | 60%        |
+| Exports   | 40%        |
+| Depot     | 0%         |
+| Empty     | disabled   |
 
 #### Fill
 
-- **Buy Restricted (100%)**:
-  - Empty: 100% margin
-  - Exports: 100% margin max
-  - Trading: 100% margin max
-  - Warehouse: 90% margin
-  - Depot: 90% margin
-  - Factory: 80% margin
-  - Imports: 50% margin
-  - Dock: 20% margin
-  - Fill: disabled
-- **Sell Restricted (disabled)**:
-  - Fill: disabled
-  - Imports: disabled
-  - Trading: disabled
-  - Factory: disabled
-  - Dock: disabled
-  - Warehouse: disabled
-  - Exports: disabled
-  - Depot: disabled
-  - Empty: disabled
+Prioritize filling the storage of this station. Buys from all. Sells to none. Internal trade only.
+
+**Buy Restricted (100%)**
+
+| Profile   | Percentage |
+| --------- | ---------- |
+| Empty     | 100%       |
+| Exports   | 100% max   |
+| Trading   | 100% max   |
+| Warehouse | 90%        |
+| Depot     | 90%        |
+| Factory   | 80%        |
+| Imports   | 50%        |
+| Dock      | 20%        |
+| Fill      | disabled   |
+
+**Sell Restricted (disabled)**
+
+| Profile   | Percentage |
+| --------- | ---------- |
+| All sells | disabled   |

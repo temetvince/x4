@@ -57,7 +57,7 @@ This repository includes my personal station buy/sell profiles for [Kuertee's Tr
 
 ## Station Profiles for Vanilla
 
-This repository includes my personal station buy/sell profiles for the vanilla game. Please see the [StationProfiles.md](https://github.com/temetvince/x4/blob/main/StationProfiles.md) file for instructions on how to use them. You may also be interested in the _Station Profiles Wares_ printout or spreadsheet available in this repositiory.
+This repository includes my personal station buy/sell profiles for the vanilla game. Please see the [Station Profiles](https://github.com/temetvince/x4/blob/main/station_profiles.md) file for instructions on how to use them. You may also be interested in the _Station Profiles Wares_ printout or spreadsheet available in this repositiory.
 
 ## Exe Flags
 
