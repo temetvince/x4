@@ -52,7 +52,7 @@
   --   - Depot           -0.2 margin
   --   - Empty           disabled
   --
--- Depot: Buys resources at lowest price. Sells to all except Depots. Internal trade only.
+-- Depot: Intended for remote mining operations/refineries. Buys resources at lowest price. Sells to all except Depots. Internal trade only.
   -- Buy Restricted (0.0) From:
   --   - Empty           0.0 margin
   --   - Exports         0.0 margin max
@@ -273,7 +273,7 @@ function ModLua.init()
 	 	name = "Depot",
     shortName = "DT",
 	 	callToAction = "Set Depot profile",
-	 	mouseOverText = "Buys resources at lowest price. Sells to all except Depots. Internal trade only.",
+	 	mouseOverText = "Intended for remote mining operations/refineries. Buys resources at lowest price. Sells to all except Depots. Internal trade only.",
 	 	summary = string.format("Buy: %s %s. Sell: %s, %s.", "0%", text_restricted, "10%", text_restricted),
 	 	buy = {
 	 		isoffered = true,

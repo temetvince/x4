@@ -1,12 +1,13 @@
 # Click [HERE](https://github.com/temetvince/x4/archive/refs/heads/main.zip "The equivalent of clicking the Code button then Download ZIP") to download this repository
 
-*Note: This README is lengthy! Simply use the Table of Contents below to navigate what interests you most.*
+_Note: This README is lengthy! Simply use the Table of Contents below to navigate what interests you most._
 
 ## Table of Contents
 
 - [Helpful Links](#helpful-links)
 - [ReShade Preset](#reshade-preset)
 - [Station Profiles for Kuertee's Trade Analytics Mod](#station-profiles-for-kuertees-trade-analytics-mod)
+- [Station Profiles for Vanilla](#station-profiles-for-vanilla)
 - [Exe Flags](#exe-flags)
 - [Disable Protected UI Mode (IMPORTANT)](#disable-protected-ui-mode-important)
 - [Enable Tooltips (IMPORTANT)](#enable-tooltips-important)
@@ -51,7 +52,12 @@ This repository includes my personal [ReShade](https://reshade.me/) preset for X
 ## Station Profiles for Kuertee's Trade Analytics Mod
 
 This repository includes my personal station buy/sell profiles for [Kuertee's Trade Analytics Mod](https://www.nexusmods.com/x4foundations/mods/764)
+
 - Merge the _kuertee_ui_trade_analytics_ folder from this repository into your existing _extensions_ folder, replacing the single _kuertee_trade_analytics_profiles.lua_ file, located at _extensions/kuertee_ui_trade_analytics/ui/kuertee_trade_analytics_profiles.lua_
+
+## Station Profiles for Vanilla
+
+This repository includes my personal station buy/sell profiles for the vanilla game. Please see the [StationProfiles.md](https://github.com/temetvince/x4/blob/main/StationProfiles.md) file for instructions on how to use them. You may also be interested in the _Station Profiles Wares_ printout or spreadsheet available in this repositiory.
 
 ## Exe Flags
 
@@ -119,7 +125,7 @@ You can hover your mouse over a ware in the trade menu and press the _t_ key to 
 
 ## Mods (Choose Your Own Adventure)
 
-*Note: Some mods may default to off. Make sure to enable them by going into **Settings** and then **Extensions** in game.*
+_Note: Some mods may default to off. Make sure to enable them by going into **Settings** and then **Extensions** in game._
 
 ### Critical
 
@@ -163,7 +169,7 @@ You can hover your mouse over a ware in the trade menu and press the _t_ key to 
 - [Classic Mode](https://steamcommunity.com/sharedfiles/filedetails/?id=2804421498) - More challenging gameplay
 - [Variety and Rebalance (VRO)](https://sites.google.com/view/vrowiki/Home) - Focuses on ship and weapon balance
 - [Reemergence (RE)](https://www.nexusmods.com/x4foundations/mods/1166) - Adds new features, ships, factions, and map. Requires VRO - Check the _#faq_ on their [Discord](https://discord.gg/pEQEKCpKDC)!
-  - *Note: I have an advanced [custom gamestart](https://github.com/temetvince/x4/blob/main/RE%20All%20DLC%20Gamestart.xml) for Reemergence that requires all DLC. Install to your **Egosoft/X4/{Your Steam ID}/customgamestart** folder and import it as a Custom Creative Gamestart in game*
+  - _Note: I have an advanced [custom gamestart](https://github.com/temetvince/x4/blob/main/RE%20All%20DLC%20Gamestart.xml) for Reemergence that requires all DLC. Install to your **Egosoft/X4/{Your Steam ID}/customgamestart** folder and import it as a Custom Creative Gamestart in game_
 
 ### Textures
 
@@ -178,7 +184,7 @@ Get them from DeadAir's GitHub. **READ THE README.md FILES - THEY ARE IMPORTANT!
 - [DeadAir Scripts](https://github.com/DeadAirRT/deadair_scripts)
 - [DeadAir Eco](https://github.com/DeadAirRT/deadair_eco)
 
-*NOTE: You MUST rename the folders after downloading them. For example, the DeadAir Scripts folder must be renamed from **deadair_scripts-master** to **deadair_scripts**. The same goes for DeadAir Eco, from **deadair_eco-master** to **deadair_eco**.*
+_NOTE: You MUST rename the folders after downloading them. For example, the DeadAir Scripts folder must be renamed from **deadair_scripts-master** to **deadair_scripts**. The same goes for DeadAir Eco, from **deadair_eco-master** to **deadair_eco**._
 
 For every new game you start, once in game, open the _Options Menu_ by pressing _ESC_ and then go to _Extension Options_ and then _DA Mod Main Menu_ to access DeadAir's scripts. Here are some recommended settings:
 
@@ -208,7 +214,7 @@ For every new game you start, once in game, open the _Options Menu_ by pressing 
   - Enable the _Allow Build in Friendly Owned Sector_ option
   - Click the _Activate DA God for Remaining X Valid Factions_ button
 
-*Note: The **DA Information Menus** are quite useful and include an in game station calculator.*
+_Note: The **DA Information Menus** are quite useful and include an in game station calculator._
 
 ## Weapon Characteristics (Vanilla)
 
@@ -226,7 +232,7 @@ Dumbfire for speed, Tracking for effectiveness, and Torpedos for power
   - Torpedo - excellent vs capitals/stations
     - Great on Boron Threshers due to cargo capacity
 
-*Note: When equiping S/M ships with missile launchers, when fighting against other S/M ships, missile lauchers mixed with other weapons will rarely fire missiles. They work fine against L/XL ships and stations or when the loadout has only missile launchers.*
+_Note: When equiping S/M ships with missile launchers, when fighting against other S/M ships, missile lauchers mixed with other weapons will rarely fire missiles. They work fine against L/XL ships and stations or when the loadout has only missile launchers._
 
 ### Turrets
 

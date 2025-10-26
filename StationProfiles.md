@@ -1,0 +1,356 @@
+# Station Profiles
+
+## Ware Price Ranges and Specifications
+
+This manual provides detailed information on various wares, including their price ranges, types, volumes, and average prices. Prices are listed as a percentage progression from 0% to 100%, with corresponding credit values (cr) and additional details.
+
+### Ware Listings
+
+| Ware                  | 0%   | 10%  | 20%  | 30%  | 40%  | 50%  | 60%  | 70%  | 80%  | 90%  | 100% | Group          | Type      | Volume (m³) | Min (cr) | Max (cr) | Average (cr) |
+| --------------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | -------------- | --------- | ----------- | -------- | -------- | ------------ |
+| Advanced Composites   | 432  | 454  | 475  | 497  | 518  | 540  | 562  | 583  | 605  | 626  | 648  | hightech       | container | 32          | 432      | 648      | 540          |
+| Advanced Electronics  | 710  | 771  | 832  | 892  | 953  | 1014 | 1075 | 1136 | 1196 | 1257 | 1318 | shiptech       | container | 30          | 710      | 1318     | 1014         |
+| Antimatter Cells      | 121  | 137  | 153  | 169  | 185  | 202  | 218  | 234  | 250  | 266  | 282  | refined        | container | 18          | 121      | 282      | 202          |
+| Antimatter Converters | 248  | 269  | 291  | 312  | 333  | 355  | 376  | 397  | 418  | 440  | 461  | shiptech       | container | 10          | 248      | 461      | 354          |
+| BoFu                  | 61   | 69   | 77   | 85   | 93   | 102  | 110  | 118  | 126  | 134  | 142  | food           | container | 4           | 61       | 142      | 101          |
+| BoGas                 | 44   | 50   | 56   | 61   | 67   | 73   | 79   | 85   | 90   | 96   | 102  | refined        | container | 4           | 44       | 102      | 73           |
+| Chelt Meat            | 31   | 35   | 39   | 43   | 47   | 52   | 56   | 60   | 64   | 68   | 72   | agricultural   | container | 7           | 31       | 72       | 51           |
+| Claytronics           | 1734 | 1795 | 1856 | 1918 | 1979 | 2040 | 2101 | 2162 | 2224 | 2285 | 2346 | shiptech       | container | 24          | 1734     | 2346     | 2040         |
+| Computronic Substrate | 7452 | 7618 | 7783 | 7949 | 8114 | 8280 | 8446 | 8611 | 8777 | 8942 | 9108 | hightech       | container | 50          | 7452     | 9108     | 8280         |
+| Drone Components      | 685  | 731  | 776  | 822  | 868  | 914  | 959  | 1005 | 1051 | 1096 | 1142 | shiptech       | container | 30          | 685      | 1142     | 914          |
+| Energy Cells          | 10   | 11   | 12   | 14   | 15   | 16   | 17   | 18   | 20   | 21   | 22   | energy         | container | 1           | 10       | 22       | 16           |
+| Engine Parts          | 128  | 139  | 150  | 161  | 172  | 183  | 193  | 204  | 215  | 226  | 237  | hightech       | container | 15          | 128      | 237      | 182          |
+| Field Coils           | 247  | 280  | 313  | 346  | 379  | 412  | 444  | 477  | 510  | 543  | 576  | shiptech       | container | 15          | 247      | 576      | 412          |
+| Food Rations          | 12   | 14   | 15   | 17   | 19   | 21   | 22   | 24   | 26   | 27   | 29   | food           | container | 1           | 12       | 29       | 21           |
+| Graphene              | 100  | 113  | 127  | 140  | 153  | 167  | 180  | 193  | 206  | 220  | 233  | refined        | container | 20          | 100      | 233      | 166          |
+| Helium                | 37   | 38   | 40   | 41   | 43   | 44   | 45   | 47   | 48   | 50   | 51   | gases          | liquid    | 6           | 37       | 51       | 44           |
+| Hydrogen              | 49   | 51   | 53   | 54   | 56   | 58   | 60   | 62   | 63   | 65   | 67   | gases          | liquid    | 6           | 49       | 67       | 58           |
+| Hull Parts            | 146  | 159  | 171  | 184  | 196  | 209  | 222  | 234  | 247  | 259  | 272  | hightech       | container | 12          | 146      | 272      | 209          |
+| Ice                   | 26   | 27   | 28   | 29   | 30   | 31   | 31   | 32   | 33   | 34   | 35   | ices           | solid     | 8           | 26       | 35       | 30           |
+| Maja Dust             | 94   | 117  | 140  | 163  | 186  | 209  | 231  | 254  | 277  | 300  | 323  | pharmaceutical | container | 6           | 94       | 323      | 208          |
+| Maja Snails           | 35   | 40   | 44   | 49   | 53   | 58   | 63   | 67   | 72   | 76   | 81   | agricultural   | container | 6           | 35       | 81       | 58           |
+| Meat                  | 29   | 33   | 37   | 41   | 45   | 49   | 52   | 56   | 60   | 64   | 68   | agricultural   | container | 6           | 29       | 68       | 48           |
+| Medical Supplies      | 43   | 48   | 52   | 57   | 61   | 66   | 71   | 75   | 80   | 84   | 89   | pharmaceutical | container | 2           | 43       | 89       | 66           |
+| Metallic Microlattice | 42   | 44   | 45   | 47   | 48   | 50   | 51   | 53   | 54   | 56   | 57   | hightech       | container | 1           | 42       | 57       | 50           |
+| Methane               | 41   | 42   | 44   | 45   | 47   | 48   | 49   | 51   | 52   | 54   | 55   | gases          | liquid    | 6           | 41       | 55       | 48           |
+| Microchips            | 805  | 834  | 862  | 891  | 919  | 948  | 976  | 1005 | 1033 | 1062 | 1090 | hightech       | container | 22          | 805      | 1090     | 948          |
+| Missile Components    | 6    | 7    | 7    | 8    | 9    | 10   | 10   | 11   | 12   | 12   | 13   | shiptech       | container | 2           | 6        | 13       | 9            |
+| Nividium              | 434  | 449  | 465  | 480  | 495  | 511  | 526  | 541  | 556  | 572  | 587  | minerals       | solid     | 10          | 434      | 587      | 510          |
+| Nostrop Oil           | 20   | 23   | 25   | 28   | 31   | 34   | 36   | 39   | 42   | 44   | 47   | food           | container | 1           | 20       | 47       | 34           |
+| Ore                   | 43   | 45   | 46   | 48   | 49   | 51   | 52   | 54   | 55   | 57   | 58   | minerals       | solid     | 10          | 43       | 58       | 50           |
+| Plasma Conductors     | 769  | 820  | 872  | 923  | 974  | 1026 | 1077 | 1128 | 1179 | 1231 | 1282 | hightech       | container | 32          | 769      | 1282     | 1026         |
+| Plankton              | 11   | 12   | 14   | 15   | 17   | 18   | 19   | 21   | 22   | 24   | 25   | agricultural   | container | 1           | 11       | 25       | 18           |
+| Protein Paste         | 57   | 65   | 72   | 80   | 88   | 96   | 103  | 111  | 119  | 126  | 134  | agricultural   | container | 4           | 57       | 134      | 96           |
+| Quantum Tubes         | 225  | 240  | 255  | 270  | 285  | 300  | 315  | 330  | 345  | 360  | 375  | hightech       | container | 22          | 225      | 375      | 300          |
+| Refined Metals        | 89   | 101  | 113  | 124  | 136  | 148  | 160  | 172  | 183  | 195  | 207  | refined        | container | 14          | 89       | 207      | 148          |
+| Scanning Arrays       | 842  | 884  | 926  | 969  | 1011 | 1053 | 1095 | 1137 | 1180 | 1222 | 1264 | hightech       | container | 38          | 842      | 1264     | 1053         |
+| Scrap Metal           | 318  | 329  | 341  | 352  | 363  | 375  | 386  | 397  | 408  | 420  | 431  | refined        | solid     | 10          | 318      | 431      | 375          |
+| Scruffin Fruit        | 17   | 19   | 22   | 24   | 26   | 29   | 31   | 33   | 35   | 38   | 40   | agricultural   | container | 6           | 17       | 40       | 28           |
+| Shield Components     | 113  | 128  | 143  | 158  | 173  | 189  | 204  | 219  | 234  | 249  | 264  | shiptech       | container | 10          | 113      | 264      | 188          |
+| Silicon               | 111  | 115  | 119  | 123  | 127  | 131  | 134  | 138  | 142  | 146  | 150  | minerals       | solid     | 10          | 111      | 150      | 130          |
+| Silicon Carbide       | 1202 | 1245 | 1287 | 1330 | 1372 | 1415 | 1457 | 1500 | 1542 | 1585 | 1627 | hightech       | container | 20          | 1202     | 1627     | 1414         |
+| Silicon Wafers        | 180  | 204  | 228  | 252  | 276  | 300  | 323  | 347  | 371  | 395  | 419  | refined        | container | 18          | 180      | 419      | 299          |
+| Smart Chips           | 46   | 48   | 51   | 53   | 55   | 58   | 60   | 62   | 64   | 67   | 69   | shiptech       | container | 2           | 46       | 69       | 57           |
+| Soja Beans            | 40   | 45   | 51   | 56   | 61   | 67   | 72   | 77   | 82   | 88   | 93   | agricultural   | container | 5           | 40       | 93       | 67           |
+| Soja Husk             | 19   | 22   | 24   | 27   | 29   | 32   | 35   | 37   | 40   | 42   | 45   | food           | container | 1           | 19       | 45       | 32           |
+| Spacefuel             | 60   | 75   | 89   | 104  | 119  | 134  | 148  | 163  | 178  | 192  | 207  | pharmaceutical | container | 2           | 60       | 207      | 133          |
+| Spaceweed             | 75   | 93   | 111  | 130  | 148  | 166  | 184  | 202  | 221  | 239  | 257  | pharmaceutical | container | 3           | 75       | 257      | 166          |
+| Spices                | 12   | 14   | 15   | 17   | 18   | 20   | 22   | 23   | 25   | 26   | 28   | agricultural   | container | 3           | 12       | 28       | 20           |
+| Stimulants            | 153  | 190  | 228  | 265  | 303  | 340  | 377  | 415  | 452  | 490  | 527  | pharmaceutical | container | 12          | 153      | 527      | 340          |
+| Sunrise Flowers       | 48   | 54   | 61   | 67   | 74   | 80   | 86   | 93   | 99   | 106  | 112  | agricultural   | container | 5           | 48       | 112      | 80           |
+| Superfluid Coolant    | 90   | 102  | 114  | 126  | 138  | 151  | 163  | 175  | 187  | 199  | 211  | refined        | container | 16          | 90       | 211      | 150          |
+| Swamp Plant           | 50   | 57   | 63   | 70   | 77   | 84   | 90   | 97   | 104  | 110  | 117  | agricultural   | container | 6           | 50       | 117      | 84           |
+| Teladianium           | 121  | 137  | 153  | 170  | 186  | 202  | 218  | 234  | 251  | 267  | 283  | refined        | container | 16          | 121      | 283      | 202          |
+| Terran MRE            | 32   | 36   | 41   | 45   | 49   | 54   | 58   | 62   | 66   | 71   | 75   | food           | container | 2           | 32       | 75       | 54           |
+| Turret Components     | 164  | 186  | 208  | 230  | 252  | 274  | 295  | 317  | 339  | 361  | 383  | shiptech       | container | 20          | 164      | 383      | 273          |
+| Water                 | 32   | 36   | 40   | 45   | 49   | 53   | 57   | 61   | 66   | 70   | 74   | water          | container | 6           | 32       | 74       | 53           |
+| Weapon Components     | 171  | 194  | 217  | 239  | 262  | 285  | 308  | 331  | 353  | 376  | 399  | shiptech       | container | 20          | 171      | 399      | 285          |
+| Wheat                 | 19   | 22   | 24   | 27   | 29   | 32   | 34   | 37   | 39   | 42   | 44   | agricultural   | container | 4           | 19       | 44       | 31           |
+
+## Trade Profiles
+
+### Using Trade Profiles in X4: Foundations
+
+In X4, you can manually set buy and sell prices for a station's resources, intermediates, products, and trade wares by utilizing the buy and sell percentages associated with each trade profile.
+
+1. **Select the Trade Profile**: Choose the appropriate trade profile for your station (e.g., Factory, Depot, etc.) based on its role and priorities.
+
+1. **Determine the Buy/Sell Percentage**: Refer to the profile's buy or sell percentage (e.g., Factory buys at 90% and sells at 20%).
+
+1. **Lookup the Price from the Table**: Using the ware table, find the price for the ware that corresponds to the selected percentage (e.g., for Advanced Composites at 90%, the price is 626 cr).
+
+1. **Enter in Game**: In the station's trade settings, manually input the calculated buy and sell prices for each ware category (resources, intermediates, products, trade wares), and ensure you also set either restricted (your own faction) or unrestricted (all factions) trading as per the station profile.
+
+This method allows you to set precise price points based on the profile's intended behavior, ensuring your station operates within the defined trade strategy while leveraging the ware table's data for accuracy.
+
+### Profile and Description
+
+#### Factory
+
+- **Description**: Produces goods from resources and intermediate wares. Buys from all and sells to all except Depots. Internal trade only.
+
+#### Depot
+
+- **Description**: Intended for remote mining operations/refineries. Buys resources at lowest price. Sells to all except Depots. Internal trade only.
+
+#### Dock
+
+- **Description**: End users of wares (Docks/Wharves/Shipyards). Buys from all except Docks and sells to Factories. Internal trade only.
+
+#### Warehouse
+
+- **Description**: Distribution hub for stations. Buys from all except Docks, sells to all except Depots. Do not locate within 5 sectors of another Warehouse. Internal trade only.
+
+#### Exports
+
+- **Description**: Exports wares out of the player's empire. Buys from all except Imports and Docks, sells to all. Buys internally, sells unrestricted on auto pricing (storage based).
+
+#### Imports
+
+- **Description**: Imports wares into the player's empire. Buys from all and sells to all except Exports and Depots. Buys unrestricted on auto pricing (storage based), sells internally.
+
+#### Trading
+
+- **Description**: Buys and sells to all. Unrestricted buying and selling on auto pricing (storage based).
+
+#### Empty
+
+- **Description**: Prioritize emptying the storage of this station. Sells to all. Buys from none. Internal trade only.
+
+#### Fill
+
+- **Description**: Prioritize filling the storage of this station. Buys from all. Sells to none. Internal trade only.
+
+### Profile Priorities
+
+#### As Buyers
+
+1. Construction - Highest
+2. Fill - Highest
+3. Imports - Variable
+4. Trading - Variable
+5. Factory - Very High
+6. Dock - High
+7. Warehouse - Medium
+8. Exports - Low
+9. Depot - Lowest
+
+#### As Sellers
+
+1. Empty - Highest
+2. Exports - Variable
+3. Trading - Variable
+4. Warehouse - High
+5. Depot - High
+6. Factory - Medium
+7. Imports - Low
+8. Dock - Lowest
+
+### Profile and Margins
+
+#### Factory
+
+- **Buy Restricted (90%)**:
+  - Empty: 90% margin
+  - Exports: 90% margin max
+  - Trading: 90% margin max
+  - Warehouse: 80% margin
+  - Depot: 80% margin
+  - Factory: 70% margin
+  - Imports: 40% margin
+  - Dock: 10% margin
+  - Fill: disabled
+- **Sell Restricted (20%)**:
+  - Fill: 80% margin
+  - Imports: 80% margin max
+  - Trading: 80% margin max
+  - Factory: 70% margin
+  - Dock: 50% margin
+  - Warehouse: 40% margin
+  - Exports: 20% margin
+  - Depot: -20% margin
+  - Empty: disabled
+
+#### Depot
+
+- **Buy Restricted (0%)**:
+  - Empty: 0% margin
+  - Exports: 0% margin max
+  - Trading: 0% margin max
+  - Warehouse: -10% margin
+  - Depot: -10% margin
+  - Factory: -20% margin
+  - Imports: -50% margin
+  - Dock: -80% margin
+  - Fill: disabled
+- **Sell Restricted (10%)**:
+  - Fill: 90% margin
+  - Imports: 90% margin max
+  - Trading: 90% margin max
+  - Factory: 80% margin
+  - Dock: 60% margin
+  - Warehouse: 50% margin
+  - Exports: 30% margin
+  - Depot: -10% margin
+  - Empty: disabled
+
+#### Dock
+
+- **Buy Restricted (70%)**:
+  - Empty: 70% margin
+  - Exports: 70% margin max
+  - Trading: 70% margin max
+  - Warehouse: 60% margin
+  - Depot: 60% margin
+  - Factory: 50% margin
+  - Imports: 20% margin
+  - Dock: -10% margin
+  - Fill: disabled
+- **Sell Restricted (80%)**:
+  - Fill: 20% margin
+  - Imports: 20% margin max
+  - Trading: 20% margin max
+  - Factory: 10% margin
+  - Dock: -10% margin
+  - Warehouse: -20% margin
+  - Exports: -40% margin
+  - Depot: -80% margin
+  - Empty: disabled
+
+#### Warehouse
+
+- **Buy Restricted (60%)**:
+  - Empty: 60% margin
+  - Exports: 60% margin max
+  - Trading: 60% margin max
+  - Warehouse: 50% margin
+  - Depot: 50% margin
+  - Factory: 40% margin
+  - Imports: 10% margin
+  - Dock: -20% margin
+  - Fill: disabled
+- **Sell Restricted (10%)**:
+  - Fill: 90% margin
+  - Imports: 90% margin max
+  - Trading: 90% margin max
+  - Factory: 80% margin
+  - Dock: 60% margin
+  - Warehouse: 50% margin
+  - Exports: 30% margin
+  - Depot: -10% margin
+  - Empty: disabled
+
+#### Exports
+
+- **Buy Restricted (40%)**:
+  - Empty: 40% margin
+  - Exports: 40% margin max
+  - Trading: 40% margin max
+  - Warehouse: 30% margin
+  - Depot: 30% margin
+  - Factory: 20% margin
+  - Imports: -10% margin
+  - Dock: -40% margin
+  - Fill: disabled
+- **Sell Unrestricted (auto)**:
+  - Fill: 100% margin
+  - Imports: 100% margin max
+  - Trading: 100% margin max
+  - Factory: 90% margin
+  - Dock: 70% margin
+  - Warehouse: 60% margin
+  - Exports: 40% margin
+  - Depot: 0% margin
+  - Empty: disabled
+
+#### Imports
+
+- **Buy Unrestricted (auto)**:
+  - Empty: 100% margin
+  - Exports: 100% margin max
+  - Trading: 100% margin max
+  - Warehouse: 90% margin
+  - Depot: 90% margin
+  - Factory: 80% margin
+  - Imports: 50% margin
+  - Dock: 20% margin
+  - Fill: disabled
+- **Sell Restricted (50%)**:
+  - Fill: 50% margin
+  - Imports: 50% margin max
+  - Trading: 50% margin max
+  - Factory: 40% margin
+  - Dock: 20% margin
+  - Warehouse: 10% margin
+  - Exports: -10% margin
+  - Depot: -50% margin
+  - Empty: disabled
+
+#### Trading
+
+- **Buy Unrestricted (auto)**:
+  - Empty: 100% margin
+  - Exports: 100% margin max
+  - Trading: 100% margin max
+  - Warehouse: 90% margin
+  - Depot: 90% margin
+  - Factory: 80% margin
+  - Imports: 50% margin
+  - Dock: 20% margin
+  - Fill: disabled
+- **Sell Unrestricted (auto)**:
+  - Fill: 100% margin
+  - Imports: 100% margin max
+  - Trading: 100% margin max
+  - Factory: 90% margin
+  - Dock: 70% margin
+  - Warehouse: 60% margin
+  - Exports: 40% margin
+  - Depot: 0% margin
+  - Empty: disabled
+
+#### Empty
+
+- **Buy Restricted (disabled)**:
+  - Empty: disabled
+  - Exports: disabled
+  - Trading: disabled
+  - Warehouse: disabled
+  - Depot: disabled
+  - Factory: disabled
+  - Imports: disabled
+  - Dock: disabled
+  - Fill: disabled
+- **Sell Restricted (0%)**:
+  - Fill: 100% margin
+  - Imports: 100% margin max
+  - Trading: 100% margin max
+  - Factory: 90% margin
+  - Dock: 70% margin
+  - Warehouse: 60% margin
+  - Exports: 40% margin
+  - Depot: 0% margin
+  - Empty: disabled
+
+#### Fill
+
+- **Buy Restricted (100%)**:
+  - Empty: 100% margin
+  - Exports: 100% margin max
+  - Trading: 100% margin max
+  - Warehouse: 90% margin
+  - Depot: 90% margin
+  - Factory: 80% margin
+  - Imports: 50% margin
+  - Dock: 20% margin
+  - Fill: disabled
+- **Sell Restricted (disabled)**:
+  - Fill: disabled
+  - Imports: disabled
+  - Trading: disabled
+  - Factory: disabled
+  - Dock: disabled
+  - Warehouse: disabled
+  - Exports: disabled
+  - Depot: disabled
+  - Empty: disabled
