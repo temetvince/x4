@@ -1,10 +1,35 @@
 # Station Profiles
 
-## Ware Price Ranges and Specifications
+## Using Station Profiles in X4: Foundations
 
-The following table lists the wares available in X4 along with their price ranges at different percentages, group classifications, types, volumes, and minimum, maximum, and average prices. Reference this table when setting up station profiles.
+In X4, you can manually set buy and sell prices for a station's resources, intermediates, products, and trade wares by utilizing the buy and sell percentages associated with a "station profile". This method allows you to coalesce percentage based ware pricing into defined profiles which perform certain roles.
 
-### Ware Listings
+1. **Select the Station Profile**: Choose the appropriate station profile for your station (e.g., Factory, Depot, etc.) based on its role and priorities.
+
+1. **Determine the Buy/Sell Percentage**: Refer to the profile's buy or sell percentage (e.g., Factory buys at 90% and sells at 20%).
+
+1. **Lookup the Price from the Table**: Using the ware table, find the price for the ware that corresponds to the selected percentage (e.g., for Advanced Composites at 90%, the price is 626 cr).
+
+1. **Enter in Game**: In the station's trade settings, manually input the calculated buy and sell prices for each ware category (resources, intermediates, products, trade wares), and ensure you also set either restricted (your own faction) or unrestricted (all factions) trading as per the station profile.
+
+## Station Profile Details
+
+### Profiles Overview
+
+| Profile Name | Buy Restriction | Buy Percentage | Sell Restriction | Sell Percentage | Description                                           |
+| ------------ | --------------- | -------------- | ---------------- | --------------- | ----------------------------------------------------- |
+| Factory      | Restricted      | 90%            | Restricted       | 20%             | Produces goods from resources and intermediate wares. |
+| Depot        | Restricted      | 0%             | Restricted       | 10%             | Intended for remote mining operations/refineries.     |
+| Dock         | Restricted      | 80%            | Restricted       | 80%             | End users of wares (Docks/Wharves/Shipyards).         |
+| Extender     | Restricted      | 40%            | Restricted       | 70%             | Extends ranges to Factories, Docks, and Construction. |
+| Warehouse    | Restricted      | 60%            | Restricted       | 10%             | Distribution hub for stations.                        |
+| Exports      | Restricted      | 40%            | Unrestricted     | Auto            | Exports wares out of the player's empire.             |
+| Imports      | Unrestricted    | Auto           | Restricted       | 50%             | Imports wares into the player's empire.               |
+| Trading      | Unrestricted    | Auto           | Unrestricted     | Auto            | Buys and sells to all.                                |
+| Empty        | Disabled        | Disabled       | Restricted       | 0%              | Prioritize emptying the storage of this station.      |
+| Fill         | Restricted      | 100%           | Disabled         | Disabled        | Prioritize filling the storage of this station.       |
+
+### Ware Pricings
 
 | Ware                  | 0%   | 10%  | 20%  | 30%  | 40%  | 50%  | 60%  | 70%  | 80%  | 90%  | 100% | Group          | Type      | Volume (m³) | Min (cr) | Max (cr) | Average (cr) |
 | --------------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | -------------- | --------- | ----------- | -------- | -------- | ------------ |
@@ -66,37 +91,6 @@ The following table lists the wares available in X4 along with their price range
 | Water                 | 32   | 36   | 40   | 45   | 49   | 53   | 57   | 61   | 66   | 70   | 74   | water          | container | 6           | 32       | 74       | 53           |
 | Weapon Components     | 171  | 194  | 217  | 239  | 262  | 285  | 308  | 331  | 353  | 376  | 399  | shiptech       | container | 20          | 171      | 399      | 285          |
 | Wheat                 | 19   | 22   | 24   | 27   | 29   | 32   | 34   | 37   | 39   | 42   | 44   | agricultural   | container | 4           | 19       | 44       | 31           |
-
-## Station Profiles
-
-### Using Station Profiles in X4: Foundations
-
-In X4, you can manually set buy and sell prices for a station's resources, intermediates, products, and trade wares by utilizing the buy and sell percentages associated with each station profile.
-
-1. **Select the Station Profile**: Choose the appropriate station profile for your station (e.g., Factory, Depot, etc.) based on its role and priorities.
-
-1. **Determine the Buy/Sell Percentage**: Refer to the profile's buy or sell percentage (e.g., Factory buys at 90% and sells at 20%).
-
-1. **Lookup the Price from the Table**: Using the ware table, find the price for the ware that corresponds to the selected percentage (e.g., for Advanced Composites at 90%, the price is 626 cr).
-
-1. **Enter in Game**: In the station's trade settings, manually input the calculated buy and sell prices for each ware category (resources, intermediates, products, trade wares), and ensure you also set either restricted (your own faction) or unrestricted (all factions) trading as per the station profile.
-
-This method allows you to coalesce percentage based ware pricing into defined profiles which perform certain roles.
-
-### Station Profile Details
-
-| Profile Name | Buy Restriction | Buy Percentage | Sell Restriction | Sell Percentage | Description                                           |
-| ------------ | --------------- | -------------- | ---------------- | --------------- | ----------------------------------------------------- |
-| Factory      | Restricted      | 90%            | Restricted       | 20%             | Produces goods from resources and intermediate wares. |
-| Depot        | Restricted      | 0%             | Restricted       | 10%             | Intended for remote mining operations/refineries.     |
-| Dock         | Restricted      | 80%            | Restricted       | 80%             | End users of wares (Docks/Wharves/Shipyards).         |
-| Extender     | Restricted      | 40%            | Restricted       | 70%             | Extends ranges to Factories, Docks, and Construction  |
-| Warehouse    | Restricted      | 60%            | Restricted       | 10%             | Distribution hub for stations.                        |
-| Exports      | Restricted      | 40%            | Unrestricted     | Auto            | Exports wares out of the player's empire.             |
-| Imports      | Unrestricted    | Auto           | Restricted       | 50%             | Imports wares into the player's empire.               |
-| Trading      | Unrestricted    | Auto           | Unrestricted     | Auto            | Buys and sells to all.                                |
-| Empty        | Disabled        | Disabled       | Restricted       | 0%              | Prioritize emptying the storage of this station.      |
-| Fill         | Restricted      | 100%           | Disabled         | Disabled        | Prioritize filling the storage of this station.       |
 
 ### Profile Priorities
 
