@@ -197,14 +197,21 @@ For every new game you start, once in game, open the _Options Menu_ by pressing 
 - DA Evolution Menu:
   - **Caution:** Skip DA Evolution altogether unless you are prepared for potentially game-breaking Xenon evolution!
   - Enable the _Enable Evolution_ option
-    - This adds ship mods to each invividual Xenon ship, making them more powerful, including miners
+    - This adds ship mods to each individual Xenon ship, making them more powerful, including miners
+  - Enable the _Enable Evolution Xenon Fleets_ option
+    - This adds some fleet jobs to Xenon, buffing their numbers
+  - Set _Evolution Interval_ to the minimum allowed (30 minutes)
+    - Xenon need a head start to keep up with the other AI factions
+  - Set _Xenon Fleet Size_ to _Small_
+    - Any larger and Xenon fleets may dominate the map too quickly
   - Enable the _Enable Xenon Station Evolution_ option
     - This increases the rate at which Xenon ships can be produced at Xenon stations
+  - Leave all other settings alone (10 max fleets, Fast Fleet Ordering enabled, etc.)
 - DA Fill Menu:
   - Enable the _Enable Fill_ option
 - DA Jobs Menu:
   - Enable the _Enable Expeditions_ option
-  - Enable the _Enable Smart Sectror Tags_ option
+  - Enable the _Enable Smart Sector Tags_ option
 - DA Gate Menu:
   - Enable the _Enable DA Gate_ option (only if you are playing the vanilla map, do not use with SWI or Reemergence!)
   - Change each _Inactive_ gate to _Active_
