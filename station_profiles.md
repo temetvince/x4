@@ -21,10 +21,9 @@ In X4, you can manually set buy and sell prices for a station's resources, inter
 | Factory      | Restricted      | 90%            | Restricted       | 20%             | Produces goods from resources and intermediate wares. |
 | Depot        | Restricted      | 0%             | Restricted       | 10%             | Intended for remote mining operations/refineries.     |
 | Dock         | Restricted      | 80%            | Restricted       | 80%             | End users of wares (Docks/Wharves/Shipyards).         |
-| Extender     | Restricted      | 40%            | Restricted       | 70%             | Extends ranges to Factories, Docks, and Construction. |
+| Extender     | Restricted      | 50%            | Restricted       | 70%             | Extends ranges to Factories, Docks, and Construction. |
 | Warehouse    | Restricted      | 60%            | Restricted       | 10%             | Distribution hub for stations.                        |
 | Exports      | Restricted      | 40%            | Unrestricted     | Auto            | Exports wares out of the player's empire.             |
-| Imports      | Unrestricted    | Auto           | Restricted       | 50%             | Imports wares into the player's empire.               |
 | Trading      | Unrestricted    | Auto           | Unrestricted     | Auto            | Buys and sells to all.                                |
 | Empty        | Disabled        | Disabled       | Restricted       | 0%              | Prioritize emptying the storage of this station.      |
 | Fill         | Restricted      | 100%           | Disabled         | Disabled        | Prioritize filling the storage of this station.       |
@@ -106,7 +105,7 @@ In X4, you can manually set buy and sell prices for a station's resources, inter
 | 6    | Dock         | High      |
 | 7    | Warehouse    | Medium    |
 | 8    | Extenders    | Low       |
-| 8    | Exports      | Low       |
+| 8    | Exports      | Very Low  |
 | 9    | Depot        | Lowest    |
 
 #### As Sellers
@@ -139,7 +138,6 @@ Produces goods from resources and intermediate wares. Buys from all and sells to
 | Warehouse | 80%      |
 | Depot     | 80%      |
 | Factory   | 70%      |
-| Imports   | 40%      |
 | Extenders | 20%      |
 | Dock      | 10%      |
 | Fill      | disabled |
@@ -149,12 +147,11 @@ Produces goods from resources and intermediate wares. Buys from all and sells to
 | Profile   | Margins  |
 | --------- | -------- |
 | Fill      | 80%      |
-| Imports   | 80% max  |
 | Trading   | 80% max  |
 | Factory   | 70%      |
 | Dock      | 60%      |
 | Warehouse | 40%      |
-| Extenders | 20%      |
+| Extenders | 30%      |
 | Exports   | 20%      |
 | Depot     | -20%     |
 | Empty     | disabled |
@@ -173,7 +170,6 @@ Intended for remote mining operations/refineries. Buys resources at lowest price
 | Warehouse | -10%     |
 | Depot     | -10%     |
 | Factory   | -20%     |
-| Imports   | -50%     |
 | Extenders | -70%     |
 | Dock      | -80%     |
 | Fill      | disabled |
@@ -183,12 +179,11 @@ Intended for remote mining operations/refineries. Buys resources at lowest price
 | Profile   | Margins  |
 | --------- | -------- |
 | Fill      | 90%      |
-| Imports   | 90% max  |
 | Trading   | 90% max  |
 | Factory   | 80%      |
 | Dock      | 70%      |
 | Warehouse | 50%      |
-| Extenders | 30%      |
+| Extenders | 40%      |
 | Exports   | 30%      |
 | Depot     | -10%     |
 | Empty     | disabled |
@@ -207,7 +202,6 @@ End users of wares (Docks/Wharves/Shipyards). Buys from all and sells to Factori
 | Warehouse | 70%      |
 | Depot     | 70%      |
 | Factory   | 60%      |
-| Imports   | 30%      |
 | Extenders | 10%      |
 | Dock      | 0%       |
 | Fill      | disabled |
@@ -217,12 +211,11 @@ End users of wares (Docks/Wharves/Shipyards). Buys from all and sells to Factori
 | Profile   | Margins  |
 | --------- | -------- |
 | Fill      | 20%      |
-| Imports   | 20% max  |
 | Trading   | 20% max  |
 | Factory   | 10%      |
 | Dock      | 0%       |
 | Warehouse | -20%     |
-| Extenders | -40%     |
+| Extenders | -30%     |
 | Exports   | -40%     |
 | Depot     | -80%     |
 | Empty     | disabled |
@@ -235,15 +228,14 @@ Extends trading ranges. Buys from Warehouses, Depots, and Factories. Sells to Bu
 
 | Profile   | Margins  |
 | --------- | -------- |
-| Empty     | 40%      |
-| Exports   | 40% max  |
-| Trading   | 40% max  |
-| Warehouse | 30%      |
-| Depot     | 30%      |
-| Factory   | 20%      |
-| Imports   | -10%     |
-| Extenders | -30%     |
-| Dock      | -40%     |
+| Empty     | 50%      |
+| Exports   | 50% max  |
+| Trading   | 50% max  |
+| Warehouse | 40%      |
+| Depot     | 40%      |
+| Factory   | 30%      |
+| Extenders | -20%     |
+| Dock      | -30%     |
 | Fill      | disabled |
 
 **Sell Restricted (70%)**
@@ -251,7 +243,6 @@ Extends trading ranges. Buys from Warehouses, Depots, and Factories. Sells to Bu
 | Profile   | Margins  |
 | --------- | -------- |
 | Fill      | 30%      |
-| Imports   | 30% max  |
 | Trading   | 30% max  |
 | Factory   | 20%      |
 | Dock      | 10%      |
@@ -275,7 +266,6 @@ Distribution hub for stations. Buys from all except Extenders and Docks, sells t
 | Warehouse | 50%      |
 | Depot     | 50%      |
 | Factory   | 40%      |
-| Imports   | 10%      |
 | Extenders | -10%     |
 | Dock      | -20%     |
 | Fill      | disabled |
@@ -285,12 +275,11 @@ Distribution hub for stations. Buys from all except Extenders and Docks, sells t
 | Profile   | Margins  |
 | --------- | -------- |
 | Fill      | 90%      |
-| Imports   | 90% max  |
 | Trading   | 90% max  |
 | Factory   | 80%      |
 | Dock      | 70%      |
 | Warehouse | 50%      |
-| Extenders | 30%      |
+| Extenders | 40%      |
 | Exports   | 30%      |
 | Depot     | -10%     |
 | Empty     | disabled |
@@ -309,7 +298,6 @@ Exports wares out of the player's empire. Buys from all except Imports, Extender
 | Warehouse | 30%      |
 | Depot     | 30%      |
 | Factory   | 20%      |
-| Imports   | -10%     |
 | Extenders | -30%     |
 | Dock      | -40%     |
 | Fill      | disabled |
@@ -319,49 +307,14 @@ Exports wares out of the player's empire. Buys from all except Imports, Extender
 | Profile   | Margins  |
 | --------- | -------- |
 | Fill      | 100%     |
-| Imports   | 100% max |
 | Trading   | 100% max |
 | Factory   | 90%      |
 | Dock      | 80%      |
 | Warehouse | 60%      |
-| Extenders | 40%      |
+| Extenders | 50%      |
 | Exports   | 40%      |
 | Depot     | 0%       |
 | Empty     | disabled |
-
-#### Imports
-
-Imports wares into the player's empire. Buys from all and sells to all except Extenders, Exports, and Depots. Buys unrestricted on auto pricing (storage based), sells internally.
-
-**Buy Unrestricted (auto)**
-
-| Profile   | Percentage |
-| --------- | ---------- |
-| Empty     | 100%       |
-| Exports   | 100% max   |
-| Trading   | 100% max   |
-| Warehouse | 90%        |
-| Depot     | 90%        |
-| Factory   | 80%        |
-| Imports   | 50%        |
-| Extenders | 30%        |
-| Dock      | 20%        |
-| Fill      | disabled   |
-
-**Sell Restricted (50%)**
-
-| Profile   | Percentage |
-| --------- | ---------- |
-| Fill      | 50%        |
-| Imports   | 50% max    |
-| Trading   | 50% max    |
-| Factory   | 40%        |
-| Dock      | 30%        |
-| Warehouse | 10%        |
-| Extenders | -10%       |
-| Exports   | -10%       |
-| Depot     | -50%       |
-| Empty     | disabled   |
 
 #### Trading
 
@@ -377,7 +330,6 @@ Buys and sells to all. Unrestricted buying and selling on auto pricing (storage 
 | Warehouse | 90%        |
 | Depot     | 90%        |
 | Factory   | 80%        |
-| Imports   | 50%        |
 | Extenders | 30%        |
 | Dock      | 20%        |
 | Fill      | disabled   |
@@ -387,12 +339,11 @@ Buys and sells to all. Unrestricted buying and selling on auto pricing (storage 
 | Profile   | Percentage |
 | --------- | ---------- |
 | Fill      | 100%       |
-| Imports   | 100% max   |
 | Trading   | 100% max   |
 | Factory   | 90%        |
 | Dock      | 80%        |
 | Warehouse | 60%        |
-| Extenders | 40%        |
+| Extenders | 50%        |
 | Exports   | 40%        |
 | Depot     | 0%         |
 | Empty     | disabled   |
@@ -412,12 +363,11 @@ Prioritize emptying the storage of this station. Sells to all. Buys from none. I
 | Profile   | Percentage |
 | --------- | ---------- |
 | Fill      | 100%       |
-| Imports   | 100% max   |
 | Trading   | 100% max   |
 | Factory   | 90%        |
 | Dock      | 80%        |
 | Warehouse | 60%        |
-| Extenders | 40%        |
+| Extenders | 50%        |
 | Exports   | 40%        |
 | Depot     | 0%         |
 | Empty     | disabled   |
@@ -436,7 +386,6 @@ Prioritize filling the storage of this station. Buys from all. Sells to none. In
 | Warehouse | 90%        |
 | Depot     | 90%        |
 | Factory   | 80%        |
-| Imports   | 50%        |
 | Extenders | 30%        |
 | Dock      | 20%        |
 | Fill      | disabled   |

@@ -87,11 +87,11 @@ function ModLua.init()
         shortName = "EX",
         callToAction = "Set Extender profile",
         mouseOverText = "Extends trading ranges. Buys from Warehouses, Depots, and Factories. Sells to Build Storages, Factories, and Docks. Internal trade only.",
-        summary = string.format("Buy: %s %s. Sell: %s, %s.", "40%", text_restricted, "70%%", text_restricted),
+        summary = string.format("Buy: %s %s. Sell: %s, %s.", "50%", text_restricted, "70%%", text_restricted),
         buy = {
             isoffered = true,
             waretypes = {"resource", "intermediate", "trade"},
-            price_factor = 0.4,
+            price_factor = 0.5,
             trade_isrestricted = true
         },
         sell = {
@@ -146,31 +146,9 @@ function ModLua.init()
         }
     }
 
-    StationBuySellProfiles.imports = {
-        id = "imports",
-        list_order = 7,
-        name = "Imports",
-        shortName = "IP",
-        callToAction = "Set Imports profile",
-        mouseOverText = "Imports wares into the player's empire. Buys from all and sells to all except Extenders, Exports, and Depots. Buys unrestricted on auto pricing (storage based), sells internally.",
-        summary = string.format("Buy: %s %s. Sell: %s, %s.", text_auto, text_unrestricted, "50%", text_restricted),
-        buy = {
-            isoffered = true,
-            waretypes = {"resource", "intermediate", "trade"},
-            price_factor = "auto",
-            trade_isrestricted = false
-        },
-        sell = {
-            isoffered = true,
-            waretypes = {"intermediate", "product", "trade"},
-            price_factor = 0.5,
-            trade_isrestricted = true
-        }
-    }
-
     StationBuySellProfiles.trading = {
         id = "trading",
-        list_order = 8,
+        list_order = 7,
         name = "Trading",
         shortName = "TS",
         callToAction = "Set Trading profile",
@@ -192,7 +170,7 @@ function ModLua.init()
 
     StationBuySellProfiles.empty = {
         id = "empty",
-        list_order = 9,
+        list_order = 8,
         name = "Empty",
         shortName = "ES",
         callToAction = "Set Empty profile",
@@ -214,7 +192,7 @@ function ModLua.init()
 
     StationBuySellProfiles.fill = {
         id = "fill",
-        list_order = 10,
+        list_order = 9,
         name = "Fill",
         shortName = "FS",
         callToAction = "Set Fill profile",
