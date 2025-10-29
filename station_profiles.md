@@ -91,6 +91,60 @@ In X4, you can manually set buy and sell prices for a station's resources, inter
 | Weapon Components     | 171  | 194  | 217  | 239  | 262  | 285  | 308  | 331  | 353  | 376  | 399  | shiptech       | container | 20          | 171      | 399      | 285          |
 | Wheat                 | 19   | 22   | 24   | 27   | 29   | 32   | 34   | 37   | 39   | 42   | 44   | agricultural   | container | 4           | 19       | 44       | 31           |
 
+### Station Profile Guidelines
+
+When setting up your stations with profiles, follow these guidelines to ensure optimal performance and trade efficiency:
+
+_Note: Each sector of distance from another station counts as one star of Management skill. If a station is N sectors away you need at least N Management stars to manage it effectively. The maximum manageable distance without support is 5 sectors. Beyond 5 sectors you must extend range with Extenders (some limitations apply) or use ships with the Fill Shortages behavior._
+
+1. Build your production cores
+
+   - Place Factories (producers) in sectors suited to the production chain.
+
+2. Add Warehouses to distribute goods
+
+   - Place Warehouses within 5 sectors of the Factories they serve.
+   - Assign subordinate traders to Warehouses.
+   - Do not place a Warehouse within 5 sectors of another Warehouse to avoid competition between your own stations.
+
+3. Place Depots for mining/refining
+
+   - Build Depots within 5 sectors of good mining sectors and within 5 sectors of the Warehouses they feed.
+   - Assign subordinate miners to Depots (do not assign subordinate traders that are miners).
+   - Depots can be upgraded to Refineries by adding Tier 1 production modules — you do not need to switch the station profile to Factory.
+
+4. Create Exports stations for selling to other factions
+
+   - Place Exports within 5 sectors of Warehouses.
+   - Assign subordinate traders to Exports.
+
+5. Use Extenders to widen trade range
+
+   - Build Extenders where you need to extend trading range.
+   - Assign subordinate traders to Extenders.
+   - Limitations: Extenders do not sell back to Warehouses. They sell only to Building Storages, Factories, Docks, Fill profiles (and to Trading stations as described in the Trading profile).
+   - To import wares from other factions, use Extender stations:
+     - Manually set the Extender’s buy prices to Automatic and set the Trade Rule to No restriction for the wares you want to import.
+     - Remember: imported wares on an Extender will not be sold to Warehouses.
+
+6. Place Docks for end-user needs
+
+   - Build Docks (Equipment Docks, Wharves, Shipyards) within 5 sectors of Warehouses or within 5 sectors of Extenders.
+
+7. Deploy Trading Stations in other empires
+
+   - Place Trading Stations in other empires’ sectors to move wares across the universe.
+   - Assign subordinate traders to Trading Stations.
+   - To avoid internal trading with your own stations:
+     - Keep the Trading Station at least 6 sectors away from any of your stations that have assigned traders, or
+     - Use Activity Blacklists to prevent internal trade. When using Blacklists:
+       - Ensure your own stations that have traders exclude the Trading Station’s sector.
+       - Ensure the Trading Station excludes any sector within 5 sectors of the Trading Station that contains a station you own with assigned traders.
+
+8. Use Fill and Empty profiles where appropriate
+   - Use the Fill profile on stations you want to prioritize filling — Fill stations buy but do not sell.
+   - Use the Empty profile on stations you want to prioritize emptying — Empty stations sell but do not buy.
+
 ### Profile Priorities
 
 #### As Buyers
@@ -99,7 +153,6 @@ In X4, you can manually set buy and sell prices for a station's resources, inter
 | ---- | ------------ | --------- |
 | 1    | Construction | Highest   |
 | 2    | Fill         | Highest   |
-| 3    | Imports      | Variable  |
 | 4    | Trading      | Variable  |
 | 5    | Factory      | Very High |
 | 6    | Dock         | High      |
@@ -118,7 +171,6 @@ In X4, you can manually set buy and sell prices for a station's resources, inter
 | 4    | Warehouse | High     |
 | 5    | Depot     | High     |
 | 6    | Factory   | Medium   |
-| 7    | Imports   | Low      |
 | 8    | Extenders | Very Low |
 | 9    | Dock      | Lowest   |
 
