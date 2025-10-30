@@ -97,28 +97,28 @@ When setting up your stations with profiles, follow these guidelines to ensure o
 
 _Note: Each sector of distance from another station counts as one star of Management skill. If a station is N sectors away you need at least N Management stars to manage it effectively. The maximum manageable distance without support is 5 sectors. Beyond 5 sectors you must extend range with Extenders (some limitations apply) or use ships with the Fill Shortages behavior._
 
-1. Build your production cores
+1. Build your production cores.
 
    - Place Factories (producers) in sectors suited to the production chain.
 
-2. Add Warehouses to distribute goods
+2. Add Warehouses to distribute goods.
 
    - Place Warehouses within 5 sectors of the Factories they serve.
    - Assign subordinate traders to Warehouses.
    - Do not place a Warehouse within 5 sectors of another Warehouse to avoid competition between your own stations.
 
-3. Place Depots for mining/refining
+3. Place Depots for mining/refining.
 
    - Build Depots within 5 sectors of good mining sectors and within 5 sectors of the Warehouses they feed.
    - Assign subordinate miners to Depots (do not assign subordinate traders that are miners).
    - Depots can be upgraded to Refineries by adding Tier 1 production modules — you do not need to switch the station profile to Factory.
 
-4. Create Exports stations for selling to other factions
+4. Create Exports stations for selling to other factions.
 
    - Place Exports within 5 sectors of Warehouses.
    - Assign subordinate traders to Exports.
 
-5. Use Extenders to widen trade range
+5. Use Extenders to widen trade range.
 
    - Place Extenders within 5 sectors of Warehouses.
    - Build Extenders where you need to extend trading range.
@@ -129,11 +129,11 @@ _Note: Each sector of distance from another station counts as one star of Manage
      - Provide a budget to purchase wares externally.
      - Remember: imported wares on an Extender will not be sold to Warehouses.
 
-6. Place Docks for end-user needs
+6. Place Docks for end-user needs.
 
    - Build Docks (Equipment Docks, Wharves, Shipyards) within 5 sectors of Warehouses or within 5 sectors of Extenders.
 
-7. Deploy Trading Stations in other empires
+7. Deploy Trading Stations in other empires.
 
    - Place Trading Stations in other empires’ sectors to move wares across the universe.
    - Assign subordinate traders to Trading Stations.
@@ -144,19 +144,19 @@ _Note: Each sector of distance from another station counts as one star of Manage
        - Ensure your own stations that have traders exclude the Trading Station’s sector.
        - Ensure the Trading Station excludes any sector within 5 sectors of the Trading Station that contains a station you own with assigned traders.
 
-8. Use Fill and Empty profiles where appropriate
+8. Use Fill and Empty profiles where appropriate.
 
    - Use the Fill profile on stations you want to prioritize filling — Fill stations buy but do not sell.
    - Use the Empty profile on stations you want to prioritize emptying — Empty stations sell but do not buy.
 
-9. Build Storages for new stations outside your Warehouse/Factory range are best handled either with Extenders or with Fill Shortages behavior on traders.
+9. Build Storages for new stations outside your Warehouse/Factory range are best handled either with Extenders or with Fill Shortages behavior (universe-wide range) on traders.
 
    - Use Extenders to increase the range of your traders and allow them to reach new station construction.
    - Use Fill Shortages behavior on traders to ensure they prioritize new station construction.
-     - Requires two star Piloting skill.
-     - Range - Universe-wide.
+     - Requires two-star Piloting skill.
+     - Use Activity Blacklists to avoid Trade Stations.
      - Start with Energy Cells, Claytronics, and Hull parts.
-     - Set to trade only within your empire.
+     - Use Trade Restrictions set to trade only within your empire.
      - Can mimic.
 
 10. Only provide budget for Extenders which are actively importing wares externally or Trade Stations.
