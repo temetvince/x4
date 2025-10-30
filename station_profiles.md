@@ -120,9 +120,13 @@ _Note: Each sector of distance from another station counts as one star of Manage
 
 5. Use Extenders to widen trade range
 
+   - Place Extenders within 5 sectors of Warehouses.
    - Build Extenders where you need to extend trading range.
    - Assign subordinate traders to Extenders.
    - Limitations: Extenders do not sell back to Warehouses. They sell only to Building Storages, Factories, Docks, Fill profiles (and to Trading stations as described in the Trading profile).
+   - To import wares from other factions, use Extender stations:
+     - Manually set the Extender’s buy prices to Automatic and set the Trade Rule to No restriction for the wares you want to import.
+     - Remember: imported wares on an Extender will not be sold to Warehouses.
 
 6. Place Docks for end-user needs
 
@@ -139,8 +143,19 @@ _Note: Each sector of distance from another station counts as one star of Manage
        - Ensure the Trading Station excludes any sector within 5 sectors of the Trading Station that contains a station you own with assigned traders.
 
 8. Use Fill and Empty profiles where appropriate
+
    - Use the Fill profile on stations you want to prioritize filling — Fill stations buy but do not sell.
    - Use the Empty profile on stations you want to prioritize emptying — Empty stations sell but do not buy.
+
+9. Build Storages for new stations outside your Warehouse/Factory range are best handled either with Extenders or with Fill Shortages behavior on traders.
+
+   - Use Extenders to increase the range of your traders and allow them to reach new station construction.
+   - Use Fill Shortages behavior on traders to ensure they prioritize new station construction.
+     - Requires two star Piloting skill.
+     - Range - Universe-wide.
+     - Start with Energy Cells, Claytronics, and Hull parts.
+     - Set to trade only within your empire.
+     - Can mimic.
 
 ### Profile Priorities
 
