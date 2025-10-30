@@ -123,9 +123,6 @@ _Note: Each sector of distance from another station counts as one star of Manage
    - Build Extenders where you need to extend trading range.
    - Assign subordinate traders to Extenders.
    - Limitations: Extenders do not sell back to Warehouses. They sell only to Building Storages, Factories, Docks, Fill profiles (and to Trading stations as described in the Trading profile).
-   - To import wares from other factions, use Extender stations:
-     - Manually set the Extender’s buy prices to Automatic and set the Trade Rule to No restriction for the wares you want to import.
-     - Remember: imported wares on an Extender will not be sold to Warehouses.
 
 6. Place Docks for end-user needs
 
