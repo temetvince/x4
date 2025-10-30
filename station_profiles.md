@@ -126,6 +126,7 @@ _Note: Each sector of distance from another station counts as one star of Manage
    - Limitations: Extenders do not sell back to Warehouses. They sell only to Building Storages, Factories, Docks, Fill profiles (and to Trading stations as described in the Trading profile).
    - To import wares from other factions, use Extender stations:
      - Manually set the Extender’s buy prices to Automatic and set the Trade Rule to No restriction for the wares you want to import.
+     - Provide a budget to purchase wares externally.
      - Remember: imported wares on an Extender will not be sold to Warehouses.
 
 6. Place Docks for end-user needs
@@ -136,6 +137,7 @@ _Note: Each sector of distance from another station counts as one star of Manage
 
    - Place Trading Stations in other empires’ sectors to move wares across the universe.
    - Assign subordinate traders to Trading Stations.
+   - Provide a budget to purchase wares externally.
    - To avoid internal trading with your own stations:
      - Keep the Trading Station at least 6 sectors away from any of your stations that have assigned traders, or
      - Use Activity Blacklists to prevent internal trade. When using Blacklists:
@@ -156,6 +158,13 @@ _Note: Each sector of distance from another station counts as one star of Manage
      - Start with Energy Cells, Claytronics, and Hull parts.
      - Set to trade only within your empire.
      - Can mimic.
+
+10. Only provide budget for Extenders which are actively importing wares externally or Trade Stations.
+
+    - No other station requires any credits in their purse to operate effectively.
+    - Build Storages also do not require credits, assuming you are not importing wares externally.
+    - Miners for Depots will mine for commander with zero budget.
+    - Traders for all stations will trade internally with zero budget.
 
 ### Profile Priorities
 
