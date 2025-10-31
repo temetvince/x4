@@ -6,7 +6,6 @@ _Note: This README is lengthy! Simply use the Table of Contents below to navigat
 
 - [Helpful Links](#helpful-links)
 - [ReShade Preset](#reshade-preset)
-- [Station Profiles for Kuertee's Trade Analytics Mod](#station-profiles-for-kuertees-trade-analytics-mod)
 - [Station Profiles for Vanilla](#station-profiles-for-vanilla)
 - [Exe Flags](#exe-flags)
 - [Disable Protected UI Mode (IMPORTANT)](#disable-protected-ui-mode-important)
@@ -48,12 +47,6 @@ This repository includes my personal [ReShade](https://reshade.me/) preset for X
 - Move _temetvince.ini_ to the _X4 Foundations_ game directory (where the executable is located)
 - When installing ReShade, the game uses _Vulkan_ graphics as the rendering API
 - You can install only the required effects by selecting the _temetvince.ini_ preset during installation
-
-## Station Profiles for Kuertee's Trade Analytics Mod
-
-This repository includes my personal station buy/sell profiles for [Kuertee's Trade Analytics Mod](https://www.nexusmods.com/x4foundations/mods/764)
-
-- Merge the _kuertee_ui_trade_analytics_ folder from this repository into your existing _extensions_ folder, replacing the single _kuertee_trade_analytics_profiles.lua_ file, located at _extensions/kuertee_ui_trade_analytics/ui/kuertee_trade_analytics_profiles.lua_
 
 ## Station Profiles for Vanilla
 
@@ -148,7 +141,8 @@ _Note: Some mods may default to off. Make sure to enable them by going into **Se
 ### Optional
 
 - [Skills Matter Less](https://www.nexusmods.com/x4foundations/mods/1576?file_id=11226) - Makes all AI much more competent, but can make combat harder
-- [UI Trade Analytics](https://www.nexusmods.com/x4foundations/mods/764) - Handy for Station Behavior Profiles - See [Station Profiles for Kuertee's Trade Analytics Mod](#station-profiles-for-kuertees-trade-analytics-mod)
+- [UI Trade Analytics](https://www.nexusmods.com/x4foundations/mods/764) - Handy for Station Behavior Profiles
+  - [Station Profiles](https://www.nexusmods.com/x4foundations/mods/1873) - My personal station buy/sell profiles for use with UI Trade Analytics
 - [Reaction Force](https://www.nexusmods.com/x4foundations/mods/453) - Create forces that will automatically respond to threats in your sectors - [Read the Manual!](https://steamcommunity.com/workshop/filedetails/discussion/2069655173/603031052244493364/)
 - [Ship Reverse Engineering](https://steamcommunity.com/sharedfiles/filedetails/?id=1687245083) - Allows you to reverse engineer ships to learn how to build them (Alternative to vanilla Diplomacy)
 
