@@ -118,10 +118,9 @@ _Note: Each sector of distance from another station counts as one star of Manage
    - Place Exports within 5 sectors of Warehouses.
    - Assign subordinate traders to Exports.
 
-5. Use Extenders to widen trade range.
+5. Use Extenders to extend trading range for building new stations and keeping Docks/Factories supplied.
 
    - Place Extenders within 5 sectors of Warehouses.
-   - Build Extenders where you need to extend trading range.
    - Assign subordinate traders to Extenders.
    - Limitations: Extenders do not sell back to Warehouses. They sell only to Building Storages, Factories, Docks, Fill profiles (and to Trading stations as described in the Trading profile).
    - To import wares from other factions, use Extender stations:
@@ -149,17 +148,7 @@ _Note: Each sector of distance from another station counts as one star of Manage
    - Use the Fill profile on stations you want to prioritize filling — Fill stations buy but do not sell.
    - Use the Empty profile on stations you want to prioritize emptying — Empty stations sell but do not buy.
 
-9. Build Storages for new stations outside your Warehouse/Factory range are best handled either with Extenders or with Fill Shortages behavior (universe-wide range) on traders.
-
-   - Use Extenders to increase the range of your traders and allow them to reach new station construction.
-   - Use Fill Shortages behavior on traders to ensure they prioritize new station construction.
-     - Requires two-star Piloting skill.
-     - Use Activity Blacklists to avoid Trade Stations.
-     - Start with Energy Cells, Claytronics, and Hull parts.
-     - Use Trade Restrictions set to trade only within your empire.
-     - Can mimic.
-
-10. Only provide budget for Extenders which are actively importing wares externally or Trade Stations.
+9. Only provide budget for Extenders which are actively importing wares externally or Trade Stations.
 
     - No other station requires any credits in their purse to operate effectively.
     - Build Storages also do not require credits, assuming you are not importing wares externally.
