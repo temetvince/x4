@@ -23,7 +23,7 @@ In X4, you can manually set buy and sell prices for a station's resources, inter
 | Dock         | Restricted      | 80%            | Restricted       | 80%             | End users of wares (Docks/Wharves/Shipyards).         |
 | Extender     | Restricted      | 50%            | Restricted       | 70%             | Extends ranges to Factories, Docks, and Construction. |
 | Warehouse    | Restricted      | 60%            | Restricted       | 10%             | Distribution hub for stations.                        |
-| Exports      | Restricted      | 40%            | Unrestricted     | Auto            | Exports wares out of the player's empire.             |
+| Exports      | Restricted      | 30%            | Unrestricted     | Auto            | Exports wares out of the player's empire.             |
 | Trading      | Unrestricted    | Auto           | Unrestricted     | Auto            | Buys and sells to all.                                |
 | Empty        | Disabled        | Disabled       | Restricted       | 0%              | Prioritize emptying the storage of this station.      |
 | Fill         | Restricted      | 100%           | Disabled         | Disabled        | Prioritize filling the storage of this station.       |
@@ -150,10 +150,10 @@ _Note: Each sector of distance from another station counts as one star of Manage
 
 9. Only provide budget for Extenders which are actively importing wares externally or Trade Stations.
 
-    - No other station requires any credits in their purse to operate effectively.
-    - Build Storages also do not require credits, assuming you are not importing wares externally.
-    - Miners for Depots will mine for commander with zero budget.
-    - Traders for all stations will trade internally with zero budget.
+   - No other station requires any credits in their purse to operate effectively.
+   - Build Storages also do not require credits, assuming you are not importing wares externally.
+   - Miners for Depots will mine for commander with zero budget.
+   - Traders for all stations will trade internally with zero budget.
 
 ### Profile Priorities
 
@@ -214,7 +214,7 @@ Produces goods from resources and intermediate wares. Buys from all and sells to
 | Dock      | 60%      |
 | Warehouse | 40%      |
 | Extenders | 30%      |
-| Exports   | 20%      |
+| Exports   | 10%      |
 | Depot     | -20%     |
 | Empty     | disabled |
 
@@ -246,7 +246,7 @@ Intended for remote mining operations/refineries. Buys resources at lowest price
 | Dock      | 70%      |
 | Warehouse | 50%      |
 | Extenders | 40%      |
-| Exports   | 30%      |
+| Exports   | 20%      |
 | Depot     | -10%     |
 | Empty     | disabled |
 
@@ -278,7 +278,7 @@ End users of wares (Docks/Wharves/Shipyards). Buys from all and sells to Factori
 | Dock      | 0%       |
 | Warehouse | -20%     |
 | Extenders | -30%     |
-| Exports   | -40%     |
+| Exports   | -50%     |
 | Depot     | -80%     |
 | Empty     | disabled |
 
@@ -310,7 +310,7 @@ Extends trading ranges. Buys from Warehouses, Depots, and Factories. Sells to Bu
 | Dock      | 10%      |
 | Warehouse | -10%     |
 | Extenders | -30%     |
-| Exports   | -30%     |
+| Exports   | -40%     |
 | Depot     | -70%     |
 | Empty     | disabled |
 
@@ -342,7 +342,7 @@ Distribution hub for stations. Buys from all except Extenders and Docks, sells t
 | Dock      | 70%      |
 | Warehouse | 50%      |
 | Extenders | 40%      |
-| Exports   | 30%      |
+| Exports   | 20%      |
 | Depot     | -10%     |
 | Empty     | disabled |
 
@@ -374,7 +374,7 @@ Exports wares out of the player's empire. Buys from all except Extenders and Doc
 | Dock      | 80%      |
 | Warehouse | 60%      |
 | Extenders | 50%      |
-| Exports   | 40%      |
+| Exports   | 30%      |
 | Depot     | 0%       |
 | Empty     | disabled |
 
@@ -406,7 +406,7 @@ Buys and sells to all. Unrestricted buying and selling on auto pricing (storage 
 | Dock      | 80%        |
 | Warehouse | 60%        |
 | Extenders | 50%        |
-| Exports   | 40%        |
+| Exports   | 30%        |
 | Depot     | 0%         |
 | Empty     | disabled   |
 
@@ -430,7 +430,7 @@ Prioritize emptying the storage of this station. Sells to all. Buys from none. I
 | Dock      | 80%        |
 | Warehouse | 60%        |
 | Extenders | 50%        |
-| Exports   | 40%        |
+| Exports   | 30%        |
 | Depot     | 0%         |
 | Empty     | disabled   |
 
