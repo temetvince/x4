@@ -348,7 +348,7 @@ Distribution hub for stations. Buys from all except Extenders and Docks, sells t
 
 #### Exports
 
-Exports wares out of the player's empire. Buys from all except Imports, Extenders, and Docks, sells to all. Buys internally, sells unrestricted on auto pricing (storage based).
+Exports wares out of the player's empire. Buys from all except Extenders and Docks, sells to all. Buys internally, sells unrestricted on auto pricing (storage based).
 
 **Buy Restricted (40%)**
 
