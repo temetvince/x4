@@ -19,7 +19,7 @@ In X4, you can manually set buy and sell prices for a station's resources, inter
 | Profile Name | Buy Restriction | Buy Percentage | Sell Restriction | Sell Percentage | Description                                           |
 | ------------ | --------------- | -------------- | ---------------- | --------------- | ----------------------------------------------------- |
 | Factory      | Restricted      | 90%            | Restricted       | 20%             | Produces goods from resources and intermediate wares. |
-| Depot        | Restricted      | 0%             | Restricted       | 10%             | Intended for remote mining operations/refineries.     |
+| Depot        | Restricted      | 0%             | Restricted       | 10%             | Intended for remote mining operations.                |
 | Dock         | Restricted      | 80%            | Restricted       | 80%             | End users of wares (Docks/Wharves/Shipyards).         |
 | Extender     | Restricted      | 50%            | Restricted       | 70%             | Extends ranges to Factories, Docks, and Construction. |
 | Warehouse    | Restricted      | 60%            | Restricted       | 10%             | Distribution hub for stations.                        |
@@ -107,11 +107,11 @@ _Note: Each sector of distance from another station counts as one star of Manage
    - Assign subordinate traders to Warehouses.
    - Do not place a Warehouse within 5 sectors of another Warehouse to avoid competition between your own stations.
 
-3. Place Depots for mining/refining.
+3. Place Depots for mining.
 
    - Build Depots within 5 sectors of good mining sectors and within 5 sectors of the Warehouses they feed.
    - Assign subordinate miners to Depots (do not assign subordinate traders that are miners).
-   - Depots can be upgraded to Refineries by adding Tier 1 production modules — you do not need to switch the station profile to Factory.
+   - Depots upgraded by adding Tier 1 production modules should switch their station to use the Factory profile.
 
 4. Create Exports stations for selling to other factions.
 
@@ -220,7 +220,7 @@ Produces goods from resources and intermediate wares. Buys from all and sells to
 
 #### Depot
 
-Intended for remote mining operations/refineries. Buys resources at lowest price. Sells to all except Depots. Internal trade only.
+Intended for remote mining operations. Buys resources at lowest price. Sells to all except Depots. Internal trade only.
 
 **Buy Restricted (0%)**
 
